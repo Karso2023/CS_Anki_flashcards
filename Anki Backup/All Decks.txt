@@ -1,0 +1,117 @@
+#separator:tab
+#html:true
+What's the three types of version control?	Local, Centralized, Distributed
+What is Local version control system?	Database is on your local computer<br>
+What is centralized version control system?<br>	A single server that contains all the versioned files
+What is the downside of centralized version control system	If server goes down, you fuck up.<br>You may lose the entire history of the project.
+What is the major issue of local version control system?	People need to collaborate with developers on other systems.
+Compare to Local Version Control System, what is the advantage of using centralized?	More collaborate
+What is a Distributed Version Control System?	It is a form of version control which the complete codespace, including its full history, is mirrored on every developer's computer.
+What is the advantage of Distributed Version Control System?	If any server crashes, they can get back up from any of the client's repositories. (Github)
+In pipes and filters, what is the meaning of the following?<br>1, Program_1 | Program_2<br>2, Program_1 &gt; file.txt<br>3, Program_1 &lt; file.txt	1, Program_1's output becomes Program_2's input<br>2, Program_1's output and error logs are written to file.txt<br>3, Program_1 get its input from file.txt
+Can filters be connected by pipes?	Yes, dumb question.
+What is filters?	A program which accepts textual input and transforms it in some way.
+which one is filter?<br>cat student_attendance.txt | grep -e August | sort	cat student_attendance.txt, grep -e Augusrt, sort
+Give me 3 examples of Unix family of operating systems	Linux (Linus Benedict Torvalds, funny guy)<br><br>BSD (William Nelson Joy<b>)<br></b><br>OS X / macOS (Apple)
+What is markup language?	A markup language is a set of rules that defines how the layout and presentation of text and images should appear in a digital document.
+Give me few examples of markup languages.	Latex, HTML, XML
+Give me two formats of structured data for representing rows and columns.	CSV (Comma Separated)<br>TSV (Tab Separated)
+For Windows and Linux, what's the difference of new line cmd?	Windows uses /r/n (in order)<br>Mac and Linux now use /n
+For CSV/TSV, what cases it works well and what cases it doesn't work well?	Work Well: Particular lists (lists of students, news articles...)<br><br>Work Bad: Flexible formats (one file that describes different contents)
+For Human-readable and Machine-readable, answer the following:<br>structured/unstructured?<br>What each of it focus on?	Human-readable focus on usability and it's mostly unstructured.<br><br>Machine-readable focus on efficiency and it needs to be structured.
+What is the definition of entity in computer science?	An entity is an object that has an identity, which is independent of the changes of its attributes.&nbsp;<br><br>It represents long-lived information relevant for the users and is usually stored in a database
+State five types of Relationship Modelling, with its features.	1, Hierarchical - single parent<br>2, Network - multiple parent<br>3, Object-oriented - pointers<br>4, Object-relational - object as Tables<br>5, Entity-relational - conceptual entities as Tables
+What's the difference between object-relational and entity-relational?	Entity is a part of relational database. Object is a part of object oriented database.
+What's the relation between YAML and JSON?	YAML is a superset of JSON
+What does YAML rely on for structure?	It relies on indentation and whitespace for structure
+Is YAML key-value pair?	Yes -_-
+Give an example of key-value pair	"name: Karso, where ""name"" = key and ""Karso"" = value"
+What will happen if I use tabs to indent instead of spaces?	YAML use indentation to define the structure. However, it doesn't accept tabs for indentation, have to use spaces.
+Is YAML markup language? Why?	YAML is a data serialization language.<br>Difference between markup language and data serialization language:<br>Markup languages focus on how data should be displayed or structured.<br>Data serialization languages focus on accurately and efficiently representing data structure in a standardized and exchangeable format.<br>As a result, considering the features of YAML, it's a data serialization language instead of markup language.
+When/why would you use YAML?	Config files<br>Passing messages between applications<br>Saving (simple) application state
+Why wouldn't you use YAML?	Not all parsers will give the same result
+For YAML, what's the rule of Parent element?	Parent can't have a value and children.
+Does JSON (JavaScript Object Notation) have classes?	No, it only has objects, lists and values, but no classes.
+"<img src=""Screenshot 2024-03-22 130808.png""><br><br>What is the type of data called that is used for annotations?"	Metadata
+What is automatic anotation?	Automatically annotating and generating machine readable data.
+What automatic annotation do?	Machine learning<br><br>Train with known data<br><br>Predict with unknown data
+What is the relationship between SGML (Standard Generalised Markup Language)&nbsp;and markup languages?	SGML is the superset of all markup languages
+What's the pros &amp; cons of SGML?&nbsp;	Advantages:<br>Flexible<br><br>Disadvantages:<br>Very complex<br>No strict structure<br>Requires a definition of the structure as well as the SGML itself<br>A lot of things have to be inferred
+What's the pros &amp; cons of XML?	Pros:<br>Easier and more efficient to parse<br>Simplifies SGML, while keeping the bits that were needed<br>Data can be delivered without a definition of structure<br><br>Cons:<br>Less flexible
+is LateX XML?	No
+What type of relationship modelling XML is?	Hierachical (Tags, attributes, content)
+What is XML designed to compare to HTML?	XML is designed to carry data and HTML is designed to display data.
+Do you have to define your own XML tags?&nbsp;	Yes, XML doesn't have defined tags
+What is query language?	Query language is a computer language that used to make queries in databases and information systems.
+What is the use of the following?<br><br>XSLT<br><br>XPATH<br><br>XQUERY	XSLT: language to transform XML documents<br><br>XPATH: locate data<br><br>XQUERY: generalised query language for XML-based databases
+What XML syntax should be followed? (tag, case, attributes...)	"Must have a closing tag<br><br>All tags are case sensitive<br><br>Must be nested&nbsp;<br><br>XML documents must have a root element (exact one)<br><br>XML attributes must be quoted (e.g. &lt;tag attr=""...""&gt; )"
+Why would we want to use a Schema? Give 5 examples.	1, Can be used to ensure a valid file&nbsp;<br><br>2, Can be used as a template<br><br>3, Eases parsing&nbsp;<br><br>4, Greater efficiency<br><br>5, Can be used to identify any errors
+Full form of DTD ?	Document Type Definition (if you think it's d* to d*, u a legend)
+"What's the meaning of the following special syntax?<br><br><div>1, &lt;!ELEMENT xxx&nbsp;(xxx, xxx, xxx…)&gt;</div><div><br></div><div>2, &lt;!ELEMENT xxx (#xxx)&gt;</div><div><br></div><div>3, &lt;!ATTLIST xxx xxx xxx xxx&gt;</div>"	"1, &lt;!ELEMENT element-name (sub-element, sub-element, sub-element…)&gt;<br>&nbsp; &nbsp; &nbsp;It means specify subelements under this element<br><br>2, &lt;!ELEMENT element-name (#PCDATA)&gt;<br>&nbsp; &nbsp; PCDATA means parsed character data, the text inside an element<br><br>3, &lt;!ATTLIST element-name attribute-name attrubute-type attribute-value&gt;<br>&nbsp; &nbsp; Specifies an attribute that can belong to an element"
+When do you need to use namespaces?	"When we want to bring in ""other"" XML elements and attributes that we can use into our own XML. <br>Namespaces can avoid conflicts and make it clear what refers to what."
+For XML Schema Definition, every element can be defined as?	Simple, Complex
+What's the difference between SimpleType and ComplexType in XML?	For SimpleType, it contains text only and the elements are of SimpleType by dfefault. Also, it cannot be empty.<br><br>For ComplexType, it can have attributes and can contain children (it can be empty, other elements, text, combination of text and other elements)&nbsp;
+How to make the data persistent? Give three examples.	1, Writing into a local file on a local disk<br>2, Writing it across the network<br>3, Connecting to a database
+In Java, every file is considered as?	Sequential stream of bytes (bytestream)
+In Java, how file is terminated?&nbsp;	"It's terminated with a special ""end-of-file"" marker byte"
+What is the meaning of serialization?	To convert its state to a byte stream.
+How to read a flattened object back from a file?	Deserialize the file
+Is java.io.File an abstract representation?	Yes
+Does creating a File object create or open a file in the underlying OS?	No
+What does a File object do?	It provides a means of addressing one in Java, in a platform independent way.
+What file objects are used as?	File objects are used as sources and targets of input and output streams to actually transfer data to and from disk.
+What does the variant of File(String pathname) do?	It allows you to separately specify the path to the file and the file name itself.
+How to create a File? Write the java code.	"import java.io.File;<br>import java.io.IOException;<br>public class File{<br>&nbsp; public static void main(String[ ] args){<br>&nbsp; &nbsp; String path = ""d:"" + File.separator + ""file.xxx"";<br>&nbsp; &nbsp; File file = new File(path);<br>&nbsp; &nbsp; try{<br>&nbsp; &nbsp; &nbsp;f.createNewFile();<br>&nbsp; &nbsp; } catch(IOException e){<br>&nbsp; &nbsp; &nbsp;e.printStackTrace();<br>&nbsp; &nbsp;}<br>&nbsp; }<br>}"
+Given String home, String path, write an example of absolute path	"String home = System.getProperty(""user.home"");<br>String path = home + File.separater + ""Desktop"" + File.separator + ""file.txt"""
+"Create a File class to create and delete files<br>#When file exist, delete, otherwise create&nbsp;"	"public class File{<br>public static void main(String[ ] args){<br>path = ""d"" + File.separator + ""file.txt"";<br>File file = new File(path);<br>if(file.exists){<br>file.delete;<br>}<br>else{<br>try{<br>file.createNewFile();<br>} catch(IOException e) {<br>e.printStackTrace();<br>}<br>}<br>}<br>}"
+Give me two high level GUI component which allow the user to select a file by browsing the local file system using a GUI window.	1, javax.swing.JFileChooser<br>2, javafx.stage.FileChooser
+"Whether the data is being written to disk or sent across a network, at OS
+level, the data will always end up as?&nbsp;"	Stream of bytes and then bits
+Advangtage of treating a file as a stream of bytes?	Any client software accessing a file from a disk can use the same I/O interface as if it were receiving the same stream of bytes across the network.
+Java use inputStream and outputStream as byte-based stream. How about character-based?	Reader &amp; Writer
+Compare to byte-based streams, what's the advantage of using character-based?	More convenient to use for strings
+Difference between inputStream and outputStream?	inputStream read, outputStream write&nbsp;
+Code inputStream and outputStream	"input:<br><div><pre>public class InputTest {<br>  public static void main(String[] args) throws Exception {<br>    File file = new File(""test.txt"");<br>    InputStream inputStream = new FileInputStream(file);<br>    byte b[] = new byte[(int) file.length()];<br>    inputStream.read(b);<br>    inputStream.close();<br>    System.<span style=""font-style: italic;"">out</span>.println(new String(b));<br>  }<br>}</pre><pre>output:</pre><pre><div><pre>public class OutputTest {<br>  public OutputTest(String s) {<br>  }<br><br>  public static void main(String[] args) throws Exception{<br>    File file = new File(""test.txt"");<br>    OutputStream outputStream = new FileOutputStream(file);<br>    String str = ""Bye"";<br>    byte b[] = str.getBytes();<br>    outputStream.write(b);<br>    outputStream.close();<br>  }<br>}<br></pre></div></pre></div>"
+Code character-based writer and reader stream	"Writer:<br><div><pre>public class characterWrite {<br>  public static void main(String[] args) throws IOException {<br>    File file = new File(""test.txt"");<br>    Writer writer = new FileWriter(file);<br>    String str = ""Character-based writer stream"";<br>    writer.write(str);<br>    writer.close();<br>  }<br>}</pre></div>Reader:<br><div><pre>public class characterRead {<br>  public static void main(String[] args) throws IOException {<br>    File file = new File(""test.txt"");<br>    Reader reader = new FileReader(file);<br>    int temp = 0;<br>    while((temp = reader.read()) != -1){<br>      System.<span style=""font-style: italic;"">out</span>.println((char)temp);<br>    }<br>    reader.close();<br>  }<br>}<br></pre></div>"
+For character-based reader stream, what is the meaning of -1?	end of the stream has been reached
+Does Java use UNICODE conventions to store characters?	Yes
+"What is the meaning of a ""tagging"" interface? Give an example (java interface)"	"A ""tagging"" interface means it has no methods declared in it. One example is java.io.Serializable"
+Using java.io.ObjectOutputStream, give an serialization example.	"File file = new File(""test.txt"");<br>OutputStream out = new FileOutputStream(file);<br>ObjectOutputStream oos = new ObjectOutputStream(out);"
+In Java, how to deserialize? What stream do you use?	ObjectInputStream
+What does Object readObject() do?	An method to attempt to read an object from the InputStream.
+Code a deserialization example.	"File file = new File(""test.txt"");<br>InputStream inputStream = new FileInputStream(file);<br>ObjectInputStream ois = new ObjectInputStream(inputStream);<br>Object obj = ois.readObject();<br>ois.close();<br>System.out.println(obj);"
+What's the problem with persistent objects?	The actual implementations of classes can vary over time.
+What is a serial version UID?	As an object is serialized, a 64-bit secure hash of the full class descriptionis written as part of the object's state.
+We can serialize an object if :	1, All the fields of its class are primitives and String<br>2, Other types are also acceptable as long as they are declared as Serializable
+At the time of serialization, what can we do if we don't want to save value of a particular variable in a file?	"We can use "" transient "" keyword (e.g. private transient String name;)"
+What is the meaning of field in Java?	Java fields are variables with Java classes&nbsp;
+"The writeObject method of ObjectOutoutStream provides a default implementation
+of object serialization.<br>What is the process?"	1, Write a hashcode of the current Class object for the object being serialized.<br><br>2, Serialize the fields of the object :<br>Ignore static fields&nbsp;<br>Ignore transient fields<br>Used a fixed encoding (cf. DataOutputStream) for primitive types and String values<br>Recursively call writeObject on reference types if they haven't already been serialized
+"In order to
+serialize an object of serializable class A, then either :"	Its superclass is also serializable or its superclass has a no argument constructor method
+Is char a primitive datatype	Yes
+What's the char value? (in bit)	16 bit
+What's the common encoding of Unicode?	UTF-8
+Is String jujst a sequence of Unicode values in Java?	No, Strings in Java are actually modelled as full-blown objects.
+When you use a String in Java, what will JVM do?	JVM will allocagte heap-space for the object representing that string.
+What's the difference between JVM and Java compiler?	When you run the Java program, Java compiler first compiles the program to bytecode. Then, the JVM translates bytecode into native machine code.
+What's the easiest way to create a String object?	Just write a string literal
+"What's the difference between <br>&nbsp;String str = “Java”;
+<br>and <br>char[] name = {‘J', ‘a’, ‘v', ‘a' };
+<br>String str = new String(name);<br>Also, what's the advantage/disadvantage of using String str = “Java”"	"For String str =""Java"", it creates a string object using a string literal, and it's stored in string pool<br><br>For String str = new String(name), it creates a string object from arrays of char or bytes (in this case char), and each time this code is executed, a new String&nbsp;object is created in the heap, even if an identical string already exists.<br><br>Using string literal can save memory and faster<br>Using String str = new String() can guarantees the creation of a new <code>String</code> object every time, while string literals might reuse instances from the string pool."
+"If we use ""=="" to compare different constructors for String class, we can only check if they are in the same heap-space. How could we compare the values of two strings?"	Using equals() method.
+For int compareTo(String str), how it works?	It compare two strings in a lexicographic ordering to see whether one is less than the other
+What will int compareTo(String str) returns if the strings have the same(or this string is less than str) content ?	Same content : return 0<br>Less than str : return -1<br>*It uses unicode representation
+Are objects of type String immutable?	Yes, their contents cannot be changed
+What's the difference between a machine and a virtual machine?	A virtual machine is similarly a machine with its own architecture and instruction set but the difference is that it is built in software rather than in hardware.
+"Is the architecture of the JVM is
+a high or low -level abstract
+description?"	High-level abstract description
+In Java, what's the difference between Heap Space and Stack?	Java Heap Space is used throughout the application, but Stack is only used for the method - or methods - currently running.
+"For the architecture of the JVM, what subsystem is responsible
+for locating your .class
+files?"	The Class Loader subsystem
+How Class Loader works in JVM ?	It verifies that .class files represent well-form (bytecode) classes, then it loads them into the Method Area of the shared memory, linking and initialising the class variables.
+Wnat's the difference between Shared data areas and Non-shared data areas?	Shared data areas have one method area and one heap per JVM instance<br>For Non-shared data areas, each thread has its own Java Stack and Program Counter
+What's the main role of the JVM ?	The main role of the JVM is to find the main method, load and execute our application.
+Is there registers for JVM temporary data storage ?	No, JVM has a Stack Based architecture.
