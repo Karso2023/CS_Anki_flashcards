@@ -16,7 +16,7 @@ Give me 3 examples of Unix family of operating systems	Linux (Linus Benedict Tor
 What is markup language?	A markup language is a set of rules that defines how the layout and presentation of text and images should appear in a digital document.
 Give me few examples of markup languages.	Latex, HTML, XML
 Give me two formats of structured data for representing rows and columns.	CSV (Comma Separated)<br>TSV (Tab Separated)
-For Windows and Linux, what's the difference of new line cmd?	Windows uses /r/n (in order)<br>Mac and Linux now use /n
+For Windows and Linux, what's the difference of new line cmd?	Windows uses \r\n (in order)<br>Mac and Linux now use \n
 For CSV/TSV, what cases it works well and what cases it doesn't work well?	Work Well: Particular lists (lists of students, news articles...)<br><br>Work Bad: Flexible formats (one file that describes different contents)
 For Human-readable and Machine-readable, answer the following:<br>structured/unstructured?<br>What each of it focus on?	Human-readable focus on usability and it's mostly unstructured.<br><br>Machine-readable focus on efficiency and it needs to be structured.
 What is the definition of entity in computer science?	An entity is an object that has an identity, which is independent of the changes of its attributes.&nbsp;<br><br>It represents long-lived information relevant for the users and is usually stored in a database
@@ -46,7 +46,7 @@ What is query language?	Query language is a computer language that used to make 
 What is the use of the following?<br><br>XSLT<br><br>XPATH<br><br>XQUERY	XSLT: language to transform XML documents<br><br>XPATH: locate data<br><br>XQUERY: generalised query language for XML-based databases
 What XML syntax should be followed? (tag, case, attributes...)	"Must have a closing tag<br><br>All tags are case sensitive<br><br>Must be nested&nbsp;<br><br>XML documents must have a root element (exact one)<br><br>XML attributes must be quoted (e.g. &lt;tag attr=""...""&gt; )"
 Why would we want to use a Schema? Give 5 examples.	1, Can be used to ensure a valid file&nbsp;<br><br>2, Can be used as a template<br><br>3, Eases parsing&nbsp;<br><br>4, Greater efficiency<br><br>5, Can be used to identify any errors
-Full form of DTD ?	Document Type Definition (if you think it's d* to d*, u a legend)
+Full form of DTD ?	Document Type Definition&nbsp;
 "What's the meaning of the following special syntax?<br><br><div>1, &lt;!ELEMENT xxx&nbsp;(xxx, xxx, xxx…)&gt;</div><div><br></div><div>2, &lt;!ELEMENT xxx (#xxx)&gt;</div><div><br></div><div>3, &lt;!ATTLIST xxx xxx xxx xxx&gt;</div>"	"1, &lt;!ELEMENT element-name (sub-element, sub-element, sub-element…)&gt;<br>&nbsp; &nbsp; &nbsp;It means specify subelements under this element<br><br>2, &lt;!ELEMENT element-name (#PCDATA)&gt;<br>&nbsp; &nbsp; PCDATA means parsed character data, the text inside an element<br><br>3, &lt;!ATTLIST element-name attribute-name attrubute-type attribute-value&gt;<br>&nbsp; &nbsp; Specifies an attribute that can belong to an element"
 When do you need to use namespaces?	"When we want to bring in ""other"" XML elements and attributes that we can use into our own XML. <br>Namespaces can avoid conflicts and make it clear what refers to what."
 For XML Schema Definition, every element can be defined as?	Simple, Complex
@@ -115,3 +115,55 @@ How Class Loader works in JVM ?	It verifies that .class files represent well-for
 Wnat's the difference between Shared data areas and Non-shared data areas?	Shared data areas have one method area and one heap per JVM instance<br>For Non-shared data areas, each thread has its own Java Stack and Program Counter
 What's the main role of the JVM ?	The main role of the JVM is to find the main method, load and execute our application.
 Is there registers for JVM temporary data storage ?	No, JVM has a Stack Based architecture.
+What's the Program Counter do for JVM?	It holds the address of the next bytecode instruction to execute for each thread.
+What does Java Stack do?	It holds state information for that thread (e.g. which methods have been called)
+What is Execution Engine in JVM ?	It is the part which describes how bytecodes is actually executed, and what the expected behaviour should be. <br>-<br>It also details the behaviour in terms of the JVM instruction set.<br>-<br>Each Java Thread uses an instance of the Execution Engine to execute its code.<br>
+Which area of memory stores object instances?	Heap
+Is Thread Local Memory non-shared memory?	Yes
+What is the thread local memory essentialiiy made up of ?	Program counter and Java Stack
+Java treats Array as fully-fledged object instances and they are stored on the heap. The actual information stored in the 'object instance' for an array is the?	Array length<br>Array data<br>Pointer to the array Class in the Method Area - array objects extends Object
+In Java, it's common to make a call to another method, whilst in the middle of executing a method. So, when a thread is executing MethodA() and reaches the point in the code in which MethodB() is called, what will happen?<br>Also, what will happen when MethodB() terminates?	A new frame is pushed on to the stack - on top of the frame for MethodA(). When MethodB() terminates, its frame is popped and discarded.
+In JVM, which two operations are permitted on the Stack?	Push and POP
+What is the disadvantage of using recursion in Java ?	Recursion uses more memory
+Is recursion or tail recursion more efficient ? Why ?&nbsp;	Tail recursion, the recursive function is called last, so it is more efficient than recursion.
+What's the difference between coding recursion and tail recursion ? Use factorial to explain.	"Recursion :&nbsp;<br>public static int fact (int n) {<br>if(n&lt;=1) return 1;<br>else return n * fact(n-1);<br>}<br>Tail Recursion :<br> public static int factorial(int n, int accumulator) {<br>&nbsp;if (n == 1) {<br>&nbsp;return accumulator; <br>// Base case: return the accumulated result<br>&nbsp;} <br>else {
+<br>&nbsp;return factorial(n - 1, n * accumulator); <br>// Tail recursive call<br>&nbsp;}<br>&nbsp;}"
+"Why don't handle error with "" if "" statement ?"	You have to check the return value if it's an error.
+What does the exception object contain ?	Information about the error<br>Error type<br>State of the program when the error occurred
+What's the term while creating an exception object and handing it to the runtime system ?	throwing an exception
+Using Exceptions to report errors mean ? ( Has this helped ?)	"1, Errors can not be ""forgotten"" or ignored as methods with errors don't return successfully.<br>2, Methods that may throw an exception are easily identifiable as they use the special ""throws"" keyword."
+What are the two ways to handle a thrown exception ?	Catch it - using try-catch block<br>Defer it - passing it on the method that called the method the method that threw the exception
+What will happen if you don't catch your exception by the time it is thrown back to the JVM ?	Your program will terminate
+Exceptions can be broadly categorised into ?	Checked exceptions and unchecked exceptions
+Do RuntimeExceptions need to declare 'throws' or use a 'try-catch' ? Why ?	No, because its subclasses are unchecked exceptions
+Unchecked exceptions are normally thrown due to ?	1, Logic error in the code<br>2, Poor programming, doesnt check user's sanitising inputs
+Is Class Error checked or unchecked ?&nbsp;	unchecked
+For 'finally' clause, what's the use of it ?&nbsp;	It is mostly used to free up system resources.
+When will 'finally' clause execute ?	The finally block executes regardless of whether an exception is thrown or caught.
+"What's the difference ?<br>static String country = ""Country A"" ;<br>String country = ""Country A"";"	Declare a member with static, such values would be shared across all instances of a class.
+What's the other name of static variable ?	class variable
+Is 'static final' a constant ? Why ?	Yes, because it cannot be changed after the object that contains it is constructed.&nbsp;
+Where does the initialisation code for static fields gets executed ?&nbsp;	It gets executed at class object construction time .
+Where does the initialisation code for non-static fields gets executed ?&nbsp;	It gets executed at object construction class .&nbsp;
+"For "" static final int f = 1; "", does this mean that f must be written in the initialisation code or a constructor method ?&nbsp;"	Yes&nbsp;
+For public static void main (String [ ] args) , what does the modifier static indicates ? (class / instance level member )&nbsp;	Class level member
+"<img src=""Screenshot 2024-03-29 174433.png"">"	C
+"<img src=""Screenshot 2024-03-29 174703.png"">"	"Correct options : B,D
+<br>Options A,C are incorrect because exam1 is a final variable . You can’t re assign value to a final
+variable. B is correct because instance block can access static variable and can assign value to it.
+D is correct because static block can access static variable and can assign value to it."
+"<img src=""Screenshot 2024-03-29 175244.png"">"	"Correct Option : C
+<br>C is correct option because you are not allowed to use class name to call
+instance method. Line 1, 5 are correct , you can directly call static
+method from instance method without class name or reference variable
+of same type."
+"<img src=""Screenshot 2024-03-29 175527.png"">"	"Correct Option : D<br>num1 = num1; It is assigning value to the same constructor parameter. It doesn’t affect the num1
+instance variable in s1, s2 references . So num1 value is 3 in both the references. this.num2 =
+num2; It changes the static variable num2 in both s1, s2 references."
+What is the difference between process and thread ?	A process is a series or set of activities that interact to produce a result.&nbsp;<br>Ａ thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler.
+Why use threads ? Give 3 reasons.&nbsp;	1, Efficiency&nbsp;<br>2, SImpler to write the Java program<br>3, Background processing
+Does thread have its own privacy memory ? If yes, what does it store ?&nbsp;	Yes, it stores Java Stack and program counter .
+Should we use run() or start() to start the thread in Java ?	start(), method() will be invoked automatically when a thread is started by start() method.
+In what situation will IllegalThreadException happen ?	When calling a start() on the thread when it's already executing run() method.
+Why is Runnable Interface better than Thread Class ?	Once a class extends Thread, it can't extend other classes.<br>Runnable is much easier for sharing data
+What does Thread.yield() do ?	Causes the executing thread to give up its turn in the round robin to let other threads get more processing time.
