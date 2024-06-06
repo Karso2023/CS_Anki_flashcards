@@ -1,0 +1,189 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+OzxLHD*sqG	Basic	COMP1206 Exam	How many active scene a stage contains at a time ?	One (but scene can change)	
+O6[+WC}keh	Basic	COMP1206 Exam	Much of data is stored temporarily in Java objects and data structures. Consequently, such data will be lost. How to resolve this issue ?	Make the data persitent	
+GE46Hs1CE1	Basic	COMP1206 Exam	How to make the data persistent ?	Write into a local file on a local disk<br>Write it across the network<br>Connecting to a database	
+L&wivO2MAb	Basic	COMP1206 Exam	In Java, every file is considered as a sequential stream of bytes. What marker byte is it terminated by ?	A special 'end-of-file' marker byte	
+gIQ8OSSsq%	Basic	COMP1206 Exam	How can we read a flattened objcet back from a file.	Deserialize the file	
+MEmr~ItMAk	Basic	COMP1206 Exam	What is serialization ?	Flatten the file	
+dwZX/%8Z?W	Basic	COMP1206 Exam	Which Java class is the only class related to the file itself within the entire io package ?	File Class	
+eM0OD]N)_>	Basic	COMP1206 Exam	Does creating a File Object create or open a file in the underlying OS ? Why ?	File object does not create or open a file in the underlying OS, it simple provides a means of addressing one in Java, in a platform independent way. File objects are used as sources and targets of input and output streams to actually transfer data to and from disk.	
+n.Y3tfde,*	Basic	COMP1206 Exam	What is the advantage of treating a file as a stream of bytes ?	Any client software accessing a file from a disk can use the same I/O interface as if it were receiving the same stream of bytes across the network.	
+"u{i3KE5#1q"	Basic	COMP1206 Exam	What is a Reader and Writer in Java ?	Character-based streams	
+eyu6wqK2U_	Basic	COMP1206 Exam	What is the two stream of byte-based and character-based ?	Byte-based : OutputStream &amp; InputStream<br>Character-based : Reader &amp; Writer	
+g6d6XGVA>j	Basic	COMP1206 Exam	What do InputStream and OutputStream do in Java ?	Input : read data&nbsp;<br>Output : write data	
+"xU7nL#FYZ0"	Basic	COMP1206 Exam	What is Pipiline Stream mainly used for ?	Connection / communication between two threads	
+I-Gep/]QoF	Basic	COMP1206 Exam	What is a tagging interface ? Give an example.	An interface that has no methods declared in it. One example is the interface java.io.Serializable	
+n_4;&k852_	Basic	COMP1206 Exam	In java, what stream should we use to serialize an object ?	ObjectOutputStream oos = new ObjectOutputStream(out), where out is an OutputStream.	
+lVn+jY@ae{	Basic	COMP1206 Exam	What has been preserved / saved during serialization ?	Only preperties ( Static properties will be ignored )	
+DoWw^3<!{1	Basic	COMP1206 Exam	Will static properties be saved during serialization ?	No. Static properties will be ignored	
+z5xvh!Jz<3	Basic	COMP1206 Exam	One big problem with persisten objects is that the actual implementations of classes can vary over time. An object serialized a few months ago may have been serialized from a different implementation of the class that it would be deserialized back to.<br>What should we do to avoid this issue ?	Use serial version UID/ As an object is serialized, a 64-bit secure hash of the full class description is written as part of the object's state.	
+J*]G5Y3nTv	Basic	COMP1206 Exam	Under what circumstances can we serialize an object ?	All the fields of its class are primitives and String<br>Other types are also acceptable as long a they are declared as Serializable	
+E+0MFRS7HF	Basic	COMP1206 Exam	What is an externalizable interface ?	An interface that allows developers to specify what to serialize.	
+Be!E%&gw0S	Basic	COMP1206 Exam	"If we do NOT want property String
+name to be serialized after implmented Externalizable, what should we do ?"	"Use transient keyword<br>For example if we don't want property String name to be serialized, use "" privae transient String name; """	
+z:SN2.kC8~	Basic	COMP1206 Exam	For char c = 'z', what is the actual data stored in c ?	a 16 bit Unicode value	
+QM/8Yz>?m?	Basic	COMP1206 Exam	How long is a character ? (Answer in byte)	2 bytes long	
+x=WIPYnR.w	Basic	COMP1206 Exam	What is the common encoding for Unicode ?	UTF-8	
+fEM3Z>1gOF	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-20 171133.png""><br>"	"<img src=""Screenshot 2024-05-20 171144.png"">"	
+nw[1^:p:uk	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-20 171226.png"">"	"<img src=""Screenshot 2024-05-20 171235.png"">"	
+vxRH5|ZSX)	Basic	COMP1206 Exam	For int compareTo(String str), what will it return if the strings have the same content?	0	
+D[1v:I1hKn	Basic	COMP1206 Exam	For&nbsp;int compareTo(String str), what will it return if the string is less than / greater than str ?	If less than, return negative integer<br>If greater than, return positive integer	
+E4)!CF2Dig	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-20 172240.png"">"	"<img src=""Screenshot 2024-05-20 172250.png"">"	
+IuX:q<S8:t	Basic	COMP1206 Exam	Is String immutable ?	Yes, their contents cannot be changed	
+bPr|pI[r.[	Basic	COMP1206 Exam	What does&nbsp;boolean matches(String regexp) return ?	This method will return true only when this string can be matched against the regular expression given in regexp.	
+Il|:[m9EKE	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-20 173101.png""><br>Output ?"	"<img src=""Screenshot 2024-05-20 173107.png"">"	
+PhBZyBLE,f	Basic	COMP1206 Exam	For software testing, what is the difference between verification and validation ?	Verification : software correctly implements a specific function<br>-<br>Validation : software satisfies curtomer requirements	
+hA:3L>k^Po	Basic	COMP1206 Exam	What is testing and why is it important ?	Software is tested to uncover errors that were made inadvertently as it was designed and constructed.&nbsp;<br>Testing often accounts for more project effort than any other software engineering activity.	
+v@ibfDfPk7	Basic	COMP1206 Exam	"“I always test my code. I always run it a few times after I've finished writing the bit of code I've
+been working on.”<br>-<br>&nbsp;“There can’t be any bugs, I tested it”<br>-<br>&nbsp;“No, I already ran those tests, they were fine”<br>-<br>Are those software testing ?"	No<br>	
+d(+^$/NP;=	Basic	COMP1206 Exam	"What a software testing should be instead of ""just running it"" ?"	Testing should be systematic, repeatable and objective.	
+g)R8t82F]a	Basic	COMP1206 Exam	List some type of testing.	White-Box &amp; Black-Box Testing<br>Regression Testing<br>Functionality Testing&nbsp;<br>Performance Testing<br>Usability Testing<br>Security Testing<br>Installation Testing<br>User Acceptance, alpha and beta Testing	
+t.gn/C~e=,	Basic	COMP1206 Exam	What is the definition of white box testing ?	Internal structure is known to the tester	
+f3IC?w^zFJ	Basic	COMP1206 Exam	What is the definition of Black-Box Testing ?	Used to test the software without the knowledge of the internal structure of program or application	
+A@8,W+|4bB	Basic	COMP1206 Exam	What does White-Box Testing emphasise on ?	Whether methods / data structures work correctly	
+s1ayum-%O*	Basic	COMP1206 Exam	What does Black-Box Testing emphasis on ?	The relationship between input and output behaviours.	
+Ci1pb~`oql	Basic	COMP1206 Exam	What should you need to know for White-Box Testing ?	Both programming and implementation knowledge are needed	
+y9h_4e;P=1	Basic	COMP1206 Exam	Do you need programming and implementation knowledge for Black-Box Testing ?	No	
+"xbVK~_XQ}#"	Basic	COMP1206 Exam	What is White-Box Testing usually tested by ?	Tester and developers	
+oy3G8e2@pc	Basic	COMP1206 Exam	What is Black-Box Testing tested by ?	Performed by the end user, developer and tester	
+"u]_}k#wc0,"	Basic	COMP1206 Exam	Do you need code access for White-Box Testing ? Is there any risk ?	Code access is required. Thereby, the code could be stolen if testing is outsourced.	
+w6]i>fKTX?	Basic	COMP1206 Exam	Do you need code access for Black-Box Testing ? Is there any advantage ?	Code access is not required, and it can prevent code being stolen if testing is outsourced.	
+OL^-@}<D^e	Basic	COMP1206 Exam	List which testing should go first :<br>-<br>Unit Testing, Integration Testing, System Testing	Unit Testing -&gt; Integration Testing -&gt; System Testing	
+"fkfDk;=#Z4"	Basic	COMP1206 Exam	What does Unit Testing refer to ? Give an example	Testing code in small isolated pieces.<br>Imagine you have a function that takes an integer as input and returns the square of that number. You would test this function by providing different numbers as input and verifying that the output is correct.	
+CN=|=(Txn&	Basic	COMP1206 Exam	What kind of testing a unit testing is ?&nbsp;	White-Box Testing	
+lv:,}O!2Rl	Basic	COMP1206 Exam	What is unit testing executed by ?	Developers	
+yP/Dd!@@Dp	Basic	COMP1206 Exam	What does Integration Testing refer to ?	Repeatedly testing the combination of larger and larger collections of code units.	
+h0$OH|v$w@	Basic	COMP1206 Exam	When will you do Integration Testing ?	After Unit but before System	
+y.d6f4{3rw	Basic	COMP1206 Exam	What kind of testing Integration Testing is ?	Mixed	
+foGyWO7IK/	Basic	COMP1206 Exam	What is Integration Testing Executed by ?	Testers	
+g:~dZ=S@-v	Basic	COMP1206 Exam	What does System Testing refer to ?	Testing the entirety of a developed system and its installation.	
+l!{l>o6PS<	Basic	COMP1206 Exam	When will you do System Testing ?	End of development cycle	
+QCJFv0WlU[	Basic	COMP1206 Exam	What kind of testing a system testing is ?	Black box	
+"kztz(>l#hB"	Basic	COMP1206 Exam	What is System Testing executed by ?	Developers, testers, and end users	
+xdX$ZmA4AY	Basic	COMP1206 Exam	Benefits of Unit Testing ?	Less time to write tests<br>Early bug detection<br>Improve design decisions<br>Enhance test documentation<br>Encourage better code<br>Faster and safer	
+j}`g@R3N-O	Basic	COMP1206 Exam	To ensure the productivity, what should test do ?	Run fast : test small bit of code in isolation<br>Simplicity : only assert what is required<br>Be developed in parallel with the code	
+DS;S!/&6L1	Basic	COMP1206 Exam	"Steps to do a unit test ?&nbsp;<br>1, Develop a suite of test cases<br>2, Identify the code that will be
+tested in isolation<br>3,&nbsp;Write a test harness to
+support the execution of
+each case in the suite"	2 -&gt; 1 -&gt; 3	
+r&l_vH2,{D	Basic	COMP1206 Exam	What is the disadvantages of hand-coding ?	Expensive and tedious<br>Tests won't necessarily find all the problems	
+QcUs!Hz@9Q	Basic	COMP1206 Exam	Meaning of seam in testing in isolation ?	The boundary between the unit under test and other classes that the unit collaborates with.	
+B*Or1baS<{	Basic	COMP1206 Exam	When unit is being tested in isolation, what should all collaborating objects on the other side of the seam do ?	Other side of the seam for a given unit must be replaced somehow	
+HA9Ctr7sZB	Basic	COMP1206 Exam	What is a stub class ?	A class that is used in testing to simulate the behaviour of real components. It used to replace real classes in testing to control the environment and responses.	
+"xU!t#_|PSL"	Basic	COMP1206 Exam	How is a stub object used ?	Stub object is usually used for state verification.	
+z^7Q8p-]rx	Basic	COMP1206 Exam	How is a mock object used ?	Mock object is mostly used for behaviour verification	
+Qe,)?9&wk_	Basic	COMP1206 Exam	What is a mock in testing ?	Simulated objects that mimic the behaviour of real objects.	
+"Np`B#J,MQU"	Basic	COMP1206 Exam	What is JUnit ?	JUnit is a testing framework for java	
+o7Ok!Yx-0{	Basic	COMP1206 Exam	What does JUnit do ?	Provide an extension of Java that assists with the writing and execution of unit tests	
+sA]Tua3F-i	Basic	COMP1206 Exam	Which version or above is JUnit 5 designed for ?	Java 8 (+)	
+b{Gc-r-eOD	Basic	COMP1206 Exam	What annotation do you need for each test method ?	@Test	
+"rHi~Dz>#=="	Basic	COMP1206 Exam	What is the naming principles of JUnit Test ? (how to name test class and test method)	Test Class -&gt; XXXTest<br>Test Method -&gt; testXXX	
+i7.tW{L0!]	Basic	COMP1206 Exam	What do assertEquals() do ?	Check if expected and actual values are equal.	
+FNy-4Z2MOV	Basic	COMP1206 Exam	In the last step of unit test, there have two cases which is SetUp and TearDown.<br>What is the meaning of @BeforeEach and @AfterEach ?	@BeforeEach : indicates that the method is a setUp method and the annotaion<br>All these methods are invoked before each test case is executed.<br>-<br>@AfterEach : indicates that the method is a tearDown method.<br>All these methods are invoked after each test case has finished&nbsp;	
+t%UlNqR9>P	Basic	COMP1206 Exam	What methods are @BeforeAll and @AfterAll ?	Static methods	
+d,fiu;^n7N	Basic	COMP1206 Exam	What does Timeout do in JUnit Test ?	Avoid getting stuck in badly coded non-terminating loops in your test suite.	
+g@Qab,[b*M	Basic	COMP1206 Exam	Give an example of open source library and mock framework that create mock.	EasyMock	
+nKoT`*!Bz$	Basic	COMP1206 Exam	What type of code value a Stub usually use when testing ?	Hard-coded values for simplicity when testing	
+Hi!8PWG;D0	Basic	COMP1206 Exam	For Driver in testing, what does it mean ?	"It is something like a ""main program"" that accepts test case data, passes such data to the component to be tested, and prints relevant results.<br><img src=""Screenshot 2024-05-21 034223.png"">"	
+s$.U%eQ{3@	Basic	COMP1206 Exam	What does EasyMock do ?	Provide support for generating Mock Objects for use in testing Java programs.	
+H6SdG[q[Xe	Basic	COMP1206 Exam	Does EasyMock work in conjunction or disjunction with JUnit ?	Conjunction (and) so that JUnit AssertionError exceptions are thrown when tests fail due to invaild interactions with a mock object.	
+gZz>?QZ46q	Basic	COMP1206 Exam	State the steps to create a mock	createMock for the interface to simulate<br>record the expected behaviour<br>switch the Mock Object to replay state<br>verify expected behaviours	
+j8O0Q7^`;`	Basic	COMP1206 Exam	For EasyMock, which mode should you use in order to tell a Mock Object to expect certain behaviours ?	EasyMock initially creates the Mock objects in what is known as record mode.	
+o}_H`+*pW	Basic	COMP1206 Exam	"After ""recording"" the behaviour what mode you can switch to ?"	You can switch the mock in to replay mode to let it execute.	
+eV%xzex^c:	Basic	COMP1206 Exam	In order to check for the absence of an expected interaction on a mock, what mode should we use on the mock object ?	Use verify(mock) on the mock object.	
+EX&H~$JgN6	Basic	COMP1206 Exam	In EasyMock, what does expect() do ?	use expect() so that we don't have to write EasyMock.something() everytime.	
+"AfWW]u#8/k"	Basic	COMP1206 Exam	How is integration Testing different from unit testing ?	You are validating behaviours of systems that are more complete than a single unit	
+sF+>K`l:-O	Basic	COMP1206 Exam	What are the four strategies for Integration Testing ?	Top Down Integration<br>Bottom Up Integration<br>Sandwich Integration<br>Big Bang Integration	
+c@pF,u^kxf	Basic	COMP1206 Exam	What is Top Down Integration ?	Step1: Test the high-level modules in isolation (stub dependencies)<br>-<br>Step2: Add in the modules that the module in step 1 calls and test them together (stub lower dependencies)<br>-<br>Step3: Repeat step 2 until you have read the lowest level modules	
+fZ5^5VM`)/	Basic	COMP1206 Exam	What is advantages if Top Down Integration ?	Because the entry point to the test is likely to be an entry point to the application, the drivers are easy to write.<br>-<br>You can localise faults easily due to the incremental nature of the tests<br>-<br>Early prototype of application is encouraged<br>-<br>Major design flaws show up early	
+ie^z6Pdl?Z	Basic	COMP1206 Exam	What is the disadvantages of Top Down Integration ?	Lots of stubs and mock objects are required from step 1<br>-<br>Modules lowest in the hierarchy tested in context rather than in isolation. May not be sufficient if they are reused	
+JK&*CXU}7Q	Basic	COMP1206 Exam	What is the steps of Bottom Up Integration ?	1, Test the low-level modules in isolation (there shouldn't be any stubbed dependencies)<br>2, Add in the modules that call the module in step 1 and test them together (again, no stubs)<br>3, Repeat step 2 until you have reached the highest level modules	
+j1i;mH[1hK	Basic	COMP1206 Exam	Advantages of using Bottom Up Integration ?	You can localise faults easily due to the incremental nature of the tests<br>-<br>No, or few stubs<br>-<br>Reusable low-level modules tested throughly&nbsp;<br>-<br>Testing in parallel with development<br>-<br>Flaws show up early	
+PK=O6-Hh+_	Basic	COMP1206 Exam	Disadvantages of Bottom Up Integration ?	Needs drivers - entry points to the modules not always clear<br>Logic of the overall solution only tested late in the process	
+nf_m_d7QsT	Basic	COMP1206 Exam	What is Sandwich Integration ?	A hybrid of Top Down and Bottom Up, identify three layers of the system, top, middle and bottom, and test the top using a top down strategy, test the bottom using a bottom up strategy and include the middle after doing this.	
+EI72&QrKXc	Basic	COMP1206 Exam	Advantage of Sandwich Integration ?	Mitigate the problems of using Top Down and Bottom Up Integration.	
+y/`^*$KuuV	Basic	COMP1206 Exam	Disadvantage of Sandwich Integration compare to Top Down and Bottom Up ?	Complicated as an approach	
+u~vY1$INKa	Basic	COMP1206 Exam	What is a Big Bang Integration ?	It refers to a non-incremental strategy in which each unit is tested thoroughly in isolation and then the whole system is integrated.	
+ct%?QS`&G4	Basic	COMP1206 Exam	What is the advantages of Big Bang Integration compare to other tests ?	It can be less time-consuming than the others and is suitable for smaller systems.	
+l)v`@|eLvm	Basic	COMP1206 Exam	What is the disadvantages of using Big Bang Integration ?	It can't be started until all units are complete.<br>Fault detection occurs late in the dev cycle.<br>Fault localisation is tricky, and it is easy to miss test / use cases	
+jpF70=dq^A	Basic	COMP1206 Exam	What is enum Types ?	enum types are a means of modelling a variable with a discrete, finite number of values<br>	
+ePBz+W&Iau	Basic	COMP1206 Exam	Advantages of enum Types in JavaFx ?	It provides type safety, modularity, clarity and flexibility	
+C6qUU,mP=$	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-21 114706.png""><br>What is the problem with static constants ?"	"Not typesafe<br>Uninformative, they are just integers<br>Brittleness,&nbsp;If a new constant is
+added between two existing constants or the order is changed, clients must be recompiled. If they are not, they will still run, but their behaviour will be undefined."	
+LDE;|,rfHa	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-21 114913.png""><br>What is the advantages of using enum type ?"	Type safe.<br>More informative<br>Errors can more easily be found at compile time than at run time	
+hsG5?5a2GE	Basic	COMP1206 Exam	What is var in Java ?	Mimicking languages with weak typing	
+"n/gF#{/pZ="	Basic	COMP1206 Exam	Restrictions of using var in Java ?	var variables must be initialised at declaration<br>-<br>var can only be used as local variables<br>-<br>You cannot reuse var local variables for a different type	
+b7j7y1]s2[	Basic	COMP1206 Exam	What is binding in JavaFX ?	A mechanism that allows you to keep two components sycnchronised&nbsp;	
+fy7rxeveA:	Basic	COMP1206 Exam	Directly linking interface elements with the underlying data model is messy, what should you use instead ?	Binding	
+Rb2.A`{XM2	Basic	COMP1206 Exam	when binding values are changed, do you need to notify listeners ?	"No,&nbsp;JavaFX uses properties objects to implement
+binding. These automatically notify listeners
+when their values are changed"	
+fUnX&O)78w	Basic	COMP1206 Exam	For event handler in JavaFx, how can you avoid full declaration ?	Uses lambda expression for the functional interface and var to avoid full declaration.	
+i(<=H0.Z|?	Basic	COMP1206 Exam	Are EventHandlers a form of Listener ? Why ?&nbsp;	Yes. They listen for an event, and then act.	
+N/f-%&vi7]	Basic	COMP1206 Exam	What is an Observer Plattern ?	Objects can subscribe to update from another object. When that object chages state, it notifies those other objects.	
+d99NSu[UV|	Basic	COMP1206 Exam	What is the relationship of Listeners ?	One to Many&nbsp;<br>	
+v?[&]0o7Oj	Basic	COMP1206 Exam	What does Communicator do ?	It handles network stuff	
+mf*%o}XCZc	Basic	COMP1206 Exam	In JavaFX, what does GUI thread do ?	Runs the GUI loop and GUI events	
+ksSSAq}`$;	Basic	COMP1206 Exam	Why is Simple properties useful in JavaFX ?	It gains the ability to listen and bind	
+lVJmr$0+w/	Basic	COMP1206 Exam	What is a Stage in JavaFX ?	Top level container<br>JavaFX produces a primary stage<br>We can produce more stages&nbsp;	
+rs?klYWh%S	Basic	COMP1206 Exam	What is a Scene in JavaFX ?	It holds the contents of the window<br>Held as a Scene Graph<br>We can change the scene in a stage	
+A2zXrrcQ=g	Basic	COMP1206 Exam	What is a Node in JavaFX ?	Containers&nbsp;<br>Controls	
+g:Q0.]Pu}d	Basic	COMP1206 Exam	What is a Scene Graph ?	Everything that makes up a scene	
+C?uN9mFy@:	Basic	COMP1206 Exam	How many root node every scene must have ?&nbsp;	Exactly one	
+pJD+:MTP)x	Basic	COMP1206 Exam	What does initialize() method do in JavaFX ?	Set things up in your computer program, like things you see one the screen, like buttons or lists. You don't need to call initialize() yourself, the computer does it for you.	
+"I)QqiTZJQ#"	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-21 124143.png""><br>Have a look at it"		
+Mbm=CSzG,`	Basic	COMP1206 Exam	For components in JavaFX, please answer the following :<br>Is each component different ?<br>Do they have sensible constructors ?<br>Do they have specific methods ?	Each component is different<br>They have sensible constructors&nbsp;<br>Component specific methods	
+AI&zO&Bt`d	Basic	COMP1206 Exam	What is BorderPane ?	A pane with top, left, right, bottom and centre placements	
+HyYbAfX3R-	Basic	COMP1206 Exam	What can you do with BorderPane ?	"You can control what grows and what is fixed size easily.<br><img src=""Screenshot 2024-05-21 130350.png"">"	
+Jk[?m<_O9~	Basic	COMP1206 Exam	What can you do with GridPane ?	"You can have as may rows and as many columns as you like and control their sizing appropriately, making it very flexible.<br><img src=""Screenshot 2024-05-21 130356.png"">"	
+H<rnIl!-gN	Basic	COMP1206 Exam	What is the difference between VBox and HBox ?	VBox : displays components in a vertical orientation<br>HBox : displays components in a horizontal orientation	
+z6qr6[-r<E	Basic	COMP1206 Exam	What does Pane do ?	Applies no layout to its inside elements at all<br>	
+c{D<BKa[pp	Basic	COMP1206 Exam	What does StackPane do ?	"Displays everything in a front to back stack (most recent item at the front )<br><img src=""Screenshot 2024-05-21 130241.png"">"	
+C^.p*}x?0I	Basic	COMP1206 Exam	What does AnchorPane do ?	"Anchors nodes to the top, bottom, left side or centre of the pane.<br><img src=""Screenshot 2024-05-21 130936.png"">"	
+uZJrlm7RQB	Basic	COMP1206 Exam	What does FlowPane do ?	"Lays out children up to its borders, then will start a new line. Places them in order filling space in a flow&nbsp;<br><img src=""Screenshot 2024-05-21 131139.png"">"	
+LWoC~{N6gX	Basic	COMP1206 Exam	What does TextFlow do in JavaFX ?	It is designed to lay out rich text.	
+"u8f5X43B#@"	Basic	COMP1206 Exam	What does ScrollPane do ?	It enables you to scroll the content of what's inside it if they go out of the bounds of the outer container	
+AT)7![pvdM	Basic	COMP1206 Exam	Give an example of when to use ScrollPane.	Having a messages list in a chat program.	
+yBFp!r,{;:	Basic	COMP1206 Exam	If you want to build complex layouts, what can you do with the containers in JavaFX ?	"You can just mix and match the different types of container by nesting them<br><img src=""Screenshot 2024-05-21 131728.png"">"	
+e0n/<%zwP!	Basic	COMP1206 Exam	In JavaFX, how can we enable cross-platform support ?	We need to include JavaFX dependencies for each platform we wich to target, to enable cross-platform support.	
+b?b-:JIGy[	Basic	COMP1206 Exam	What is the Maven Shade plugin used for ?	It can be used to build your custom connector library .jar bundled with all of its library class dependencies which ensures its library class dependencies do not conflict at runtime with other versions of any libraries already being used.	
+nK;?&PAdIi	Basic	COMP1206 Exam	Whaet jar can we you if we want to distribute a JavaFX application with libraries ?	We need to use uber or fat jar	
+NK3.a%B|bQ	Basic	COMP1206 Exam	"What does #include &lt;stdio.h&gt; do ?"	Tells the compiler to insert text from the header into the source code	
+K>R}!L$bQ7	Basic	COMP1206 Exam	What is %i in C ?	%i is a placeholder, it tells the routine to display the corresponding argument, which has to be of the type specified by i.	
+O7?:hoyA8u	Basic	COMP1206 Exam	Write a line of code of how you type values into the program.<br>Given int number;&nbsp;	"scanf(""%i"", &amp;number);"	
+Bj`}!!O[+1	Basic	COMP1206 Exam	"What is the meaning of &amp;vaue in<br>scanf(""%i"", &amp;value); ?&nbsp;"	&amp;value specifies where the value entered by the user is to be stored.	
+"sRD#Jb$aV("	Basic	COMP1206 Exam	In C, what value means satisfied ?	Satisfied means nonzero.	
+h<}i[}|YT*	Basic	COMP1206 Exam	What is the output of&nbsp;<br>if (number = 100) in C ?	True	
+e,Sq[hEeY/	Basic	COMP1206 Exam	What is the output of&nbsp;<br>if (number = 0)&nbsp;<br>in C ?	False	
+j_^Kkb,EtB	Basic	COMP1206 Exam	Write a line of code of initializing 5 elements of an array.	int array[5] = {0, 1, 2, 3, 4}	
+EN|smO6{NA	Basic	COMP1206 Exam	In C, can you define an array without specifying the number of elements ?	Yes	
+IR[gipyAXF	Basic	COMP1206 Exam	What does sizeof operator do in C ?	THe sizeof operator tells you how much space is taken by a variable.	
+n%YbAQE5X0	Basic	COMP1206 Exam	What does sizeof return in C ?	It returns the number of bytes of var.	
+mFp*U]bI,H	Basic	COMP1206 Exam	What is the equation of number of bytes required to store an array ?	The number of bytes for the array type times the number of its elements.	
+y`ma5YtFE(	Basic	COMP1206 Exam	In C, when a compiler runs, for each variable, what does it know ?	Its name, type, size in bytes and memory location	
+y9{O`=ZOTQ	Basic	COMP1206 Exam	What is a pointer ?	A pointer is a variable that holds a memory address.	
+OI[F7u]&I;	Basic	COMP1206 Exam	In C, how to declare and initialise a pointer ? Given float value;	float *pointer;<br>pointer = &amp;value;	
+F_ayOE6?Qi	Basic	COMP1206 Exam	Do you need * to a pointer after the pointer variable is initialised ?	No	
+|m{3C2p`/	Basic	COMP1206 Exam	How do you initialize the pointer and assigns it to the address of an array ?	"Sine the compiler knows the array is an address, you do not need the operator &amp; in front of the array.<br><img src=""Screenshot 2024-05-21 160014.png"">"	
+v/@7ZND~?.	Basic	COMP1206 Exam	Do you need ti use &amp; when you assign the address of an array element to a pointer ?	Yes	
+u=X3cPgH&6	Basic	COMP1206 Exam	Can you declare an arrary and its size using pointer ?	No	
+iM)KzDmm67	Basic	COMP1206 Exam	For *c++ in C, which operator goes first ?	++ is more binding than *, so, it tells the compiler to apply ++ to c, and then extract the content of the memory address with *	
+KE_vOJW<?:	Basic	COMP1206 Exam	"<img src=""Screenshot 2024-05-21 162206.png"">"	The code will still compile successfully but with warnings.	
+ykl>Ufpr~5	Basic	COMP1206 Exam	How C manage memory ?	Statically, locally and dynamically	
+q@jt68cr5D	Basic	COMP1206 Exam	How static variables are allocated ?	They are allocated in the main memory and persist for the lifetime of the program.	
+F8:o4o716i	Basic	COMP1206 Exam	How automatic variables are allocated ?	Automatice variables are allocated and deallocated to the stack automatically (for instance, when calling functions)	
+"B}3*#J[qU."	Basic	COMP1206 Exam	How dynamic memory is managed?	Dynamic memory is explicitly managed and it can be allocated from the heap.	
+fx$dscE9Vi	Basic	COMP1206 Exam	What can you do when memory is not need anymore in C ?	You can deallocate it and return it to the heap	
+NVZt)$hq}S	Basic	COMP1206 Exam	"Which one of the following statements about recursive programming is <b>true ?<br></b><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion is a pattern of self-definition known to be safe.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion can be used to define data types as well as methods.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Tail recursive methods can be optimised to run as efficiently as iterative ones.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">A recursive method without a base case will run forever.</span></div></div>"	"<table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion is a pattern of self-definition known to be safe.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion can be used to define data types as well as methods.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Tail recursive methods can be optimised to run as efficiently as iterative ones.</span></div></div></div></td></tr><tr><td></td><td></td><td><br></td></tr></tbody></table><br>"	
+qR|wvVZTc,	Basic	COMP1206 Exam	"Which one of the following statements about Java programming is <b>true ?<br><br></b><table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">The try/catch statement is used to define the scope of exception handling logic.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div></td></tr><tr><td>After handling the exception, the handler can resume execution at the point it was thrown<br>Checked exceptions are tracked by the Java compiler.<br>Throwing an exception transfers control to the nearest matching handler.<br></td><td></td><td><br></td></tr></tbody></table>"	"The try/catch statement is used to define the scope of exception handling logic.<br><table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Checked exceptions are tracked by the Java compiler.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><table><tbody><tr><td></td><td></td><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Throwing an exception transfers control to the nearest matching handler.</span></div></div></td></tr></tbody></table></div></td></tr></tbody></table>"	
+QjPvvUWf~}	Basic	COMP1206 Exam	Explain function&nbsp;int main (void) { } in C.	int means main returns an integer value.<br>main is the name of the function<br>void means main takes no argument	
+"fY{v%s#WZr"	Basic	COMP1206 Exam	Give two example of functions in C.	printf scanf	
+QDn([y-(/W	Basic	COMP1206 Exam	How to define a function ?	type name (type argument, type argument ...){ }	
+Dx_p2H,@R=	Basic	COMP1206 Exam	Can you define functions with multiple arguments ?&nbsp;	Yes	
+n*4qUd_tlg	Basic	COMP1206 Exam	Can some of the arguments of a function be an array in C ?	Yes	
+gCmQmN>-Yn	Basic	COMP1206 Exam	What does typedef do ?	It allows you to assign an alternate name to data types&nbsp;	

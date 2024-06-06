@@ -1,0 +1,97 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+x-Td+i-p$[	Basic	COMP1201 Exam	Time complexity of insertion sort ?	Best : O(n)<br>Average : O(n^2)<br>Worst : O(n^2)	
+"j#{_6=LjFK"	Basic	COMP1201 Exam	What is the space complexity of insertion sort ?	O(1)	
+hC[Z)8iHXR	Basic	COMP1201 Exam	What is the time complexity of selection sort ?	Best : O(n^2)<br>Average : O(n^2)<br>Worst : (n^2)	
+Re4pPT4K)7	Basic	COMP1201 Exam	What is the space complexity of selection sort ?	O(nk)	
+J6tGdXNTO+	Basic	COMP1201 Exam	What is the time complexity of bubble sort ?	Best O(n)<br>Average : O(n^2)<br>Worst : O(n^2)<br>	
+Mvk)=!a|Z(	Basic	COMP1201 Exam	What is the space complexity of bubble sort ?<br>	O(1)	
+uD@mKf`+^P	Basic	COMP1201 Exam	What is the time complexity of merge sort ?	Best : O(n log n)<br>Average : O(n log n)<br>Worst : O(n log n)	
+l>Us-7Ll>7	Basic	COMP1201 Exam	What is the space complexity of merge sort ?	O(n)	
+no>z-6`V>>	Basic	COMP1201 Exam	What is the time complexity of Quick Sort ?	Best : O(n log n)<br>Average : O(n log n)<br>Worst : O(n^2)	
+tR>|h5`59!	Basic	COMP1201 Exam	What is the space complexity of Quick Sort ?	O(n)	
+e2u!s)cO|i	Basic	COMP1201 Exam	What are the simple sorts and what are their run-times ?	Insertion sort, Selection sort, Bubble sort. Worst case = O(n^2)	
+tq5R?i4I}Q	Basic	COMP1201 Exam	What is the time complexity of inserting an item into a Linked List of n elements ?	Best : O(1)<br>Average : O(n)<br>Worst : O(n)	
+p!L]H]Wthk	Basic	COMP1201 Exam	What is the time complexity of searching for an element in a binary tree ?	Best : O(1)<br>Average : O(logn)<br>Worst : O(logn)	
+t[<sUS[|:P	Basic	COMP1201 Exam	Is standard Heap Sort in place or not ?	It's in place&nbsp;	
+dc))z`LB5O	Basic	COMP1201 Exam	What is the worst case of Heap sort ? Why ?	It O(n log n). The process of building the heap takes O(n) time, and each of the n extraction operations takes O(log n) time.&nbsp;<br>O(n) + O(n log n) = O(n log n)	
+o&PI/M/vYQ	Basic	COMP1201 Exam	What is the time complexity of add/remove in Heap Sort ?	O(logn)	
+jpGeP(ZjC;	Basic	COMP1201 Exam	What are the two operations of Heaps ?	add and removeMin	
+p!,X?v]VOm	Basic	COMP1201 Exam	What is the time complexity for Heaps to add and removeMin ?	Both are&nbsp;Ɵ(log(n))	
+H%`|9W)luz	Basic	COMP1201 Exam	What is the time complexity of Skip Lists ?	Θ(log(n))	
+`DAsZc]R*	Basic	COMP1201 Exam	Time complexity of Quick-FInd ?	Initialisation : O(n)<br>Find : O(1)<br>Union : O(n)	
+"G%rU%.,-d#"	Basic	COMP1201 Exam	Time complexity of hash ?	Average : O(1)<br>Worst : O(n)	
+r/;5Y$LSuH	Basic	COMP1201 Exam	Time complexity of Bellman-Ford ?	The initialization is O(|V|)<br>The double loop is O(|V| * |E|)	
+g*`8sLVo/W	Basic	COMP1201 Exam	Is Bellman-Ford or Dijkstra faster ?	Dijkstra	
+b(Ke~/6Fp_	Basic	COMP1201 Exam	Which algorithm can deal with negative edge weights graphs ? Bellman-Ford or Dijkstra ?	Bellman-Ford	
+mi-lhZ:IS{	Basic	COMP1201 Exam	What is the time complexity of Dijkstra's alorithm using a min-heap on a sparse graph ?	O((|V| + |E|) log |V|)	
+Pr*~pjBT|7	Basic	COMP1201 Exam	Time complexity of priority queue to insert and delete ?	O(log n)	
+tO*q?+@!Oe	Basic	COMP1201 Exam	Time complexity of Kruskal's algorithm ?	O(m log m), where m is the number of edges in the graph. This complexity is because the algorithm uses a priority queue with a time complexity of O(log m). However, the space complexity of the algorithm is O(m)	
+C`e^[zaS[v	Basic	COMP1201 Exam	What is the space complexity of Kruskal ?	O(n)	
+qtx*fZ!0(W	Basic	COMP1201 Exam	What is the time complexity of Prim's Algorithm ?	O(m log n)<br>Explain :<br>The dominant term comes from the execution of line 10 which is O(log n) and executed O(m) times for a total of O(m log n)	
+N6XU)vG5Eu	Basic	COMP1201 Exam	Which algorithm runs faster in dense graphs, Prim or Kruskal ?	Prim	
+trCZ&m*sq<	Basic	COMP1201 Exam	Which algorithm runs faster in sparse graphs, Prim or Kruskal ?	Kruskal	
+AIG^QdGdk@	Basic	COMP1201 Exam	What is the time complexity of vertex cover ?	O(nk^2 2^k)	
+D-%ZbCE3{]	Basic	COMP1201 Exam	"Answer is the following stable / in place&nbsp;<br><img src=""Screenshot 2024-05-23 153132.png"">"	"<img src=""Screenshot 2024-05-23 153142.png"">"	
+"G+zH6sq#W>"	Basic	COMP1201 Exam	Which one is more efficient, Lomuto or Hoare ?	Hoare	
+d{O=RSd-K0	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 170552.png""><br>What is the result of this min-heap ?"	"<img src=""Screenshot 2024-05-23 170620.png"">"	
+uL->7Se4iN	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 170754.png"">"	"<img src=""Screenshot 2024-05-23 170806.png"">"	
+Rh4MvCgDH	Basic	COMP1201 Exam	Draw a min-heap using the following elements :<br>0, 9, 54, 12, 13, 54, 89, 78<br>After it, do the following :<br>removeMin()<br>insert 1 and 14&nbsp;	"<img src=""Screenshot 2024-05-23 171120.png"">"	
+mQ(4A$W84-	Basic	COMP1201 Exam	Use the following elements to form an AVL tree :<br>5, 3, 10, 2, 4, 7, 11, 1, 6, 9, 12, 8<br>Then remove 5	"<img src=""Screenshot 2024-05-23 172555.png"">"	
+"fd4t05Fi!#"	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 172704.png"">"	"<img src=""Screenshot 2024-05-23 172752.png"">"	
+h6]X{jm2q5	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 172718.png"">"	"<img src=""Screenshot 2024-05-23 172852.png"">"	
+QsPl$PXyy]	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 172725.png"">"	"<img src=""Screenshot 2024-05-23 172912.png"">"	
+zx3_Yi+.Qt	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173021.png"">"	9	
+LWt3Yq*BL|	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173040.png"">"	b,c,e<br><div><div>Root: 5</div><div>First nodes (keys): 3 / 7,9</div><div>Leaf nodes: 1,2 / 3,4 / 5,6 / 7,8 / 9,10</div></div>	
+G}i]66=iA(	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173032.png"">"	7	
+tj3/ZOt~F9	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173241.png"">"	d<br>Merge sort takes about the same amount of time O(n log n) to sort arrays of the same size, regardless of their initial order. Merge sort is insensitive to input.	
+KroDrKC,yF	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173334.png""><br>When&nbsp;a&nbsp;=&nbsp;{4, 9, 8, 6, 3}&nbsp;and you run SORT(a), which sentences are true? Choose all.<br><img src=""Screenshot 2024-05-23 173347.png"">"	a, b	
+enwM*zNI@v	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 173446.png""><br><img src=""Screenshot 2024-05-23 173459.png"">"	d, you still get sorted output but the system becomes unstable	
+Q@j-}>Fk{L	Basic	COMP1201 Exam	Which tree only contains data pointers in leaf nodes, and internal nodes contain keys only ? B or B+ Tree ?	B+ Tree	
+F[XVK!GMrF	Basic	COMP1201 Exam	Which Tree is possible to have sequential access ? B Tree or B+ Tree ? Why ?	B+ Tree, because leaf nodes are linked to each other, which is possible like a linked list.	
+bY/nv.:`^I	Basic	COMP1201 Exam	Which one search, insert and delete faster, B Tree or B+ Tree ?	B+ Tree	
+Q%Al|BYnr/	Basic	COMP1201 Exam	What does a Trie usually do ?	A Trie, or digital tree, is a multiway tree often used for storing large sets of words.	
+ff6`%az-Ys	Basic	COMP1201 Exam	"Which tree have all words end with a special letter ""$"" ?"	"Trie<br><img src=""Screenshot 2024-05-23 175957.png"">"	
+j~8GCN3uqs	Basic	COMP1201 Exam	Which one is quicker, Trie, binary trees or hash tables ?	Trie	
+CJ-oV%6Qt_	Basic	COMP1201 Exam	What is the disadvantages of Tries ?	Tries typically waste large amounts of memory.	
+"y#ps_+uw(Y"	Basic	COMP1201 Exam	Is Union-Find a dynamic set of elements partitioned into disjoint (non-overlapping) subsets ?	Yes	
+tqng5eT$wY	Basic	COMP1201 Exam	What is the two operators in Union-Find ?	Find : determine which subset a particular element is in<br>-<br>Union : merge two subsets into a single subset	
+N>AefSL04T	Basic	COMP1201 Exam	Time complexity of Quick-Union ?	Initialization : O(n)<br>Find : O(n) (worst case due to tree height)<br>Union : O(n) (inefficient for large n)<br>	
+skPRe{jd:;	Basic	COMP1201 Exam	What is the time complexity of weighted Quick-Union ?	Find and Union operations improve to O(log n) compare to Quick-Union	
+B{+8XdFag/	Basic	COMP1201 Exam	What is the time complexity of Path Compression ?	O(logn)	
+MQ4,w<zdT/	Basic	COMP1201 Exam	What is the time complexity of weighted quick-union with path compression ?	Initialisation : O(n)<br>Find : O(log n)<br>Union : O(log n)	
+yPd84zkV&2	Basic	COMP1201 Exam	What are the examples of divide and conquer algorithms ?	Merge sort<br>Quick sort<br>Binary search	
+F,[qn2)NN9	Basic	COMP1201 Exam	What is the meaning of divide-and-conquer ?	Separating the array into two parts depending on whether the elements are smaller or greater than some pivot elenment; recurse on both parts until the array is sorted	
+"C#`zcL<Dq4"	Basic	COMP1201 Exam	What is the running time of Radix Sort ?	It depends on the sorting algorithm used in the loop	
+n8MnrX/=RG	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 202944.png""><br>Use counting sort to solve it&nbsp;"	"<img src=""Screenshot 2024-05-23 203035.png""><img src=""Screenshot 2024-05-23 203030.png""><img src=""Screenshot 2024-05-23 203019.png""><img src=""Screenshot 2024-05-23 203049.png"">"	
+D$n?vq.E3Y	Basic	COMP1201 Exam	Is DFS or BFS more memory efficient ?	DFS. DFS uses less memory than BFS	
+"y$3cImB(~#"	Basic	COMP1201 Exam	For time efficiency, which one is better, DFS or BFS ?	DFS	
+HZC^]%5Q?o	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203656.png""><br><img src=""Screenshot 2024-05-23 203713.png"">"	"<img src=""Screenshot 2024-05-23 203727.png"">"	
+L-BX9H_AMq	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203740.png"">"	"<img src=""Screenshot 2024-05-23 203753.png"">"	
+GF~0lK-aYF	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203809.png""><br><img src=""Screenshot 2024-05-23 203824.png"">"	a b d f	
+Bq,+ZIQz-t	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203850.png""><br><img src=""Screenshot 2024-05-23 203901.png"">"	2, vertex b	
+p=X5H-~Wzd	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203928.png"">"	vertex d	
+bBIfh[dA}J	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 203948.png""><br><img src=""Screenshot 2024-05-23 203959.png"">"	"<img src=""Screenshot 2024-05-23 204010.png"">"	
+kl!F|(2&?f	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204037.png""><br><img src=""Screenshot 2024-05-23 204054.png"">"	"<img src=""Screenshot 2024-05-23 204104.png"">"	
+e4()BwDEF$	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204124.png""><br><img src=""Screenshot 2024-05-23 204137.png"">"	"<img src=""Screenshot 2024-05-23 204151.png"">"	
+v-]}<q,T(%	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204357.png"">"	"<img src=""Screenshot 2024-05-23 204414.png"">"	
+ictvl|O^iP	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204428.png"">"		
+i&;~Wj[Oiv	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204444.png"">"	"<img src=""Screenshot 2024-05-23 204504.png"">"	
+FoS!4[pz%J	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204518.png""><br>Answer the following (True or False):<br>The value of x1 is deduced<br>The value of x3 is duced&nbsp;<br>DPLL will backtrack on x1<br>The formula is satisfiable&nbsp;"	"<img src=""Screenshot 2024-05-23 204620.png"">"	
+o_WheMAX}q	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204646.png"">"		
+jT8Q$X%NkM	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204805.png"">"	"<img src=""Screenshot 2024-05-23 205032.png"">"	
+D<e[9*qup?	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204825.png"">"	"<img src=""Screenshot 2024-05-23 205109.png"">"	
+o!bZdRRW5O	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204831.png"">"	top1 + 1 != top2	
+"l#a<@^2}x0"	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204837.png"">"	"<img src=""Screenshot 2024-05-23 205237.png"">"	
+I~JL}p%PzK	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204843.png"">"	insert(element, priority)<br>deleteMinimum()	
+m15FOnb+}`	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204850.png"">"	"<img src=""Screenshot 2024-05-23 205347.png"">"	
+AN4D-Gjy]%	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204935.png"">"	Return the last but one element of the list if this exists, and null otherwise<br>	
+p,%D^GI72R	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204942.png"">"	head = previous	
+MwQsm^L&[2	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204948.png"">"	"The worst-case time complexity of&nbsp;<span style=""font-weight: inherit; font-style: inherit;"">M</span>&nbsp;is Theta(n), where n is the length of the linked list."	
+Eb5o5MQMA8	Basic	COMP1201 Exam	"<img src=""Screenshot 2024-05-23 204953.png"">"	"<img src=""Screenshot 2024-05-23 205556.png"">"	
+CMR^r={,1Z	Basic	COMP1201 Exam	Are the following stable ?<br>Merge sort<br>Counting&nbsp;<br>Radix&nbsp;	Yes	
+l_mlJ`<S7c	Basic	COMP1201 Exam	Are the following algors in place ?<br>Merge Sort<br>Counting Sort<br>Radix Sort	No	

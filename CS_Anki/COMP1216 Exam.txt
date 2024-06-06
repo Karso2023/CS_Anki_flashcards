@@ -1,0 +1,58 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+"Nzv(*fx6#m"	Basic	COMP1216 Exam	How to write an ordered pair with part x and second part y ?	"<img src=""Screenshot 2024-05-16 123958.png"">"	
+s}$%q;UQNm	Basic	COMP1216 Exam	"Answer the rest of the questions<br><img src=""Screenshot 2024-05-16 124255.png"">"	"<img src=""Screenshot 2024-05-16 124318.png"">"	
+NN<udu:u9]	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 124522.png""><br>Meaning ?"	P(T * S)	
+wMD_;PeIB3	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 124557.png""><br>What is the difference ?"	The first one combines two sets to form a set.<br>-<br>The second one combines two elements to form an ordered pair&nbsp;	
+Qu*NB8c?bX	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 124819.png""><br>In this set, what is the output of<br>dom(directory) and ran(directory) ?"	dom(directory) = {mary, john, jim}<br>ran(directory) = {287573, 398620, 829483}<br>Because the domain of a relation R is the set of first part of all the pairs in R<br>-<br>And the range of a relation R is the set of second parts of all the pairs in R	
+dI5?nwA69&	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 125218.png""><br><br>Given two relational image&nbsp;<br>directory[ {mary} ]<br>directory[ { john, jim } ]<br>What is the output /"	directory[ {mary} ] = { 287573, 398620 }<br>directory[ { john, jim } ] = { 829483, 398620 }	
+pOf>C.KVdm	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 130449.png""><br>What is the meaning of it ?"	f is a many-to-one relation	
+gMj*JwP2MD	Basic	COMP1216 Exam	"Birthday book relates people to their birthday.
+• Each person has one birthday.
+• People can share birthdays<br>-<br>-<br>Write the Event-B code&nbsp;"	"<img src=""Screenshot 2024-05-16 130753.png"">"	
+omV*2k64Se	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-16 131131.png""><br>Solve&nbsp;<img src=""Screenshot 2024-05-16 131143.png""><br>Why is it the result ?"	"{john |-&gt; 829483,
+jim |-&gt; 398620 }<br>Since the triangle symbol stated that it is a restrict relation, which means that it only contains pairs whose first part is in the set A"	
+lvYb&_{{!P	Basic	COMP1216 Exam	"For domain substraction, what is the output of the given set ?<br><img src=""Screenshot 2024-05-16 131431.png""><br><img src=""Screenshot 2024-05-16 131441.png"">"	"<img src=""Screenshot 2024-05-16 131455.png"">"	
+zh=Q([@s+e	Basic	COMP1216 Exam	"After using relation inverse, what is the result of the following ?<br><img src=""Screenshot 2024-05-16 132329.png"">"	"<img src=""Screenshot 2024-05-16 132442.png"">"	
+hO6BCf,0-j	Basic	COMP1216 Exam	Please list out which modelling concepts does it belong to:<br>-<br>Sets, constants, variables, invariants, events. axioms, constraints, parameters, guards, actions<br>-<br>Modelling concepts:&nbsp;<br>-<br>Contexts, Machines, Invariants, Events	Contexts :<br>Sets, constans, axioms<br>-<br>Machines:<br>events, invariants, events<br>-<br>Invariants:<br>constraints<br>-<br>Events:<br>Parameters, guards, actions	
+IonNfcx<^(	Basic	COMP1216 Exam	For secure database, each object has a classification between 1 and 10, what level of object can user read and write ?	Users can only read and write objects whose classification is no greater than the user's clearance level.	
+Ly5yb?>i)e	Basic	COMP1216 Exam	Difference between abstraction and refinement ?	Abstraction can be viewed as a process of simplifying our understanding of a system.<br>Refinement is a process of enriching or modifying a model to augment the funcitionality being modelled, or explain how some purpose is achieved	
+N8tL+au1dT	Basic	COMP1216 Exam	What is a system failure ?	Event when system does not deliver as expected / specified&nbsp;	
+n4Kng)OpQ~	Basic	COMP1216 Exam	What is a system error ?	Erroneous system state that can lead to system failure&nbsp;	
+DFS2w(m?Pn	Basic	COMP1216 Exam	What is a system fault ?	Characteristic taht may lead to a system error	
+FsQk5G1jTM	Basic	COMP1216 Exam	What is human error / mistake ?	Action that introduces system faults	
+JCJ,|,g?+`	Basic	COMP1216 Exam	What is unit testing ?	Find faults in system units or components	
+q6fMz(m=]g	Basic	COMP1216 Exam	What is integration testing ?	Find faults in comnbinations of units / components&nbsp;	
+ATMcc_e{PY	Basic	COMP1216 Exam	What is usability in type of testing ?	Find faults in the graphical user interface	
+qw&7cM{gIt	Basic	COMP1216 Exam	What does design pattern do in software engineering ?	A reusable template for solving a recurring problem&nbsp;<br>-<br>Design knowledge<br>-<br>Modifiable designs	
+t,;3^6)Y$8	Basic	COMP1216 Exam	Advantages of design pattern ?	Implement new / updated requirements with minimal code change&nbsp;<br>-<br>Reduce time to onboard people to the team<br>-<br>Maximise code reuse&nbsp;	
+H.2F)/Yce5	Basic	COMP1216 Exam	Type of design patterns ?	Structural&nbsp; : How to assemble objects and classes into larger structures&nbsp;<br>-<br>Creational : For class instantiation and creating objects<br>-<br>Behavioural : Assignment of responsibilities between objects and classes	
+xa=^VeTzoy	Basic	COMP1216 Exam	Which two models can allow us to manage system cmoplexity in the design process ?	Abstraction and refinement	
+gE=oiD}jTN	Basic	COMP1216 Exam	Will properties preserved during refinement ?	Yes	
+"w7fcCR1^#i"	Basic	COMP1216 Exam	What is a weak Robust ECT ?	Test one representative from each valid class across a single variable&nbsp;<br>And a representative of an invalid class across a single variable	
+P!k@Bk{V>:	Basic	COMP1216 Exam	What is a strong robust ECT ?	<b>Uses every single element of Cartesian product of all the equivalence classes to acquire test cases</b>.	
+N85RO`LY,_	Basic	COMP1216 Exam	What if weak robust ECT + Boundaries ?	Test one representative from each valid class across a single variable&nbsp;<br>And a representative of an invalid class across a single variable&nbsp;<br>And boundary values for each valid class	
+J6cq`+lFU%	Basic	COMP1216 Exam	What is the three type of system modelling using UML ?	Dynamic modelling<br>Functional modelling<br>Object modelling	
+A<o[)_92fx	Basic	COMP1216 Exam	Which UML is functional modelling using ?	Sceanarios, use cases, use case diagrams	
+yGVK]RYM0E	Basic	COMP1216 Exam	Which UML does object modelling use ?	Class diagrams	
+I1gJ[GuYt%	Basic	COMP1216 Exam	Which UML does dynamic modelling use ?	State machine diagrams, Activity diagrams, Sequence diagrams	
+Ocm`Zt{cB&	Basic	COMP1216 Exam	What does scenarios do ?	Concrete sequences of steps / actions	
+CeR(CvNx%/	Basic	COMP1216 Exam	What does use case do ?	Generic interactions of steps / actions between actors and the system	
+A*+J^d2rK6	Basic	COMP1216 Exam	What does use case include ?	Conditional, iteration, exceptions	
+q_w/=WaVHS	Basic	COMP1216 Exam	What is a use case diagram ? And what does it include ? Draw a simple use case diagram	"Relationships between use cases&nbsp;<br>Include, extend, generalisation<br><img src=""Screenshot 2024-05-20 004006.png"">"	
+iY~waw9s:)	Basic	COMP1216 Exam	For class diagrams, what does it include ? Draw a simple class diagram	"Attributes, methods, associations and their multiplicity<br><img alt=""UML Class Diagrams Tutorial, Step by Step | by Salma | Medium"" src=""1szU8ngrWSXmBNPYReMyK5w.png"">"	
+jt4*]Ya3yO	Basic	COMP1216 Exam	For sequence diagrams, what does it include ? Draw a simple sequence diagram	"Actors<br>Different type of objcets&nbsp;<br>Heuristics for sequence diagrams<br><img src=""Screenshot 2024-05-20 004607.png"">"	
+w;6jhG+P=2	Basic	COMP1216 Exam	What does activity diagrams include ? Draw an activity diagram.	"Activities&nbsp;<br>Linked by transitions<br>Decision points<br>Fork and Joins<br>Swimlances<br><img src=""Screenshot 2024-05-20 004805.png"">"	
+on.i25g5eV	Basic	COMP1216 Exam	What does state machine diagram include ? Draw it out.	"State (including initial and final states)<br>Transition<br>Trigger<br>Guard<br><img src=""Screenshot 2024-05-20 004953.png""><br><img src=""Screenshot 2024-05-20 004844.png""><br>"	
+fG[G~gz;Yt	Basic	COMP1216 Exam	What is the four main modelling concepts of Event-B ?	Context&nbsp;<br>Machins<br>Invariants<br>Events	
+"c8!x#&^s%b"	Basic	COMP1216 Exam	Least at least 5 relations of set theory in Event-B.	Cartesian Product, Ordered Pairs, Set of Pairs<br>Domain, Range<br>Relational Image, Inverse, composition<br>Domain / range subtraction and restriction	
+I):mJ/@W4,	Basic	COMP1216 Exam	What functions do Event-B have ? (set theory)	Injcetive, surjective, partial, total, function application, well definedness, function override	
+Re6+t3Xb&q	Basic	COMP1216 Exam	What are the test assumptions in Test Design ?	Single-fault, Multiple-fault, input dependency	
+Cem@y9?y>U	Basic	COMP1216 Exam	What are the equivalence class testing ?	Weak / Strong / Normal / Robust	
+h*[wWS?Q_p	Basic	COMP1216 Exam	"<img src=""Screenshot 2024-05-20 002543.png""><br>For this override question, what is the result ?"	"<img src=""image.png"">"	
+pl,j*W&zL3	Basic	COMP1216 Exam	"What is the following ?<br><img src=""Screenshot 2024-05-20 080333.png"">"	"<img src=""Screenshot 2024-05-20 080353.png"">"	
+o.4*.~z2d;	Basic	COMP1216 Exam	Difference between activity diagram and use case diagram ?	Activity shows the flow of activities in the system and the order of actions<br>Usecase shows the user interactions	

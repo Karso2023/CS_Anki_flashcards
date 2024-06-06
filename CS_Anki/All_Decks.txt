@@ -1,0 +1,813 @@
+#separator:tab
+#html:true
+#guid column:1
+#notetype column:2
+#deck column:3
+#tags column:6
+e(3o<!jlIH	Basic	Data management	What's the three types of version control?	Local, Centralized, Distributed	
+f^0>CHc!j?	Basic	Data management	What is Local version control system?	Database is on your local computer<br>	
+ht6qH/6v3W	Basic	Data management	What is centralized version control system?<br>	A single server that contains all the versioned files	
+uq:k630iBa	Basic	Data management	What is the downside of centralized version control system	If server goes down, you fuck up.<br>You may lose the entire history of the project.	
+"h[.f2il#S1"	Basic	Data management	What is the major issue of local version control system?	People need to collaborate with developers on other systems.	
+"E#JP6{-Nwq"	Basic	Data management	Compare to Local Version Control System, what is the advantage of using centralized?	More collaborate	
+py:MMs&Q~o	Basic	Data management	What is a Distributed Version Control System?	It is a form of version control which the complete codespace, including its full history, is mirrored on every developer's computer.	
+e1wCrt-j*V	Basic	Data management	What is the advantage of Distributed Version Control System?	If any server crashes, they can get back up from any of the client's repositories. (Github)	
+c{KOmv=Kk7	Basic	Data management - 1st year	In pipes and filters, what is the meaning of the following?<br>1, Program_1 | Program_2<br>2, Program_1 &gt; file.txt<br>3, Program_1 &lt; file.txt	1, Program_1's output becomes Program_2's input<br>2, Program_1's output and error logs are written to file.txt<br>3, Program_1 get its input from file.txt	
+"gt2?9+Pg#~"	Basic	Data management - 1st year	Can filters be connected by pipes?	Yes, dumb question.	
+b_wj@pb<Oi	Basic	Data management - 1st year	What is filters?	A program which accepts textual input and transforms it in some way.	
+uE6+eZYB8@	Basic	Data management - 1st year	which one is filter?<br>cat student_attendance.txt | grep -e August | sort	cat student_attendance.txt, grep -e Augusrt, sort	
+E[VrPWx~D.	Basic	Data management	Give me 3 examples of Unix family of operating systems	Linux (Linus Benedict Torvalds, funny guy)<br><br>BSD (William Nelson Joy<b>)<br></b><br>OS X / macOS (Apple)	
+p7TesSqzm@	Basic	Data management	What is markup language?	A markup language is a set of rules that defines how the layout and presentation of text and images should appear in a digital document.	
+w$^=y1P@4W	Basic	Data management	Give me few examples of markup languages.	Latex, HTML, XML	
+nR-[ylHYbx	Basic	Data management	Give me two formats of&nbsp; data for representing rows and columns.	CSV (Comma Separated)<br>TSV (Tab Separated)	
+E3F;q&2*!a	Basic	Data management	For Windows and Linux, what's the difference of new line cmd?	Windows uses \r\n (in order)<br>Mac and Linux now use \n	
+n`j:^?g;0.	Basic	Data management	For CSV/TSV, what cases it works well and what cases it doesn't work well?	Work Well: Particular lists (lists of students, news articles...)<br><br>Work Bad: Flexible formats (one file that describes different contents)	
+G?Ru;:?D:=	Basic	Data management	For Human-readable and Machine-readable, answer the following:<br>structured/unstructured?<br>What each of it focus on?	Human-readable focus on usability and it's mostly unstructured.<br><br>Machine-readable focus on efficiency and it needs to be structured.	
+"M3#<!{QbjM"	Basic	Data management	What is the definition of entity in computer science?	An entity is an object that has an identity, which is independent of the changes of its attributes.&nbsp;<br><br>It represents long-lived information relevant for the users and is usually stored in a database	
+Hgp3aT9%zz	Basic	Data management	State five types of Relationship Modelling, with its features.	1, Hierarchical - single parent<br>2, Network - multiple parent<br>3, Object-oriented - pointers<br>4, Object-relational - object as Tables<br>5, Entity-relational - conceptual entities as Tables	
+m&l/SodZkD	Basic	Data management	What's the difference between object-relational and entity-relational?	Entity is a part of relational database. Object is a part of object oriented database.	
+"o}u4b<#{Ym"	Basic	Data management	What's the relation between YAML and JSON?	YAML is a superset of JSON	
+C:sgm:0!e(	Basic	Data management - 1st year	What does YAML rely on for structure?	It relies on indentation and whitespace for structure	
+J&lAO|n7ug	Basic	Data management	Is YAML key-value pair?	Yes -_-	
+eECIyP+U3I	Basic	Data management	Give an example of key-value pair	"name: Karso, where ""name"" = key and ""Karso"" = value"	
+Q0jnH15P.w	Basic	Data management	What will happen if I use tabs to indent instead of spaces?	YAML use indentation to define the structure. However, it doesn't accept tabs for indentation, have to use spaces.	
+OqLz)U0jt,	Basic	Data management	Is YAML markup language? Why?	YAML is a data serialization language.<br>Difference between markup language and data serialization language:<br>Markup languages focus on how data should be displayed or structured.<br>Data serialization languages focus on accurately and efficiently representing data structure in a standardized and exchangeable format.<br>As a result, considering the features of YAML, it's a data serialization language instead of markup language.	
+Mc3R|xA5:;	Basic	Data management	When/why would you use YAML?	Config files<br>Passing messages between applications<br>Saving (simple) application state	
+D<An%3w8A+	Basic	Data management	Why wouldn't you use YAML?	Not all parsers will give the same result	
+K_lqb%pj?,	Basic	Data management - 1st year	For YAML, what's the rule of Parent element?	Parent can't have a value and children.	
+M:FoMSDO9y	Basic	Data management	Does JSON (JavaScript Object Notation) have classes?	No, it only has objects, lists and values, but no classes.	
+Hix=+dS[m-	Basic	Data management	"<img src=""Screenshot 2024-03-22 130808.png""><br><br>What is the type of data called that is used for annotations?"	Metadata	
+tM3zt5|S$/	Basic	Data management - 1st year	What is an automatic anotation?	Automatically annotating and generating machine readable data.	
+rRvNEh!$tJ	Basic	Data management - 1st year	What automatic annotation do?	Machine learning<br><br>Train with known data<br><br>Predict with unknown data	
+zl}wXbv*8m	Basic	Data management - 1st year	What is the relationship between SGML (Standard Generalised Markup Language)&nbsp;and markup languages?	SGML is the superset of all markup languages	
+DOM,R=SYO{	Basic	Data management - 1st year	What's the pros &amp; cons of SGML?&nbsp;	Advantages:<br>Flexible<br><br>Disadvantages:<br>Very complex<br>No strict structure<br>Requires a definition of the structure as well as the SGML itself<br>A lot of things have to be inferred	
+iD)BdiVxMg	Basic	Data management	What's the pros &amp; cons of XML?	Pros:<br>Easier and more efficient to parse<br>Simplifies SGML, while keeping the bits that were needed<br>Data can be delivered without a definition of structure<br><br>Cons:<br>Less flexible	
+wg9xD4?zr9	Basic	Data management	is LateX XML?	No	
+QlAEBxvOIw	Basic	Data management	What type of relationship modelling XML is?	Hierachical (Tags, attributes, content)	
+"yA#}%$Yy^M"	Basic	Data management	What is XML designed to compare to HTML?	XML is designed to carry data and HTML is designed to display data.	
+q`)kdS5X:2	Basic	Data management	Do you have to define your own XML tags?&nbsp;	Yes, XML doesn't have defined tags	
+c~G4UOFp-{	Basic	Data management	What is query language?	Query language is a computer language that used to make queries in databases and information systems.	
+"K#cp;jQwon"	Basic	Data management	What is the use of the following?<br><br>XSLT<br><br>XPATH<br><br>XQUERY	XSLT: language to transform XML documents<br><br>XPATH: locate data<br><br>XQUERY: generalised query language for XML-based databases	
+C4(J[Y=L25	Basic	Data management	What XML syntax should be followed? (tag, case, attributes...)	"Must have a closing tag<br><br>All tags are case sensitive<br><br>Must be nested&nbsp;<br><br>XML documents must have a root element (exact one)<br><br>XML attributes must be quoted (e.g. &lt;tag attr=""...""&gt; )"	
+ukm7^AY~gF	Basic	Data management	Why would we want to use a Schema? Give 5 examples.	1, Can be used to ensure a valid file&nbsp;<br><br>2, Can be used as a template<br><br>3, Eases parsing&nbsp;<br><br>4, Greater efficiency<br><br>5, Can be used to identify any errors	
+D^1O{?YQh<	Basic	Data management	Full form of DTD ?	Document Type Definition&nbsp;	
+pG&+rKAXJ;	Basic	Data management	"What's the meaning of the following special syntax?<br><br><div>1, &lt;!ELEMENT xxx&nbsp;(xxx, xxx, xxx…)&gt;</div><div><br></div><div>2, &lt;!ELEMENT xxx (#xxx)&gt;</div><div><br></div><div>3, &lt;!ATTLIST xxx xxx xxx xxx&gt;</div>"	"1, &lt;!ELEMENT element-name (sub-element, sub-element, sub-element…)&gt;<br>&nbsp; &nbsp; &nbsp;It means specify subelements under this element<br><br>2, &lt;!ELEMENT element-name (#PCDATA)&gt;<br>&nbsp; &nbsp; PCDATA means parsed character data, the text inside an element<br><br>3, &lt;!ATTLIST element-name attribute-name attrubute-type attribute-value&gt;<br>&nbsp; &nbsp; Specifies an attribute that can belong to an element"	
+"db#bQ/(!kO"	Basic	Data management	When do you need to use namespaces?	"When we want to bring in ""other"" XML elements and attributes that we can use into our own XML. <br>Namespaces can avoid conflicts and make it clear what refers to what."	
+feX%POG6xd	Basic	Data management	For XML Schema Definition, every element can be defined as?	Simple, Complex	
+h>-hvxubHC	Basic	Data management	What's the difference between SimpleType and ComplexType in XML?	For SimpleType, it contains text only and the elements are of SimpleType by dfefault. Also, it cannot be empty.<br><br>For ComplexType, it can have attributes and can contain children (it can be empty, other elements, text, combination of text and other elements)&nbsp;	
+OzxLHD*sqG	Basic	Programming - 1st year	How many active scene a stage contains at a time ?	One (but scene can change)	
+gGH(+Wkr8p	Basic	Data management	What is database ?	A collection of data organised in a particular way and managed by DBMS.	
+dST%>3=:C_	Basic	Data management	What is DBMS ?	A collection of software programs that manage a database	
+v@n4E/Yz@5	Basic	Data management	Example of relational database ?	MySQL, Oracle, SQLite	
+i^h@c5>f1X	Basic	Data management	Example of Non-relational database ?	MongoDB, NoSQL	
+hy14>A;;vP	Basic	Data management	Parallel / Distributed Framworks ?	Hadoop / HiveQL	
+j;+=ntaN`F	Basic	Data management	What is logical independence ?	Protection from changes in logical structure (attributes / schema )	
+O?|vG`h6IL	Basic	Data management	What is physical independence ?	Protection from changes in physical structure of data ( how it is stored )&nbsp;	
+Q>-%nb-i*@	Basic	Data management	Why are logical independence and physical independence important for DBMS ?&nbsp;	Because databases and their applications are structured and persistent .	
+n2AKMh3a>_	Basic	Data management	Which type of storage is contrast with File-based storage&nbsp;	Databased	
+E<Ob8a4Al4	Basic	Data management	Is CSV structured data ?&nbsp;	No<br>	
+vXe$Kl%eTG	Basic	Data management	A DBMS is a set of computer programs that support ?	At least one data model to define a database and an associated high-level language to create, manage and query the database.&nbsp;<br>-<br>An ability to store and manage large amounts of persistent data&nbsp;<br>-<br>Transaction management, concurrency control (<b>a unique characteristic enabling two or more users to retrieve information from the database at the same time without affecting data integrity)<br></b>-<br>Access control&nbsp;<br>-<br>– resiliency (ability to recover from crashes)	
+w*.xX:|Bno	Basic	Data management	What is a data model ? Also what is the most widely used model today (2024) ?&nbsp;	A collection of concepts for describing data - how it is represented, organized and structured in the database<br><br>The relational model of data is the most widely used model today	
+M}K$1G<*;f	Basic	Data management	Does every data model have to come with a data language ?	Yes, for defining, updating, manipulating, and retrieving data from its representation	
+"g}9*R_>C[#"	Basic	Data management	Which two parts (sublanguages) a data language has ?	DDL ( data definition language )&nbsp;<br>DML ( data manipulation language )&nbsp;	
+z0<1|7,HL9	Basic	Data management	What is DDL (Data definition language) ?&nbsp;	"Syntax for describing ""database templates"" in terms of the underlying data model&nbsp;"	
+BYbV40mz:j	Basic	Data management	What is DML ( data manipulation language ) ?	For chaning the data inside a database instance&nbsp; (insertion, deletion, update, retrieval, extraction, querying)	
+"j#atqy[4d["	Basic	Data management	What is the DDL for XML ?&nbsp;	XML schema	
+QC)<gaJxQh	Basic	Data management	What is the DML for XML ?	XPath / XQuery	
+d?7%0/ZF_G	Basic	Data management	What is the formalism for describing and representing data ?	Relation (the mathematical concept)	
+ms9P&0L5i&	Basic	Data management	"What is the relation between ""relation"" and cartesian product ?&nbsp;"	A relation is a subset of a cartesian product of sets	
+wrbKH,i$D3	Basic	Data management	What are the differences between sets and tuples ?	Tubles are order matters, can have duplicates and we use () rather than {}	
+e,S36_90&q	Basic	Data management	For {r, o, w} * {a, n} = { (r,a) , (r,n) , (o,a) , (o,n) , (w,a) , (w,n) }, what is sets and what is tuples ?&nbsp;	The one inside {} is a set and the one inside () is a tuple	
+P3r?oCZ7i(	Basic	Data management	If D1, D2, …, Dk are sets, then the cartesian product D1 ×D2… ×Dk of these sets is the set of all k-tuples ... ?&nbsp;	(d1, d2, ..., dk)	
+z&A$&04iyV	Basic	Data management	"What is the properties of relations&nbsp;R(A1
+,…Ak
+) ?&nbsp;"	Relations are just sets, that's why the ordering of rows are immaterial&nbsp;<br>-<br>Each row represents a k-tuple of R&nbsp;<br>-<br>The ordering of the attributes is not significant	
+fl9w%rz]_=	Basic	Data management	What is a relational database instance of a relational schma ?	A relational database (what people typically mean when they say database) instance of a relational schema is a set of relations Ri each of which is an instance of the relation schema Ri, 1 ≤&nbsp; i≤&nbsp; m.	
+uf=e%q)Us`	Basic	Data management	&nbsp;What is the relational intension and extension ?	Intension : schemas&nbsp;<br>Extension : instances	
+xL@R^>W6AB	Basic	Data management	For XPATH, if you want to get a text, you use /node/text(), how about attributes ?	/node/@Attribute	
+w:bRvVG;B>	Basic	Data management	"<img src=""Screenshot 2024-04-29 114128.png""><br>Which book will display red colour ?"	book 2	
+Dx|Ebj58d+	Basic	Data management	When does a set of attributes forms a key for a relation ?	When we do not allow two different tuples in a relation instance to have the same values in all the attributes of the key.	
+Nu])Q3bk{$	Basic	Data management	For Courses(CourselID, Name, DeptID) and Students(Name,Surname), what would be a good key for them ?	CourselID<br>Name and Surname	
+bL9YIOvi3D	Basic	Data management	"We say that r (an instance of R) satisfies the functional dependency&nbsp; A1,…,An’→ B1
+,B2
+,...,Bm’ if ?"	Whenever two tuples in r agree on the values of A1, ..., An', then they also agree on the values B1, B2, ... ,Bm'	
+"g1_d3#n8d."	Basic	Data management	"What is the meaning of ""A1,A2,…An’ is the determinant and B1,B2,…Bm’ is the
+dependent set"""	For example, in a database of employees, the employee ID number (determinant) would determine the employee's name, address, and other personal information (dependent). This means that, given an employee ID number, we can determine the corresponding employee's name and other personal information, but not vice versa.	
+tK%8$)e-1w	Basic	Data management	What is the meaning of&nbsp;X → Y in database systems if X and Y are sets of attributes of schema R ?	"To denote the functional dependency with the members of X in the left-hand side and the member of Y in the right-hand side<br>So&nbsp;<br>if A= {A1,…,An} and B= {B1,B2,...,Bm}<br>and A1,…,An→ B1,B2,...,Bm
+<br>then we write A→ B"	
+HMcOc)ltmx	Basic	Data management	A➔B, B➔C}⊧ ... ?	A -&gt; C	
+gr$rL_}RGy	Basic	Data management	Definition of superkey ?	For a relation schema R, X is a set of attributes of R<br>X is a superkey of R if X -&gt; Ai for every attribute Ai of R<br>	
+F.RK;bwJyp	Basic	Data management	How many superkey does every relation at least have ?	1 (the set of all attributes)	
+L1IM6Zx)[+	Basic	Data management	Short form of&nbsp;AB → CD and D → H ?	AB -&gt; CDH	
+"j$C1C##35X"	Basic	Data management	For&nbsp;{A,B}+ = {A,B,C,D,E,G,H}, which implies that {A,B} is a superkey, what is the candidate key ?	{A , B} since {A}+ = {A} and {B}+ = {B}	
+yF;&y$1O5f	Basic	Data management	For database systems, how to get rid of anomalies ?	Find all functional dependencies, detect 'bad' Relations, decompose relation (table) into more relations (tables).<br>Repeat until normalised	
+v&g8G@:sr8	Basic	Data management	How to find canonical cover (minimal set) ?	Three steps&nbsp;<br>1, Only 1 attribute should be there on the RHS of every functional dependency.<br>-<br>2, Remove extra attribute from LHS of every functional dependency.<br>-<br>3, Remove redundant (duplicate) functional dependency X -&gt; Y from set F if { F - (X -&gt; Y) } = F. So X -&gt; Y is duplicate and can be removed.&nbsp;&nbsp;	
+"yw3#U&AI*4"	Basic	Data management	What is Normalisation ?	A process to avoid anomalies .	
+zx$$;5exM~	Basic	Data management	Why do we want to avoid anomailes ?	To increase efficiency, better maintenance and size&nbsp;	
+zC~KYCbQ81	Basic	Data management	How do we do normalisation ?	Divide database into multiple tables. Define relationships between them	
+FDP(l~faCI	Basic	Data management	What is the first normal form ?	Find keys	
+PxOBHbXG|~	Basic	Data management	What is the second normal form ?	Remove partial dependencies&nbsp;<br>No non-key attributes depend on another non-key attribute&nbsp;	
+xdw<5lJF&,	Basic	Data management	What is transitive dependencies ? Give an example .	Book -&gt; Author. The book attribute determines the Author attribute. If you know the book name, you can learn the author's name.&nbsp;	
+"N#ctFA6ZNE"	Basic	Data management	What is third normal form ?	Remove transitive dependencies&nbsp;	
+fBiB?WCRRH	Basic	Data management	What is Boyce-Codd normal form ?	Stricter than 3NF, every attribute must be a fact about a key	
+FDk/q3BE9A	Basic	Data management	What is a composite key made up of ?	A composite key is made up of multiple attributes	
+sjzCOr>wyO	Basic	Data management	What is the level disign of Logical Modelling and Physical Modelling ?	Logical Modelling : High level design<br>Physical Modelling : Low level design	
+ILD%<UV)QO	Basic	Data management	Meaning of * in SQL ?	All column<br>	
+"Nzv(*fx6#m"	Basic	Software Modelling - 1st year	How to write an ordered pair with part x and second part y ?	"<img src=""Screenshot 2024-05-16 123958.png"">"	
+s}$%q;UQNm	Basic	Software Modelling - 1st year	"Answer the rest of the questions<br><img src=""Screenshot 2024-05-16 124255.png"">"	"<img src=""Screenshot 2024-05-16 124318.png"">"	
+NN<udu:u9]	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 124522.png""><br>Meaning ?"	P(T * S)	
+wMD_;PeIB3	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 124557.png""><br>What is the difference ?"	The first one combines two sets to form a set.<br>-<br>The second one combines two elements to form an ordered pair&nbsp;	
+Qu*NB8c?bX	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 124819.png""><br>In this set, what is the output of<br>dom(directory) and ran(directory) ?"	dom(directory) = {mary, john, jim}<br>ran(directory) = {287573, 398620, 829483}<br>Because the domain of a relation R is the set of first part of all the pairs in R<br>-<br>And the range of a relation R is the set of second parts of all the pairs in R	
+dI5?nwA69&	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 125218.png""><br><br>Given two relational image&nbsp;<br>directory[ {mary} ]<br>directory[ { john, jim } ]<br>What is the output /"	directory[ {mary} ] = { 287573, 398620 }<br>directory[ { john, jim } ] = { 829483, 398620 }	
+pOf>C.KVdm	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 130449.png""><br>What is the meaning of it ?"	f is a many-to-one relation	
+gMj*JwP2MD	Basic	Software Modelling - 1st year	"Birthday book relates people to their birthday.
+• Each person has one birthday.
+• People can share birthdays<br>-<br>-<br>Write the Event-B code&nbsp;"	"<img src=""Screenshot 2024-05-16 130753.png"">"	
+omV*2k64Se	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-16 131131.png""><br>Solve&nbsp;<img src=""Screenshot 2024-05-16 131143.png""><br>Why is it the result ?"	"{john |-&gt; 829483,
+jim |-&gt; 398620 }<br>Since the triangle symbol stated that it is a restrict relation, which means that it only contains pairs whose first part is in the set A"	
+lvYb&_{{!P	Basic	Software Modelling - 1st year	"For domain substraction, what is the output of the given set ?<br><img src=""Screenshot 2024-05-16 131431.png""><br><img src=""Screenshot 2024-05-16 131441.png"">"	"<img src=""Screenshot 2024-05-16 131455.png"">"	
+zh=Q([@s+e	Basic	Software Modelling - 1st year	"After using relation inverse, what is the result of the following ?<br><img src=""Screenshot 2024-05-16 132329.png"">"	"<img src=""Screenshot 2024-05-16 132442.png"">"	
+hO6BCf,0-j	Basic	Software Modelling - 1st year	Please list out which modelling concepts does it belong to:<br>-<br>Sets, constants, variables, invariants, events. axioms, constraints, parameters, guards, actions<br>-<br>Modelling concepts:&nbsp;<br>-<br>Contexts, Machines, Invariants, Events	Contexts :<br>Sets, constans, axioms<br>-<br>Machines:<br>events, invariants, events<br>-<br>Invariants:<br>constraints<br>-<br>Events:<br>Parameters, guards, actions	
+IonNfcx<^(	Basic	Software Modelling - 1st year	For secure database, each object has a classification between 1 and 10, what level of object can user read and write ?	Users can only read and write objects whose classification is no greater than the user's clearance level.	
+Ly5yb?>i)e	Basic	Software Modelling - 1st year	Difference between abstraction and refinement ?	Abstraction can be viewed as a process of simplifying our understanding of a system.<br>Refinement is a process of enriching or modifying a model to augment the funcitionality being modelled, or explain how some purpose is achieved	
+N8tL+au1dT	Basic	Software Modelling - 1st year	What is a system failure ?	Event when system does not deliver as expected / specified&nbsp;	
+n4Kng)OpQ~	Basic	Software Modelling - 1st year	What is a system error ?	Erroneous system state that can lead to system failure&nbsp;	
+DFS2w(m?Pn	Basic	Software Modelling - 1st year	What is a system fault ?	Characteristic taht may lead to a system error	
+FsQk5G1jTM	Basic	Software Modelling - 1st year	What is human error / mistake ?	Action that introduces system faults	
+JCJ,|,g?+`	Basic	Software Modelling - 1st year	What is unit testing ?	Find faults in system units or components	
+q6fMz(m=]g	Basic	Software Modelling - 1st year	What is integration testing ?	Find faults in comnbinations of units / components&nbsp;	
+ATMcc_e{PY	Basic	Software Modelling - 1st year	What is usability in type of testing ?	Find faults in the graphical user interface	
+qw&7cM{gIt	Basic	Software Modelling - 1st year	What does design pattern do in software engineering ?	A reusable template for solving a recurring problem&nbsp;<br>-<br>Design knowledge<br>-<br>Modifiable designs	
+t,;3^6)Y$8	Basic	Software Modelling - 1st year	Advantages of design pattern ?	Implement new / updated requirements with minimal code change&nbsp;<br>-<br>Reduce time to onboard people to the team<br>-<br>Maximise code reuse&nbsp;	
+H.2F)/Yce5	Basic	Software Modelling - 1st year	Type of design patterns ?	Structural&nbsp; : How to assemble objects and classes into larger structures&nbsp;<br>-<br>Creational : For class instantiation and creating objects<br>-<br>Behavioural : Assignment of responsibilities between objects and classes	
+xa=^VeTzoy	Basic	Software Modelling - 1st year	Which two models can allow us to manage system cmoplexity in the design process ?	Abstraction and refinement	
+gE=oiD}jTN	Basic	Software Modelling - 1st year	Will properties preserved during refinement ?	Yes	
+"w7fcCR1^#i"	Basic	Software Modelling - 1st year	What is a weak Robust ECT ?	Test one representative from each valid class across a single variable&nbsp;<br>And a representative of an invalid class across a single variable	
+P!k@Bk{V>:	Basic	Software Modelling - 1st year	What is a strong robust ECT ?	<b>Uses every single element of Cartesian product of all the equivalence classes to acquire test cases</b>.	
+N85RO`LY,_	Basic	Software Modelling - 1st year	What if weak robust ECT + Boundaries ?	Test one representative from each valid class across a single variable&nbsp;<br>And a representative of an invalid class across a single variable&nbsp;<br>And boundary values for each valid class	
+J6cq`+lFU%	Basic	Software Modelling - 1st year	What is the three type of system modelling using UML ?	Dynamic modelling<br>Functional modelling<br>Object modelling	
+A<o[)_92fx	Basic	Software Modelling - 1st year	Which UML is functional modelling using ?	Sceanarios, use cases, use case diagrams	
+yGVK]RYM0E	Basic	Software Modelling - 1st year	Which UML does object modelling use ?	Class diagrams	
+I1gJ[GuYt%	Basic	Software Modelling - 1st year	Which UML does dynamic modelling use ?	State machine diagrams, Activity diagrams, Sequence diagrams	
+Ocm`Zt{cB&	Basic	Software Modelling - 1st year	What does scenarios do ?	Concrete sequences of steps / actions	
+CeR(CvNx%/	Basic	Software Modelling - 1st year	What does use case do ?	Generic interactions of steps / actions between actors and the system	
+A*+J^d2rK6	Basic	Software Modelling - 1st year	What does use case include ?	Conditional, iteration, exceptions	
+q_w/=WaVHS	Basic	Software Modelling - 1st year	What is a use case diagram ? And what does it include ? Draw a simple use case diagram	"Relationships between use cases&nbsp;<br>Include, extend, generalisation<br><img src=""Screenshot 2024-05-20 004006.png"">"	
+iY~waw9s:)	Basic	Software Modelling - 1st year	For class diagrams, what does it include ? Draw a simple class diagram	"Attributes, methods, associations and their multiplicity<br><img alt=""UML Class Diagrams Tutorial, Step by Step | by Salma | Medium"" src=""1szU8ngrWSXmBNPYReMyK5w.png"">"	
+jt4*]Ya3yO	Basic	Software Modelling - 1st year	For sequence diagrams, what does it include ? Draw a simple sequence diagram	"Actors<br>Different type of objcets&nbsp;<br>Heuristics for sequence diagrams<br><img src=""Screenshot 2024-05-20 004607.png"">"	
+w;6jhG+P=2	Basic	Software Modelling - 1st year	What does activity diagrams include ? Draw an activity diagram.	"Activities&nbsp;<br>Linked by transitions<br>Decision points<br>Fork and Joins<br>Swimlances<br><img src=""Screenshot 2024-05-20 004805.png"">"	
+on.i25g5eV	Basic	Software Modelling - 1st year	What does state machine diagram include ? Draw it out.	"State (including initial and final states)<br>Transition<br>Trigger<br>Guard<br><img src=""Screenshot 2024-05-20 004953.png""><br><img src=""Screenshot 2024-05-20 004844.png""><br>"	
+fG[G~gz;Yt	Basic	Software Modelling - 1st year	What is the four main modelling concepts of Event-B ?	Context&nbsp;<br>Machins<br>Invariants<br>Events	
+"c8!x#&^s%b"	Basic	Software Modelling - 1st year	Least at least 5 relations of set theory in Event-B.	Cartesian Product, Ordered Pairs, Set of Pairs<br>Domain, Range<br>Relational Image, Inverse, composition<br>Domain / range subtraction and restriction	
+I):mJ/@W4,	Basic	Software Modelling - 1st year	What functions do Event-B have ? (set theory)	Injcetive, surjective, partial, total, function application, well definedness, function override	
+Re6+t3Xb&q	Basic	Software Modelling - 1st year	What are the test assumptions in Test Design ?	Single-fault, Multiple-fault, input dependency	
+Cem@y9?y>U	Basic	Software Modelling - 1st year	What are the equivalence class testing ?	Weak / Strong / Normal / Robust	
+h*[wWS?Q_p	Basic	Software Modelling - 1st year	"<img src=""Screenshot 2024-05-20 002543.png""><br>For this override question, what is the result ?"	"<img src=""image.png"">"	
+pl,j*W&zL3	Basic	Software Modelling - 1st year	"What is the following ?<br><img src=""Screenshot 2024-05-20 080333.png"">"	"<img src=""Screenshot 2024-05-20 080353.png"">"	
+o.4*.~z2d;	Basic	Software Modelling - 1st year	Difference between activity diagram and use case diagram ?	Activity shows the flow of activities in the system and the order of actions<br>Usecase shows the user interactions	
+O6[+WC}keh	Basic	Programming - 1st year	Much of data is stored temporarily in Java objects and data structures. Consequently, such data will be lost. How to resolve this issue ?	Make the data persitent	
+GE46Hs1CE1	Basic	Programming - 1st year	How to make the data persistent ?	Write into a local file on a local disk<br>Write it across the network<br>Connecting to a database	
+L&wivO2MAb	Basic	Programming - 1st year	In Java, every file is considered as a sequential stream of bytes. What marker byte is it terminated by ?	A special 'end-of-file' marker byte	
+gIQ8OSSsq%	Basic	Programming - 1st year	How can we read a flattened objcet back from a file.	Deserialize the file	
+MEmr~ItMAk	Basic	Programming - 1st year	What is serialization ?	Flatten the file	
+dwZX/%8Z?W	Basic	Programming - 1st year	Which Java class is the only class related to the file itself within the entire io package ?	File Class	
+eM0OD]N)_>	Basic	Programming - 1st year	Does creating a File Object create or open a file in the underlying OS ? Why ?	File object does not create or open a file in the underlying OS, it simple provides a means of addressing one in Java, in a platform independent way. File objects are used as sources and targets of input and output streams to actually transfer data to and from disk.	
+n.Y3tfde,*	Basic	Programming - 1st year	What is the advantage of treating a file as a stream of bytes ?	Any client software accessing a file from a disk can use the same I/O interface as if it were receiving the same stream of bytes across the network.	
+"u{i3KE5#1q"	Basic	Programming - 1st year	What is a Reader and Writer in Java ?	Character-based streams	
+eyu6wqK2U_	Basic	Programming - 1st year	What is the two stream of byte-based and character-based ?	Byte-based : OutputStream &amp; InputStream<br>Character-based : Reader &amp; Writer	
+g6d6XGVA>j	Basic	Programming - 1st year	What do InputStream and OutputStream do in Java ?	Input : read data&nbsp;<br>Output : write data	
+"xU7nL#FYZ0"	Basic	Programming - 1st year	What is Pipiline Stream mainly used for ?	Connection / communication between two threads	
+I-Gep/]QoF	Basic	Programming - 1st year	What is a tagging interface ? Give an example.	An interface that has no methods declared in it. One example is the interface java.io.Serializable	
+n_4;&k852_	Basic	Programming - 1st year	In java, what stream should we use to serialize an object ?	ObjectOutputStream oos = new ObjectOutputStream(out), where out is an OutputStream.	
+lVn+jY@ae{	Basic	Programming - 1st year	What has been preserved / saved during serialization ?	Only preperties ( Static properties will be ignored )	
+DoWw^3<!{1	Basic	Programming - 1st year	Will static properties be saved during serialization ?	No. Static properties will be ignored	
+z5xvh!Jz<3	Basic	Programming - 1st year	One big problem with persisten objects is that the actual implementations of classes can vary over time. An object serialized a few months ago may have been serialized from a different implementation of the class that it would be deserialized back to.<br>What should we do to avoid this issue ?	Use serial version UID/ As an object is serialized, a 64-bit secure hash of the full class description is written as part of the object's state.	
+J*]G5Y3nTv	Basic	Programming - 1st year	Under what circumstances can we serialize an object ?	All the fields of its class are primitives and String<br>Other types are also acceptable as long a they are declared as Serializable	
+E+0MFRS7HF	Basic	Programming - 1st year	What is an externalizable interface ?	An interface that allows developers to specify what to serialize.	
+Be!E%&gw0S	Basic	Programming - 1st year	"If we do NOT want property String
+name to be serialized after implmented Externalizable, what should we do ?"	"Use transient keyword<br>For example if we don't want property String name to be serialized, use "" privae transient String name; """	
+z:SN2.kC8~	Basic	Programming - 1st year	For char c = 'z', what is the actual data stored in c ?	a 16 bit Unicode value	
+QM/8Yz>?m?	Basic	Programming - 1st year	How long is a character ? (Answer in byte)	2 bytes long	
+x=WIPYnR.w	Basic	Programming - 1st year	What is the common encoding for Unicode ?	UTF-8	
+fEM3Z>1gOF	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-20 171133.png""><br>"	"<img src=""Screenshot 2024-05-20 171144.png"">"	
+nw[1^:p:uk	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-20 171226.png"">"	"<img src=""Screenshot 2024-05-20 171235.png"">"	
+vxRH5|ZSX)	Basic	Programming - 1st year	For int compareTo(String str), what will it return if the strings have the same content?	0	
+D[1v:I1hKn	Basic	Programming - 1st year	For&nbsp;int compareTo(String str), what will it return if the string is less than / greater than str ?	If less than, return negative integer<br>If greater than, return positive integer	
+E4)!CF2Dig	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-20 172240.png"">"	"<img src=""Screenshot 2024-05-20 172250.png"">"	
+IuX:q<S8:t	Basic	Programming - 1st year	Is String immutable ?	Yes, their contents cannot be changed	
+bPr|pI[r.[	Basic	Programming - 1st year	What does&nbsp;boolean matches(String regexp) return ?	This method will return true only when this string can be matched against the regular expression given in regexp.	
+Il|:[m9EKE	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-20 173101.png""><br>Output ?"	"<img src=""Screenshot 2024-05-20 173107.png"">"	
+PhBZyBLE,f	Basic	Programming - 1st year	For software testing, what is the difference between verification and validation ?	Verification : software correctly implements a specific function<br>-<br>Validation : software satisfies curtomer requirements	
+hA:3L>k^Po	Basic	Programming - 1st year	What is testing and why is it important ?	Software is tested to uncover errors that were made inadvertently as it was designed and constructed.&nbsp;<br>Testing often accounts for more project effort than any other software engineering activity.	
+v@ibfDfPk7	Basic	Programming - 1st year	"“I always test my code. I always run it a few times after I've finished writing the bit of code I've
+been working on.”<br>-<br>&nbsp;“There can’t be any bugs, I tested it”<br>-<br>&nbsp;“No, I already ran those tests, they were fine”<br>-<br>Are those software testing ?"	No<br>	
+d(+^$/NP;=	Basic	Programming - 1st year	"What a software testing should be instead of ""just running it"" ?"	Testing should be systematic, repeatable and objective.	
+g)R8t82F]a	Basic	Programming - 1st year	List some type of testing.	White-Box &amp; Black-Box Testing<br>Regression Testing<br>Functionality Testing&nbsp;<br>Performance Testing<br>Usability Testing<br>Security Testing<br>Installation Testing<br>User Acceptance, alpha and beta Testing	
+t.gn/C~e=,	Basic	Programming - 1st year	What is the definition of white box testing ?	Internal structure is known to the tester	
+f3IC?w^zFJ	Basic	Programming - 1st year	What is the definition of Black-Box Testing ?	Used to test the software without the knowledge of the internal structure of program or application	
+A@8,W+|4bB	Basic	Programming - 1st year	What does White-Box Testing emphasise on ?	Whether methods / data structures work correctly	
+s1ayum-%O*	Basic	Programming - 1st year	What does Black-Box Testing emphasis on ?	The relationship between input and output behaviours.	
+Ci1pb~`oql	Basic	Programming - 1st year	What should you need to know for White-Box Testing ?	Both programming and implementation knowledge are needed	
+y9h_4e;P=1	Basic	Programming - 1st year	Do you need programming and implementation knowledge for Black-Box Testing ?	No	
+"xbVK~_XQ}#"	Basic	Programming - 1st year	What is White-Box Testing usually tested by ?	Tester and developers	
+oy3G8e2@pc	Basic	Programming - 1st year	What is Black-Box Testing tested by ?	Performed by the end user, developer and tester	
+"u]_}k#wc0,"	Basic	Programming - 1st year	Do you need code access for White-Box Testing ? Is there any risk ?	Code access is required. Thereby, the code could be stolen if testing is outsourced.	
+w6]i>fKTX?	Basic	Programming - 1st year	Do you need code access for Black-Box Testing ? Is there any advantage ?	Code access is not required, and it can prevent code being stolen if testing is outsourced.	
+OL^-@}<D^e	Basic	Programming - 1st year	List which testing should go first :<br>-<br>Unit Testing, Integration Testing, System Testing	Unit Testing -&gt; Integration Testing -&gt; System Testing	
+"fkfDk;=#Z4"	Basic	Programming - 1st year	What does Unit Testing refer to ? Give an example	Testing code in small isolated pieces.<br>Imagine you have a function that takes an integer as input and returns the square of that number. You would test this function by providing different numbers as input and verifying that the output is correct.	
+CN=|=(Txn&	Basic	Programming - 1st year	What kind of testing a unit testing is ?&nbsp;	White-Box Testing	
+lv:,}O!2Rl	Basic	Programming - 1st year	What is unit testing executed by ?	Developers	
+yP/Dd!@@Dp	Basic	Programming - 1st year	What does Integration Testing refer to ?	Repeatedly testing the combination of larger and larger collections of code units.	
+h0$OH|v$w@	Basic	Programming - 1st year	When will you do Integration Testing ?	After Unit but before System	
+y.d6f4{3rw	Basic	Programming - 1st year	What kind of testing Integration Testing is ?	Mixed	
+foGyWO7IK/	Basic	Programming - 1st year	What is Integration Testing Executed by ?	Testers	
+g:~dZ=S@-v	Basic	Programming - 1st year	What does System Testing refer to ?	Testing the entirety of a developed system and its installation.	
+l!{l>o6PS<	Basic	Programming - 1st year	When will you do System Testing ?	End of development cycle	
+QCJFv0WlU[	Basic	Programming - 1st year	What kind of testing a system testing is ?	Black box	
+"kztz(>l#hB"	Basic	Programming - 1st year	What is System Testing executed by ?	Developers, testers, and end users	
+xdX$ZmA4AY	Basic	Programming - 1st year	Benefits of Unit Testing ?	Less time to write tests<br>Early bug detection<br>Improve design decisions<br>Enhance test documentation<br>Encourage better code<br>Faster and safer	
+j}`g@R3N-O	Basic	Programming - 1st year	To ensure the productivity, what should test do ?	Run fast : test small bit of code in isolation<br>Simplicity : only assert what is required<br>Be developed in parallel with the code	
+DS;S!/&6L1	Basic	Programming - 1st year	"Steps to do a unit test ?&nbsp;<br>1, Develop a suite of test cases<br>2, Identify the code that will be
+tested in isolation<br>3,&nbsp;Write a test harness to
+support the execution of
+each case in the suite"	2 -&gt; 1 -&gt; 3	
+r&l_vH2,{D	Basic	Programming - 1st year	What is the disadvantages of hand-coding ?	Expensive and tedious<br>Tests won't necessarily find all the problems	
+QcUs!Hz@9Q	Basic	Programming - 1st year	Meaning of seam in testing in isolation ?	The boundary between the unit under test and other classes that the unit collaborates with.	
+B*Or1baS<{	Basic	Programming - 1st year	When unit is being tested in isolation, what should all collaborating objects on the other side of the seam do ?	Other side of the seam for a given unit must be replaced somehow	
+HA9Ctr7sZB	Basic	Programming - 1st year	What is a stub class ?	A class that is used in testing to simulate the behaviour of real components. It used to replace real classes in testing to control the environment and responses.	
+"xU!t#_|PSL"	Basic	Programming - 1st year	How is a stub object used ?	Stub object is usually used for state verification.	
+z^7Q8p-]rx	Basic	Programming - 1st year	How is a mock object used ?	Mock object is mostly used for behaviour verification	
+Qe,)?9&wk_	Basic	Programming - 1st year	What is a mock in testing ?	Simulated objects that mimic the behaviour of real objects.	
+"Np`B#J,MQU"	Basic	Programming - 1st year	What is JUnit ?	JUnit is a testing framework for java	
+o7Ok!Yx-0{	Basic	Programming - 1st year	What does JUnit do ?	Provide an extension of Java that assists with the writing and execution of unit tests	
+sA]Tua3F-i	Basic	Programming - 1st year	Which version or above is JUnit 5 designed for ?	Java 8 (+)	
+b{Gc-r-eOD	Basic	Programming - 1st year	What annotation do you need for each test method ?	@Test	
+"rHi~Dz>#=="	Basic	Programming - 1st year	What is the naming principles of JUnit Test ? (how to name test class and test method)	Test Class -&gt; XXXTest<br>Test Method -&gt; testXXX	
+i7.tW{L0!]	Basic	Programming - 1st year	What do assertEquals() do ?	Check if expected and actual values are equal.	
+FNy-4Z2MOV	Basic	Programming - 1st year	In the last step of unit test, there have two cases which is SetUp and TearDown.<br>What is the meaning of @BeforeEach and @AfterEach ?	@BeforeEach : indicates that the method is a setUp method and the annotaion<br>All these methods are invoked before each test case is executed.<br>-<br>@AfterEach : indicates that the method is a tearDown method.<br>All these methods are invoked after each test case has finished&nbsp;	
+t%UlNqR9>P	Basic	Programming - 1st year	What methods are @BeforeAll and @AfterAll ?	Static methods	
+d,fiu;^n7N	Basic	Programming - 1st year	What does Timeout do in JUnit Test ?	Avoid getting stuck in badly coded non-terminating loops in your test suite.	
+g@Qab,[b*M	Basic	Programming - 1st year	Give an example of open source library and mock framework that create mock.	EasyMock	
+nKoT`*!Bz$	Basic	Programming - 1st year	What type of code value a Stub usually use when testing ?	Hard-coded values for simplicity when testing	
+Hi!8PWG;D0	Basic	Programming - 1st year	For Driver in testing, what does it mean ?	"It is something like a ""main program"" that accepts test case data, passes such data to the component to be tested, and prints relevant results.<br><img src=""Screenshot 2024-05-21 034223.png"">"	
+s$.U%eQ{3@	Basic	Programming - 1st year	What does EasyMock do ?	Provide support for generating Mock Objects for use in testing Java programs.	
+H6SdG[q[Xe	Basic	Programming - 1st year	Does EasyMock work in conjunction or disjunction with JUnit ?	Conjunction (and) so that JUnit AssertionError exceptions are thrown when tests fail due to invaild interactions with a mock object.	
+gZz>?QZ46q	Basic	Programming - 1st year	State the steps to create a mock	createMock for the interface to simulate<br>record the expected behaviour<br>switch the Mock Object to replay state<br>verify expected behaviours	
+j8O0Q7^`;`	Basic	Programming - 1st year	For EasyMock, which mode should you use in order to tell a Mock Object to expect certain behaviours ?	EasyMock initially creates the Mock objects in what is known as record mode.	
+o}_H`+*pW	Basic	Programming - 1st year	"After ""recording"" the behaviour what mode you can switch to ?"	You can switch the mock in to replay mode to let it execute.	
+eV%xzex^c:	Basic	Programming - 1st year	In order to check for the absence of an expected interaction on a mock, what mode should we use on the mock object ?	Use verify(mock) on the mock object.	
+EX&H~$JgN6	Basic	Programming - 1st year	In EasyMock, what does expect() do ?	use expect() so that we don't have to write EasyMock.something() everytime.	
+"AfWW]u#8/k"	Basic	Programming - 1st year	How is integration Testing different from unit testing ?	You are validating behaviours of systems that are more complete than a single unit	
+sF+>K`l:-O	Basic	Programming - 1st year	What are the four strategies for Integration Testing ?	Top Down Integration<br>Bottom Up Integration<br>Sandwich Integration<br>Big Bang Integration	
+c@pF,u^kxf	Basic	Programming - 1st year	What is Top Down Integration ?	Step1: Test the high-level modules in isolation (stub dependencies)<br>-<br>Step2: Add in the modules that the module in step 1 calls and test them together (stub lower dependencies)<br>-<br>Step3: Repeat step 2 until you have read the lowest level modules	
+fZ5^5VM`)/	Basic	Programming - 1st year	What is advantages if Top Down Integration ?	Because the entry point to the test is likely to be an entry point to the application, the drivers are easy to write.<br>-<br>You can localise faults easily due to the incremental nature of the tests<br>-<br>Early prototype of application is encouraged<br>-<br>Major design flaws show up early	
+ie^z6Pdl?Z	Basic	Programming - 1st year	What is the disadvantages of Top Down Integration ?	Lots of stubs and mock objects are required from step 1<br>-<br>Modules lowest in the hierarchy tested in context rather than in isolation. May not be sufficient if they are reused	
+JK&*CXU}7Q	Basic	Programming - 1st year	What is the steps of Bottom Up Integration ?	1, Test the low-level modules in isolation (there shouldn't be any stubbed dependencies)<br>2, Add in the modules that call the module in step 1 and test them together (again, no stubs)<br>3, Repeat step 2 until you have reached the highest level modules	
+j1i;mH[1hK	Basic	Programming - 1st year	Advantages of using Bottom Up Integration ?	You can localise faults easily due to the incremental nature of the tests<br>-<br>No, or few stubs<br>-<br>Reusable low-level modules tested throughly&nbsp;<br>-<br>Testing in parallel with development<br>-<br>Flaws show up early	
+PK=O6-Hh+_	Basic	Programming - 1st year	Disadvantages of Bottom Up Integration ?	Needs drivers - entry points to the modules not always clear<br>Logic of the overall solution only tested late in the process	
+nf_m_d7QsT	Basic	Programming - 1st year	What is Sandwich Integration ?	A hybrid of Top Down and Bottom Up, identify three layers of the system, top, middle and bottom, and test the top using a top down strategy, test the bottom using a bottom up strategy and include the middle after doing this.	
+EI72&QrKXc	Basic	Programming - 1st year	Advantage of Sandwich Integration ?	Mitigate the problems of using Top Down and Bottom Up Integration.	
+y/`^*$KuuV	Basic	Programming - 1st year	Disadvantage of Sandwich Integration compare to Top Down and Bottom Up ?	Complicated as an approach	
+u~vY1$INKa	Basic	Programming - 1st year	What is a Big Bang Integration ?	It refers to a non-incremental strategy in which each unit is tested thoroughly in isolation and then the whole system is integrated.	
+ct%?QS`&G4	Basic	Programming - 1st year	What is the advantages of Big Bang Integration compare to other tests ?	It can be less time-consuming than the others and is suitable for smaller systems.	
+l)v`@|eLvm	Basic	Programming - 1st year	What is the disadvantages of using Big Bang Integration ?	It can't be started until all units are complete.<br>Fault detection occurs late in the dev cycle.<br>Fault localisation is tricky, and it is easy to miss test / use cases	
+jpF70=dq^A	Basic	Programming - 1st year	What is enum Types ?	enum types are a means of modelling a variable with a discrete, finite number of values<br>	
+ePBz+W&Iau	Basic	Programming - 1st year	Advantages of enum Types in JavaFx ?	It provides type safety, modularity, clarity and flexibility	
+C6qUU,mP=$	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-21 114706.png""><br>What is the problem with static constants ?"	"Not typesafe<br>Uninformative, they are just integers<br>Brittleness,&nbsp;If a new constant is
+added between two existing constants or the order is changed, clients must be recompiled. If they are not, they will still run, but their behaviour will be undefined."	
+LDE;|,rfHa	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-21 114913.png""><br>What is the advantages of using enum type ?"	Type safe.<br>More informative<br>Errors can more easily be found at compile time than at run time	
+hsG5?5a2GE	Basic	Programming - 1st year	What is var in Java ?	Mimicking languages with weak typing	
+"n/gF#{/pZ="	Basic	Programming - 1st year	Restrictions of using var in Java ?	var variables must be initialised at declaration<br>-<br>var can only be used as local variables<br>-<br>You cannot reuse var local variables for a different type	
+b7j7y1]s2[	Basic	Programming - 1st year	What is binding in JavaFX ?	A mechanism that allows you to keep two components sycnchronised&nbsp;	
+fy7rxeveA:	Basic	Programming - 1st year	Directly linking interface elements with the underlying data model is messy, what should you use instead ?	Binding	
+Rb2.A`{XM2	Basic	Programming - 1st year	when binding values are changed, do you need to notify listeners ?	"No,&nbsp;JavaFX uses properties objects to implement
+binding. These automatically notify listeners
+when their values are changed"	
+fUnX&O)78w	Basic	Programming - 1st year	For event handler in JavaFx, how can you avoid full declaration ?	Uses lambda expression for the functional interface and var to avoid full declaration.	
+i(<=H0.Z|?	Basic	Programming - 1st year	Are EventHandlers a form of Listener ? Why ?&nbsp;	Yes. They listen for an event, and then act.	
+N/f-%&vi7]	Basic	Programming - 1st year	What is an Observer Plattern ?	Objects can subscribe to update from another object. When that object chages state, it notifies those other objects.	
+d99NSu[UV|	Basic	Programming - 1st year	What is the relationship of Listeners ?	One to Many&nbsp;<br>	
+v?[&]0o7Oj	Basic	Programming - 1st year	What does Communicator do ?	It handles network stuff	
+mf*%o}XCZc	Basic	Programming - 1st year	In JavaFX, what does GUI thread do ?	Runs the GUI loop and GUI events	
+ksSSAq}`$;	Basic	Programming - 1st year	Why is Simple properties useful in JavaFX ?	It gains the ability to listen and bind	
+lVJmr$0+w/	Basic	Programming - 1st year	What is a Stage in JavaFX ?	Top level container<br>JavaFX produces a primary stage<br>We can produce more stages&nbsp;	
+rs?klYWh%S	Basic	Programming - 1st year	What is a Scene in JavaFX ?	It holds the contents of the window<br>Held as a Scene Graph<br>We can change the scene in a stage	
+A2zXrrcQ=g	Basic	Programming - 1st year	What is a Node in JavaFX ?	Containers&nbsp;<br>Controls	
+g:Q0.]Pu}d	Basic	Programming - 1st year	What is a Scene Graph ?	Everything that makes up a scene	
+C?uN9mFy@:	Basic	Programming - 1st year	How many root node every scene must have ?&nbsp;	Exactly one	
+pJD+:MTP)x	Basic	Programming - 1st year	What does initialize() method do in JavaFX ?	Set things up in your computer program, like things you see one the screen, like buttons or lists. You don't need to call initialize() yourself, the computer does it for you.	
+"I)QqiTZJQ#"	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-21 124143.png""><br>Have a look at it"		
+Mbm=CSzG,`	Basic	Programming - 1st year	For components in JavaFX, please answer the following :<br>Is each component different ?<br>Do they have sensible constructors ?<br>Do they have specific methods ?	Each component is different<br>They have sensible constructors&nbsp;<br>Component specific methods	
+AI&zO&Bt`d	Basic	Programming - 1st year	What is BorderPane ?	A pane with top, left, right, bottom and centre placements	
+HyYbAfX3R-	Basic	Programming - 1st year	What can you do with BorderPane ?	"You can control what grows and what is fixed size easily.<br><img src=""Screenshot 2024-05-21 130350.png"">"	
+Jk[?m<_O9~	Basic	Programming - 1st year	What can you do with GridPane ?	"You can have as may rows and as many columns as you like and control their sizing appropriately, making it very flexible.<br><img src=""Screenshot 2024-05-21 130356.png"">"	
+H<rnIl!-gN	Basic	Programming - 1st year	What is the difference between VBox and HBox ?	VBox : displays components in a vertical orientation<br>HBox : displays components in a horizontal orientation	
+z6qr6[-r<E	Basic	Programming - 1st year	What does Pane do ?	Applies no layout to its inside elements at all<br>	
+c{D<BKa[pp	Basic	Programming - 1st year	What does StackPane do ?	"Displays everything in a front to back stack (most recent item at the front )<br><img src=""Screenshot 2024-05-21 130241.png"">"	
+C^.p*}x?0I	Basic	Programming - 1st year	What does AnchorPane do ?	"Anchors nodes to the top, bottom, left side or centre of the pane.<br><img src=""Screenshot 2024-05-21 130936.png"">"	
+uZJrlm7RQB	Basic	Programming - 1st year	What does FlowPane do ?	"Lays out children up to its borders, then will start a new line. Places them in order filling space in a flow&nbsp;<br><img src=""Screenshot 2024-05-21 131139.png"">"	
+LWoC~{N6gX	Basic	Programming - 1st year	What does TextFlow do in JavaFX ?	It is designed to lay out rich text.	
+"u8f5X43B#@"	Basic	Programming - 1st year	What does ScrollPane do ?	It enables you to scroll the content of what's inside it if they go out of the bounds of the outer container	
+AT)7![pvdM	Basic	Programming - 1st year	Give an example of when to use ScrollPane.	Having a messages list in a chat program.	
+yBFp!r,{;:	Basic	Programming - 1st year	If you want to build complex layouts, what can you do with the containers in JavaFX ?	"You can just mix and match the different types of container by nesting them<br><img src=""Screenshot 2024-05-21 131728.png"">"	
+e0n/<%zwP!	Basic	Programming - 1st year	In JavaFX, how can we enable cross-platform support ?	We need to include JavaFX dependencies for each platform we wich to target, to enable cross-platform support.	
+b?b-:JIGy[	Basic	Programming - 1st year	What is the Maven Shade plugin used for ?	It can be used to build your custom connector library .jar bundled with all of its library class dependencies which ensures its library class dependencies do not conflict at runtime with other versions of any libraries already being used.	
+nK;?&PAdIi	Basic	Programming - 1st year	Whaet jar can we you if we want to distribute a JavaFX application with libraries ?	We need to use uber or fat jar	
+NK3.a%B|bQ	Basic	Programming - 1st year	"What does #include &lt;stdio.h&gt; do ?"	Tells the compiler to insert text from the header into the source code	
+K>R}!L$bQ7	Basic	Programming - 1st year	What is %i in C ?	%i is a placeholder, it tells the routine to display the corresponding argument, which has to be of the type specified by i.	
+O7?:hoyA8u	Basic	Programming - 1st year	Write a line of code of how you type values into the program.<br>Given int number;&nbsp;	"scanf(""%i"", &amp;number);"	
+Bj`}!!O[+1	Basic	Programming - 1st year	"What is the meaning of &amp;vaue in<br>scanf(""%i"", &amp;value); ?&nbsp;"	&amp;value specifies where the value entered by the user is to be stored.	
+"sRD#Jb$aV("	Basic	Programming - 1st year	In C, what value means satisfied ?	Satisfied means nonzero.	
+h<}i[}|YT*	Basic	Programming - 1st year	What is the output of&nbsp;<br>if (number = 100) in C ?	True	
+e,Sq[hEeY/	Basic	Programming - 1st year	What is the output of&nbsp;<br>if (number = 0)&nbsp;<br>in C ?	False	
+j_^Kkb,EtB	Basic	Programming - 1st year	Write a line of code of initializing 5 elements of an array.	int array[5] = {0, 1, 2, 3, 4}	
+EN|smO6{NA	Basic	Programming - 1st year	In C, can you define an array without specifying the number of elements ?	Yes	
+IR[gipyAXF	Basic	Programming - 1st year	What does sizeof operator do in C ?	THe sizeof operator tells you how much space is taken by a variable.	
+n%YbAQE5X0	Basic	Programming - 1st year	What does sizeof return in C ?	It returns the number of bytes of var.	
+mFp*U]bI,H	Basic	Programming - 1st year	What is the equation of number of bytes required to store an array ?	The number of bytes for the array type times the number of its elements.	
+y`ma5YtFE(	Basic	Programming - 1st year	In C, when a compiler runs, for each variable, what does it know ?	Its name, type, size in bytes and memory location	
+y9{O`=ZOTQ	Basic	Programming - 1st year	What is a pointer ?	A pointer is a variable that holds a memory address.	
+OI[F7u]&I;	Basic	Programming - 1st year	In C, how to declare and initialise a pointer ? Given float value;	float *pointer;<br>pointer = &amp;value;	
+F_ayOE6?Qi	Basic	Programming - 1st year	Do you need * to a pointer after the pointer variable is initialised ?	No	
+|m{3C2p`/	Basic	Programming - 1st year	How do you initialize the pointer and assigns it to the address of an array ?	"Sine the compiler knows the array is an address, you do not need the operator &amp; in front of the array.<br><img src=""Screenshot 2024-05-21 160014.png"">"	
+v/@7ZND~?.	Basic	Programming - 1st year	Do you need ti use &amp; when you assign the address of an array element to a pointer ?	Yes	
+u=X3cPgH&6	Basic	Programming - 1st year	Can you declare an arrary and its size using pointer ?	No	
+iM)KzDmm67	Basic	Programming - 1st year	For *c++ in C, which operator goes first ?	++ is more binding than *, so, it tells the compiler to apply ++ to c, and then extract the content of the memory address with *	
+KE_vOJW<?:	Basic	Programming - 1st year	"<img src=""Screenshot 2024-05-21 162206.png"">"	The code will still compile successfully but with warnings.	
+ykl>Ufpr~5	Basic	Programming - 1st year	How C manage memory ?	Statically, locally and dynamically	
+q@jt68cr5D	Basic	Programming - 1st year	How static variables are allocated ?	They are allocated in the main memory and persist for the lifetime of the program.	
+F8:o4o716i	Basic	Programming - 1st year	How automatic variables are allocated ?	Automatice variables are allocated and deallocated to the stack automatically (for instance, when calling functions)	
+"B}3*#J[qU."	Basic	Programming - 1st year	How dynamic memory is managed?	Dynamic memory is explicitly managed and it can be allocated from the heap.	
+fx$dscE9Vi	Basic	Programming - 1st year	What can you do when memory is not need anymore in C ?	You can deallocate it and return it to the heap	
+NVZt)$hq}S	Basic	Programming - 1st year	"Which one of the following statements about recursive programming is <b>true ?<br></b><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion is a pattern of self-definition known to be safe.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion can be used to define data types as well as methods.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Tail recursive methods can be optimised to run as efficiently as iterative ones.</span></div></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">A recursive method without a base case will run forever.</span></div></div>"	"<table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion is a pattern of self-definition known to be safe.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Recursion can be used to define data types as well as methods.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><div><span style=""font-weight: inherit; font-style: inherit;"">Tail recursive methods can be optimised to run as efficiently as iterative ones.</span></div></div></div></td></tr><tr><td></td><td></td><td><br></td></tr></tbody></table><br>"	
+qR|wvVZTc,	Basic	Programming - 1st year	"Which one of the following statements about Java programming is <b>true ?<br><br></b><table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">The try/catch statement is used to define the scope of exception handling logic.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div></td></tr><tr><td>After handling the exception, the handler can resume execution at the point it was thrown<br>Checked exceptions are tracked by the Java compiler.<br>Throwing an exception transfers control to the nearest matching handler.<br></td><td></td><td><br></td></tr></tbody></table>"	"The try/catch statement is used to define the scope of exception handling logic.<br><table><tbody><tr><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Checked exceptions are tracked by the Java compiler.</span></div></div><div><span style=""font-weight: inherit; font-style: inherit;""><br></span></div><div><table><tbody><tr><td></td><td></td><td><div><div><span style=""font-weight: inherit; font-style: inherit;"">Throwing an exception transfers control to the nearest matching handler.</span></div></div></td></tr></tbody></table></div></td></tr></tbody></table>"	
+QjPvvUWf~}	Basic	Programming - 1st year	Explain function&nbsp;int main (void) { } in C.	int means main returns an integer value.<br>main is the name of the function<br>void means main takes no argument	
+"fY{v%s#WZr"	Basic	Programming - 1st year	Give two example of functions in C.	printf scanf	
+QDn([y-(/W	Basic	Programming - 1st year	How to define a function ?	type name (type argument, type argument ...){ }	
+Dx_p2H,@R=	Basic	Programming - 1st year	Can you define functions with multiple arguments ?&nbsp;	Yes	
+n*4qUd_tlg	Basic	Programming - 1st year	Can some of the arguments of a function be an array in C ?	Yes	
+gCmQmN>-Yn	Basic	Programming - 1st year	What does typedef do ?	It allows you to assign an alternate name to data types&nbsp;	
+x-Td+i-p$[	Basic	Algorithms - 1st year	Time complexity of insertion sort ?	Best : O(n)<br>Average : O(n^2)<br>Worst : O(n^2)	
+"j#{_6=LjFK"	Basic	Algorithms - 1st year	What is the space complexity of insertion sort ?	O(1)	
+hC[Z)8iHXR	Basic	Algorithms - 1st year	What is the time complexity of selection sort ?	Best : O(n^2)<br>Average : O(n^2)<br>Worst : (n^2)	
+Re4pPT4K)7	Basic	Algorithms - 1st year	What is the space complexity of selection sort ?	O(nk)	
+J6tGdXNTO+	Basic	Algorithms - 1st year	What is the time complexity of bubble sort ?	Best O(n)<br>Average : O(n^2)<br>Worst : O(n^2)<br>	
+Mvk)=!a|Z(	Basic	Algorithms - 1st year	What is the space complexity of bubble sort ?<br>	O(1)	
+uD@mKf`+^P	Basic	Algorithms - 1st year	What is the time complexity of merge sort ?	Best : O(n log n)<br>Average : O(n log n)<br>Worst : O(n log n)	
+l>Us-7Ll>7	Basic	Algorithms - 1st year	What is the space complexity of merge sort ?	O(n)	
+no>z-6`V>>	Basic	Algorithms - 1st year	What is the time complexity of Quick Sort ?	Best : O(n log n)<br>Average : O(n log n)<br>Worst : O(n^2)	
+tR>|h5`59!	Basic	Algorithms - 1st year	What is the space complexity of Quick Sort ?	O(n)	
+e2u!s)cO|i	Basic	Algorithms - 1st year	What are the simple sorts and what are their run-times ?	Insertion sort, Selection sort, Bubble sort. Worst case = O(n^2)	
+tq5R?i4I}Q	Basic	Algorithms - 1st year	What is the time complexity of inserting an item into a Linked List of n elements ?	Best : O(1)<br>Average : O(n)<br>Worst : O(n)	
+p!L]H]Wthk	Basic	Algorithms - 1st year	What is the time complexity of searching for an element in a binary tree ?	Best : O(1)<br>Average : O(logn)<br>Worst : O(logn)	
+t[<sUS[|:P	Basic	Algorithms - 1st year	Is standard Heap Sort in place or not ?	It's in place&nbsp;	
+dc))z`LB5O	Basic	Algorithms - 1st year	What is the worst case of Heap sort ? Why ?	It O(n log n). The process of building the heap takes O(n) time, and each of the n extraction operations takes O(log n) time.&nbsp;<br>O(n) + O(n log n) = O(n log n)	
+o&PI/M/vYQ	Basic	Algorithms - 1st year	What is the time complexity of add/remove in Heap Sort ?	O(logn)	
+jpGeP(ZjC;	Basic	Algorithms - 1st year	What are the two operations of Heaps ?	add and removeMin	
+p!,X?v]VOm	Basic	Algorithms - 1st year	What is the time complexity for Heaps to add and removeMin ?	Both are&nbsp;Ɵ(log(n))	
+H%`|9W)luz	Basic	Algorithms - 1st year	What is the time complexity of Skip Lists ?	Θ(log(n))	
+`DAsZc]R*	Basic	Algorithms - 1st year	Time complexity of Quick-FInd ?	Initialisation : O(n)<br>Find : O(1)<br>Union : O(n)	
+"G%rU%.,-d#"	Basic	Algorithms - 1st year	Time complexity of hash ?	Average : O(1)<br>Worst : O(n)	
+r/;5Y$LSuH	Basic	Algorithms - 1st year	Time complexity of Bellman-Ford ?	The initialization is O(|V|)<br>The double loop is O(|V| * |E|)	
+g*`8sLVo/W	Basic	Algorithms - 1st year	Is Bellman-Ford or Dijkstra faster ?	Dijkstra	
+b(Ke~/6Fp_	Basic	Algorithms - 1st year	Which algorithm can deal with negative edge weights graphs ? Bellman-Ford or Dijkstra ?	Bellman-Ford	
+mi-lhZ:IS{	Basic	Algorithms - 1st year	What is the time complexity of Dijkstra's alorithm using a min-heap on a sparse graph ?	O((|V| + |E|) log |V|)	
+Pr*~pjBT|7	Basic	Algorithms - 1st year	Time complexity of priority queue to insert and delete ?	O(log n)	
+tO*q?+@!Oe	Basic	Algorithms - 1st year	Time complexity of Kruskal's algorithm ?	O(m log m), where m is the number of edges in the graph. This complexity is because the algorithm uses a priority queue with a time complexity of O(log m). However, the space complexity of the algorithm is O(m)	
+C`e^[zaS[v	Basic	Algorithms - 1st year	What is the space complexity of Kruskal ?	O(n)	
+qtx*fZ!0(W	Basic	Algorithms - 1st year	What is the time complexity of Prim's Algorithm ?	O(m log n)<br>Explain :<br>The dominant term comes from the execution of line 10 which is O(log n) and executed O(m) times for a total of O(m log n)	
+N6XU)vG5Eu	Basic	Algorithms - 1st year	Which algorithm runs faster in dense graphs, Prim or Kruskal ?	Prim	
+trCZ&m*sq<	Basic	Algorithms - 1st year	Which algorithm runs faster in sparse graphs, Prim or Kruskal ?	Kruskal	
+AIG^QdGdk@	Basic	Algorithms - 1st year	What is the time complexity of vertex cover ?	O(nk^2 2^k)	
+D-%ZbCE3{]	Basic	Algorithms - 1st year	"Answer is the following stable / in place&nbsp;<br><img src=""Screenshot 2024-05-23 153132.png"">"	"<img src=""Screenshot 2024-05-23 153142.png"">"	
+"G+zH6sq#W>"	Basic	Algorithms - 1st year	Which one is more efficient, Lomuto or Hoare ?	Hoare	
+d{O=RSd-K0	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 170552.png""><br>What is the result of this min-heap ?"	"<img src=""Screenshot 2024-05-23 170620.png"">"	
+uL->7Se4iN	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 170754.png"">"	"<img src=""Screenshot 2024-05-23 170806.png"">"	
+Rh4MvCgDH	Basic	Algorithms - 1st year	Draw a min-heap using the following elements :<br>0, 9, 54, 12, 13, 54, 89, 78<br>After it, do the following :<br>removeMin()<br>insert 1 and 14&nbsp;	"<img src=""Screenshot 2024-05-23 171120.png"">"	
+mQ(4A$W84-	Basic	Algorithms - 1st year	Use the following elements to form an AVL tree :<br>5, 3, 10, 2, 4, 7, 11, 1, 6, 9, 12, 8<br>Then remove 5	"<img src=""Screenshot 2024-05-23 172555.png"">"	
+"fd4t05Fi!#"	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 172704.png"">"	"<img src=""Screenshot 2024-05-23 172752.png"">"	
+h6]X{jm2q5	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 172718.png"">"	"<img src=""Screenshot 2024-05-23 172852.png"">"	
+QsPl$PXyy]	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 172725.png"">"	"<img src=""Screenshot 2024-05-23 172912.png"">"	
+zx3_Yi+.Qt	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173021.png"">"	9	
+LWt3Yq*BL|	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173040.png"">"	b,c,e<br><div><div>Root: 5</div><div>First nodes (keys): 3 / 7,9</div><div>Leaf nodes: 1,2 / 3,4 / 5,6 / 7,8 / 9,10</div></div>	
+G}i]66=iA(	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173032.png"">"	7	
+tj3/ZOt~F9	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173241.png"">"	d<br>Merge sort takes about the same amount of time O(n log n) to sort arrays of the same size, regardless of their initial order. Merge sort is insensitive to input.	
+KroDrKC,yF	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173334.png""><br>When&nbsp;a&nbsp;=&nbsp;{4, 9, 8, 6, 3}&nbsp;and you run SORT(a), which sentences are true? Choose all.<br><img src=""Screenshot 2024-05-23 173347.png"">"	a, b	
+enwM*zNI@v	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 173446.png""><br><img src=""Screenshot 2024-05-23 173459.png"">"	d, you still get sorted output but the system becomes unstable	
+Q@j-}>Fk{L	Basic	Algorithms - 1st year	Which tree only contains data pointers in leaf nodes, and internal nodes contain keys only ? B or B+ Tree ?	B+ Tree	
+F[XVK!GMrF	Basic	Algorithms - 1st year	Which Tree is possible to have sequential access ? B Tree or B+ Tree ? Why ?	B+ Tree, because leaf nodes are linked to each other, which is possible like a linked list.	
+bY/nv.:`^I	Basic	Algorithms - 1st year	Which one search, insert and delete faster, B Tree or B+ Tree ?	B+ Tree	
+Q%Al|BYnr/	Basic	Algorithms - 1st year	What does a Trie usually do ?	A Trie, or digital tree, is a multiway tree often used for storing large sets of words.	
+ff6`%az-Ys	Basic	Algorithms - 1st year	"Which tree have all words end with a special letter ""$"" ?"	"Trie<br><img src=""Screenshot 2024-05-23 175957.png"">"	
+j~8GCN3uqs	Basic	Algorithms - 1st year	Which one is quicker, Trie, binary trees or hash tables ?	Trie	
+CJ-oV%6Qt_	Basic	Algorithms - 1st year	What is the disadvantages of Tries ?	Tries typically waste large amounts of memory.	
+"y#ps_+uw(Y"	Basic	Algorithms - 1st year	Is Union-Find a dynamic set of elements partitioned into disjoint (non-overlapping) subsets ?	Yes	
+tqng5eT$wY	Basic	Algorithms - 1st year	What is the two operators in Union-Find ?	Find : determine which subset a particular element is in<br>-<br>Union : merge two subsets into a single subset	
+N>AefSL04T	Basic	Algorithms - 1st year	Time complexity of Quick-Union ?	Initialization : O(n)<br>Find : O(n) (worst case due to tree height)<br>Union : O(n) (inefficient for large n)<br>	
+skPRe{jd:;	Basic	Algorithms - 1st year	What is the time complexity of weighted Quick-Union ?	Find and Union operations improve to O(log n) compare to Quick-Union	
+B{+8XdFag/	Basic	Algorithms - 1st year	What is the time complexity of Path Compression ?	O(logn)	
+MQ4,w<zdT/	Basic	Algorithms - 1st year	What is the time complexity of weighted quick-union with path compression ?	Initialisation : O(n)<br>Find : O(log n)<br>Union : O(log n)	
+yPd84zkV&2	Basic	Algorithms - 1st year	What are the examples of divide and conquer algorithms ?	Merge sort<br>Quick sort<br>Binary search	
+F,[qn2)NN9	Basic	Algorithms - 1st year	What is the meaning of divide-and-conquer ?	Separating the array into two parts depending on whether the elements are smaller or greater than some pivot elenment; recurse on both parts until the array is sorted	
+"C#`zcL<Dq4"	Basic	Algorithms - 1st year	What is the running time of Radix Sort ?	It depends on the sorting algorithm used in the loop	
+n8MnrX/=RG	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 202944.png""><br>Use counting sort to solve it&nbsp;"	"<img src=""Screenshot 2024-05-23 203035.png""><img src=""Screenshot 2024-05-23 203030.png""><img src=""Screenshot 2024-05-23 203019.png""><img src=""Screenshot 2024-05-23 203049.png"">"	
+D$n?vq.E3Y	Basic	Algorithms - 1st year	Is DFS or BFS more memory efficient ?	DFS. DFS uses less memory than BFS	
+"y$3cImB(~#"	Basic	Algorithms - 1st year	For time efficiency, which one is better, DFS or BFS ?	DFS	
+HZC^]%5Q?o	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203656.png""><br><img src=""Screenshot 2024-05-23 203713.png"">"	"<img src=""Screenshot 2024-05-23 203727.png"">"	
+L-BX9H_AMq	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203740.png"">"	"<img src=""Screenshot 2024-05-23 203753.png"">"	
+GF~0lK-aYF	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203809.png""><br><img src=""Screenshot 2024-05-23 203824.png"">"	a b d f	
+Bq,+ZIQz-t	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203850.png""><br><img src=""Screenshot 2024-05-23 203901.png"">"	2, vertex b	
+p=X5H-~Wzd	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203928.png"">"	vertex d	
+bBIfh[dA}J	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 203948.png""><br><img src=""Screenshot 2024-05-23 203959.png"">"	"<img src=""Screenshot 2024-05-23 204010.png"">"	
+kl!F|(2&?f	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204037.png""><br><img src=""Screenshot 2024-05-23 204054.png"">"	"<img src=""Screenshot 2024-05-23 204104.png"">"	
+e4()BwDEF$	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204124.png""><br><img src=""Screenshot 2024-05-23 204137.png"">"	"<img src=""Screenshot 2024-05-23 204151.png"">"	
+v-]}<q,T(%	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204357.png"">"	"<img src=""Screenshot 2024-05-23 204414.png"">"	
+ictvl|O^iP	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204428.png"">"		
+i&;~Wj[Oiv	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204444.png"">"	"<img src=""Screenshot 2024-05-23 204504.png"">"	
+FoS!4[pz%J	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204518.png""><br>Answer the following (True or False):<br>The value of x1 is deduced<br>The value of x3 is duced&nbsp;<br>DPLL will backtrack on x1<br>The formula is satisfiable&nbsp;"	"<img src=""Screenshot 2024-05-23 204620.png"">"	
+o_WheMAX}q	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204646.png"">"		
+jT8Q$X%NkM	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204805.png"">"	"<img src=""Screenshot 2024-05-23 205032.png"">"	
+D<e[9*qup?	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204825.png"">"	"<img src=""Screenshot 2024-05-23 205109.png"">"	
+o!bZdRRW5O	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204831.png"">"	top1 + 1 != top2	
+"l#a<@^2}x0"	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204837.png"">"	"<img src=""Screenshot 2024-05-23 205237.png"">"	
+I~JL}p%PzK	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204843.png"">"	insert(element, priority)<br>deleteMinimum()	
+m15FOnb+}`	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204850.png"">"	"<img src=""Screenshot 2024-05-23 205347.png"">"	
+AN4D-Gjy]%	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204935.png"">"	Return the last but one element of the list if this exists, and null otherwise<br>	
+p,%D^GI72R	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204942.png"">"	head = previous	
+MwQsm^L&[2	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204948.png"">"	"The worst-case time complexity of&nbsp;<span style=""font-weight: inherit; font-style: inherit;"">M</span>&nbsp;is Theta(n), where n is the length of the linked list."	
+Eb5o5MQMA8	Basic	Algorithms - 1st year	"<img src=""Screenshot 2024-05-23 204953.png"">"	"<img src=""Screenshot 2024-05-23 205556.png"">"	
+CMR^r={,1Z	Basic	Algorithms - 1st year	Are the following stable ?<br>Merge sort<br>Counting&nbsp;<br>Radix&nbsp;	Yes	
+l_mlJ`<S7c	Basic	Algorithms - 1st year	Are the following algors in place ?<br>Merge Sort<br>Counting Sort<br>Radix Sort	No	
+t%vbcRhp5P	Basic	Data management - 1st year	What can an operation system do ?	Most important:<br>Enables the computer hardware to communicate and operate with the software.<br>-<br>Resource allocation: Manages access to the computer's CPU, memory and storage.	
+cfl/z~jNB(	Basic	Data management - 1st year	Three key-features of an OS ? (Hint: multi)	Multi-tasking<br>Multi-processing<br>Multi-user	
+n!/OYB6]u^	Basic	Data management - 1st year	What is multi-user ?	Allows for multiple users to use the same computer at the same time/ or different time	
+w0vq>y|2A1	Basic	Data management - 1st year	Example of multi-user server ?	UNIX servers	
+Fk)wdTS~q8	Basic	Data management - 1st year	What is multiprocessing ?	An OS capable for supporting and utilizing more than one computer processor.	
+O`_d<BcSIe	Basic	Data management - 1st year	What is multi-tasking ?	An OS that is capable of allowing multiple software processes to run at the same time	
+xE[$4>ze0u	Basic	Data management - 1st year	Roughly talk about the philosophy of UNIX.	"Make each program do one thing well.<br>To do a new job, build afresh rather than complicate old programs by adding new ""features"".<br>-<br>Expect the output of every program to become the input to another, as yet unknown, program.<br>Don't clutter output with extraneous information<br>-<br>Design and build software, even operating systems, to be tried early, ideally
+within weeks. Don't hesitate to throw away the clumsy parts and rebuild
+them.<br>-<br>Use tools in preference to unskilled help to lighten a programming task,
+even if you have to detour to build the tools and expect to throw some of
+them out after you've finished using them."	
+"wd>T?F${~#"	Basic	Data management - 1st year	Will bug affect entire system in UNIX ? Why ?	No, GUI separated from UNIX kernel.	
+ebJsuc+.j*	Basic	Data management - 1st year	Is Linux Free and open-source ?	Yes	
+"e#P,A{*25."	Basic	Data management - 1st year	What operating system is Linux based on?	UNIX	
+m:~k+~B!AO	Basic	Data management - 1st year	What is the advantages of Linux ?	"It's largely ""virus-free"""	
+q[Y}:+tp,J	Basic	Data management - 1st year	What do /bin and /usr/bin store ?	It stores several commonly used programs	
+E,0/>|r4f_	Basic	Data management - 1st year	Where is the Meta-information stored on a UNIX file ?	It is stored in an Index Node - inode data structure.	
+PSa@v&NVg(	Basic	Data management - 1st year	How's a Inode data-structure is referenced ?	It is referenced by a number	
+K7!z$2N(88	Basic	Data management - 1st year	If I want to find the inode number of file.txt on Linux, what should I write ?	After you are in the directory of file.txt, use ls -i file.txt to find the inode number	
+kQvrajtpg)	Basic	Data management - 1st year	What is the advantage of keeping the meta-data separate from the contents of the file?	"Moving files from one directory to another is easy and fast<br>-<br>A user can rename or delete a file even if
+another application has opened it and is
+working on it. So no application can “hijack” a
+file."	
+w=W=Ywk1]i	Basic	Data management - 1st year	How to find your current absolute path ?	pwd	
+NM60({|a&e	Basic	Data management - 1st year	How to list the files in the current directory ?	ls<br>	
+AagD^I`uNR	Basic	Data management - 1st year	What is the meaning of d in&nbsp;drwxr-xr-x. ?	Directory	
+fBW5)|%zjc	Basic	Data management - 1st year	Can command options be combined ?	Yes	
+BuuL~rQbG8	Basic	Data management - 1st year	What is the meaning of ls -ltrh ?	List files by time (t) in reverse order (r) with long listing (l) and human readable format (h)	
+frINi)Hg6J	Basic	Data management - 1st year	Which path begin with a forward slash (/) ? Absolute or relative ?	Absolute path	
+t!c(Y,&KU(	Basic	Data management - 1st year	What operation can you use to shortcut to your home directory ?<br>Use the example :<br>/home/students/downloads	tilde (~)<br>~/downloads	
+yY@?UPn%bL	Basic	Data management - 1st year	For /home/students/, which one is your home directory ?	students	
+"HyB=}oMgA#"	Basic	Data management - 1st year	How to change the absolute path<br>/home/faculty/sarwar<br>to relative path ?	../faculty/sarwar<br>	
+"F#).wyQ}Jy"	Basic	Data management - 1st year	Where does cd without any arguments take you to ?	Home directory	
+"P:`czG#-=["	Basic	Data management - 1st year	What operation can you use to find out type of file ?	file [path]	
+Fvm<<H5CsB	Basic	Data management - 1st year	"Which of the following are treated as files in UNIX ?<br>• a text file,
+<br>• a directory,
+<br>• your keyboard (standard input) and your monitor (standard output)"	All&nbsp;	
+xitF)b+5j-	Basic	Data management - 1st year	Is UNIX filenames case sensitive ?	Yes	
+w,hBi|gMty	Basic	Data management - 1st year	How to create a new file in UNIX ? For example I want to create a new file call file.txt	touch file.txt	
+K?>QaMM_5O	Basic	Data management - 1st year	cd My lecture documents<br>UNIX seen it as 3 command line arguments, how can you solve it ? Give two example.	"1, Use sing('...') or double (""..."") quotes<br>2, Use escape character, which is a \<br>-<br>cd 'My lecture documents'<br>cd My\ lecture\ documents"	
+r=+]7xT2R,	Basic	Data management - 1st year	What are names beginning with a . (dot) considered to ? What should we do?	Names beginning with a dot are considered to be hidden.<br>Use ls -a to show all files (including hidden files)	
+x^a+0{EE$)	Basic	Data management - 1st year	What does this command do ?<br>mkdir [options] &lt;directory name&gt;	Make directory	
+yq`$GNU/iO	Basic	Data management - 1st year	What does&nbsp;rmdir [options] &lt;directory name&gt; do ?	It removes the directory	
+o9hOof%g6v	Basic	Data management - 1st year	Is it true that the directory must be empty before it is removed ?	Yes	
+t^T{i{[O=H	Basic	Data management - 1st year	What does&nbsp;rm [options] &lt;filename&gt; do ?	delete file&nbsp;	
+u-c/jpnNmA	Basic	Data management - 1st year	What does rm -r &lt;directory name&gt; do ?	Remove non-empty directory	
+uO&R240&K[	Basic	Data management - 1st year	What does&nbsp;cp [options] &lt;source&gt;&lt;destination&gt; do ?	Copying files and directories	
+AX3+6k;]1O	Basic	Data management - 1st year	What does mv [options] &lt;source&gt;&lt;destination&gt; mean ?	moving files and directories	
+mJy.`Jt,p,	Basic	Data management - 1st year	List three operators to create file which is non-empty in UNIX.	nano (or pico)<br>vi<br>emacs	
+Dns?AR3hT%	Basic	Data management - 1st year	If you want to just display a file in UNIX, what command should you use ?	cat<br>less<br>head<br>tail	
+NMH|Btn4%X	Basic	Data management - 1st year	Which one is good to view very large files, less or cat ?	less	
+Atz9BGo5hw	Basic	Data management - 1st year	Which command is good to view simple files ? Why ?	cat, it dumps the contents of the entire file to standard output	
+tW1Lb&wi~<	Basic	Data management - 1st year	What does&nbsp;head [options] &lt;file name&gt; do ?	Display the top part of the file&nbsp;	
+t$2&CMc]%@	Basic	Data management - 1st year	What does tail[options] &lt;file name&gt; do ?	Display the last part of the file	
+w<d)-I3rDy	Basic	Data management - 1st year	What is a version control system ?	A system that records changes to file(s) over time so that you can recall specific versions later	
+li,}c~Rf]H	Basic	Data management - 1st year	What does Version Control allow you to do ?	Roll-back or revert selected files back to a previous state<br>Revert the entire project back to a previous state<br>Compare changes overtime<br>See who last modified something that might be causing a problem<br>Who introduced an issue and when.	
+L4hgsROTz7	Basic	Data management - 1st year	What is the three types of version control ?	Local<br>Centralized (e.g. Subversion)<br>Distributed (Git)	
+NZ?IFS},8W	Basic	Data management - 1st year	Major issue of local version control system ?	"People need to collaborate with developers on other systems<br><br><img src=""Screenshot 2024-05-25 134302.png"">"	
+nnw4ax*)[A	Basic	Data management - 1st year	What is a local version control system ?	Simple database that kept all the changes to files under revision control	
+rW4rNh?/M,	Basic	Data management - 1st year	What is a centralized version control system ?	"A single server that contains all the versoin files. Clients check out files from that central place.<br><img src=""Screenshot 2024-05-25 134616.png"">"	
+"C2#L;/2]J3"	Basic	Data management - 1st year	What is the advantage of centralized version control system ?	More collaborative. Everyone on the team knows what others are doing	
+hFLLV[sPjw	Basic	Data management - 1st year	What is the downside of centralized version control system ?	If the server goes down, then during that time nobody can collaborate at all. If hard disk is corrupted, you can lose the entire history of the project	
+EK6gkwr|p2	Basic	Data management - 1st year	What is distributed version control ?	"Clients don't just check out the latest snapshot of the files. Rather, clients fully mirro or ""clone"" the entire codebase, including its full history."	
+z^8lx>?fY>	Basic	Data management - 1st year	What is the advantage of using distributed version control system like git ?	If any server crashes, any of the client repositories can be copied back up to the server to restore it	
+C8}ek_le/	Basic	Data management - 1st year	"Write command lines that do the following :<br>add shopplist.txt to git<br>commit a message that says ""Updated shopping list - added Soup"""	"git add shopping.txt<br>git commit -m ""Updated shopping list - added Soup"""	
+kVylm]6iTm	Basic	Data management - 1st year	What does&nbsp;Check out/Pull do in Git ?	Download a file from the remote repository	
+jJr_Oej->8	Basic	Data management - 1st year	What does Check in/Push do in Git ?	"Upload a file to the remote repository (if it has changed). The file gets a new revision number, and people can ""check out"" the latest one."	
+q&+:z451cE	Basic	Data management - 1st year	What do Branches do in Git ?	Branches let us copy code into a separate folder so you can work with it separately.	
+js<zk1k~z;	Basic	Data management - 1st year	Will the changes in the branch affect the main trunk ?	No	
+KPYTmVJCgW	Basic	Data management - 1st year	How can you avoid conflict when merging files ?	Users commit their changes regularly	
+s|nPHQ!v)0	Basic	Data management - 1st year	What do new features in branch do to get them into Main?	Reverse Integrated	
+fbm[Zibutx	Basic	Data management - 1st year	What do Main do to put latest changes into the branch ?	Forward Integrated	
+Fz8(.aCY8O	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-25 145456.png""><br>Have a look at it"		
+roVCxJpl=c	Basic	Data management - 1st year	How can you print a count of number of lines, words and characters ?	Use wc	
+rx?;a{CKYS	Basic	Data management - 1st year	"Why it doesn't remove duplicate lines after this cmd
+cat neighbourhood_groups_data.dat | uniq &gt; finalNeighbourhood.dat"	You have to sort it out first because uniq only works on adjacent duplicate lines	
+:UKel2L|9	Basic	Data management - 1st year	Does every process have assign unique process identifier (PID) ?	Yes	
+B-,wz8JAN+	Basic	Data management - 1st year	What is a process ?	A process is simply a program in execution	
+FzD&1,>**P	Basic	Data management - 1st year	How do you give a file executable permissions?	chmod u+x program-name	
+"M%;HHj0]l#"	Basic	Data management - 1st year	How&nbsp;to run the program located in your current directory ?	Use prefix ./	
+y.?>IVZ9}z	Basic	Data management - 1st year	What does echo do ?	Display text or output to the terminal	
+NVJ{b%%]._	Basic	Data management - 1st year	What does&nbsp;ps [options] do ?	View the processes that you're running	
+i=T<vWYQ,1	Basic	Data management - 1st year	What does &amp; do in ./helloworld.sh ?	Returns PID (process id)	
+B}}E[uaWAf	Basic	Data management - 1st year	"PID of helloworld.sh = 1212<br>What does ""kill 1212"" do ?"	Terminate a process	
+I~BiY:|va:	Basic	Data management - 1st year	How to move process to the background?	Use bg	
+"nrIGk)zB#l"	Basic	Data management - 1st year	How to move process to the foreground?	Use fg	
+iP!v:kM;-M	Basic	Data management - 1st year	Difference between foreground process and background process ?	<ul><li><strong>Foreground Process</strong>: A process that takes control of the terminal and prevents you from using the terminal until it finishes.</li><li><strong>Background Process</strong>: A process that runs independently of the terminal, allowing you to execute other commands while it runs.</li></ul>	
+Qn?$8x:8Zi	Basic	Data management - 1st year	Which command view real-time data about processes running on the system ?	top	
+I1c6{4x[OJ	Basic	Data management - 1st year	"Say you are running a UNIX script. It is still going to take another hour
+to finish, but you have to log off. <br>What would happen to the process if you log off?"	It will typically be terminated	
+K{f`CAz!G(	Basic	Data management - 1st year	After log off, how can you make sure your process continues to run ?	Use screen window manager	
+kPu-~lKEw`	Basic	Data management - 1st year	Which command find patterns in data ?	grep	
+hpUo+b&x}N	Basic	Data management - 1st year	Which command substitute patterns in data ?	sed	
+s!42Wo^KG+	Basic	Data management - 1st year	Which command is a simple high-level programming language for data manipulation ?	awk	
+s13kTms*iw	Basic	Data management - 1st year	What is a shell ?	The shell is a command line interface, that allows you to give commands to the UNIX OS	
+"MmacVWT*#l"	Basic	Data management - 1st year	"Is it true ?<br>Every process (executed program) run in a shell has access to a set of
+variables called environment variables"	Yes	
+At>|s[w6W=	Basic	Data management - 1st year	What is an environment variable ?	Environment variable is like a public variable in Java, different methods in the same class can use it ? Let assume those sh files are methods	
+mf:p4_mO=}	Basic	Data management - 1st year	"Try to make an environment vairable enviTest that store a string ""Hello"""	"export enviTest=""Hello"""	
+nOg*(&Enc1	Basic	Data management - 1st year	What does&nbsp;export PS1='$(whoami)@$(hostname):$(pwd)&gt;' do?	user@myhost:/home/user&gt;	
+b}*Md3mjp5	Basic	Data management - 1st year	What does&nbsp;export with no argument return ?	It will list the values of all environment variables in the shell	
+toE~;rXZPf	Basic	Data management - 1st year	"What did the full path show in the first line of the bash script #!/bin/bash ?"	Full path where the shell interpreter is located.	
+Lm_m-pg4Zo	Basic	Data management - 1st year	Difference between shell scripting and bash scripting ?	Shell scripting is like a wide term of any script written for a command-line interpreter (shell)<br>Bash (Bourne Again Shell) is a specific type of shell	
+dG^f0Wb/,6	Basic	Data management - 1st year	$tmp=$(echo “hello world”);<br><br>Is this correct ? Why?	No, you should only use $ sign if it being referenced rather than assigned.	
+JRJ^QTK,/`	Basic	Data management - 1st year	"Explain this command<br>cat tomslee* | while read p; do echo $p; sleep 2s;
+done"	It simply read every line of the file that have the name tomeslee and print each line out	
+tU^P+~b1g^	Basic	Data management - 1st year	What does grep do ?	It looks for lines in the input that match a particular pattern or regular expression.	
+fX^:+-ZrU]	Basic	Data management - 1st year	Meaning of [^0-9] ?	Matches any character not 0-9	
+"p7%`P|ov6#"	Basic	Data management - 1st year	Meaning of \ in regular expressions ?	Escape character	
+j=pkP*i8p;	Basic	Data management - 1st year	Meaning of [cbf]ar in regular expressions?	"Matches ""car"", ""bar"", ""far"""	
+Kjr*&_X$JB	Basic	Data management - 1st year	Meaning of [0-9]+ in regular expressions ?	Matches any positive integers	
+p[v+ls^+7P	Basic	Data management - 1st year	Meaning of ing$ in regular expressions ?	"matches every string that have ing at the end.<br>For example ""exciting"""	
+ifloX4!m3l	Basic	Data management - 1st year	"Explain this code<br>lynx -dump --nonumbers&nbsp;<a href=""http://example.com"">http://example.com</a>"	This command would output the plain text content of <code>http://example.com</code> to the terminal, without including link numbers.<br><ul><li><strong>Lynx</strong>: A text-based web browser.</li><li><strong><code>-dump</code></strong>: Outputs the formatted text content of the web page to the terminal.</li><li><strong><code>--nonumbers</code></strong>: Omits link numbers in the output.</li></ul>	
+"lz&k>I$#My"	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-25 225039.png""><br>What is the difference between using the following command ?<br>sed 's/world/universe/' example.txt<br>sed 's/world/universe/g' example.txt"	The first one will only replace the first occurrence of world 'world' to 'universe'<br>The second one will replace all the word 'word' to 'universe'	
+cNoNH&PS?0	Basic	Data management - 1st year	"What is the meaning of l and what is the output ?<br>echo Hello World | sed
+""s/hello/Hi/I"""	l flag allows you to substitute in a case insensitive manner<br>So it will replace Hello to Hi even though the command is 'hello'	
+zp,YNq(=fj	Basic	Data management - 1st year	Meaning of&nbsp;cat smallfile.csv | sed 's/,/\t/g' ?	Change delimiter character from comma to tab: cvs to tsv<br>\t represents a tab character	
+KaQ<O^s,+,	Basic	Data management - 1st year	Meaning of&nbsp;<br>cat sed-example-delete.txt | sed '/Run/d'	Delete lines that include the pattern 'Run'	
+"JLd#pEa*c1"	Basic	Data management - 1st year	What can sed do besides substituting text ?	Print or delete specified lines in the input<br>Append a line following pattern detected in the input	
+InUG,*EMwI	Basic	Data management - 1st year	"Output of this command ?<br>sed '/The/a\line-to-append' test.txt<br>-<br>txt file<br><img src=""paste-28feb4184337e6cc1fd6f0a8242f102803686925.jpg"">"	"<img src=""paste-7e57727dc4e0cea61e296e25305a8dfc95ea2dfb.jpg"">"	
+b]![>H=k;%	Basic	Data management - 1st year	"Output of this command ?<br>sed '2,$d' test.txt<br>-<br>txt file<br><img src=""Screenshot 2024-05-25 230631.png"">"	Hello, world!	
+g0ijO?hC)W	Basic	Data management - 1st year	What is awk good for ?	Good to parse tables (tab-delimited)	
+o_yJuT?OVi	Basic	Data management - 1st year	What does it do ?<br>seq 10 | awk 'BEGIN{sum=0}{sum+=$1}END{print sum}'	Summing up numbers in a sequence	
+KwBl+3?I>e	Basic	Data management - 1st year	What does shuf command in Unix/Linux do?	Generate random permutations of input lines.	
+sV{b)OZPeT	Basic	Data management - 1st year	What does sed -e do ?	it allows you to specify multiple editing commands in a single 'sed' invocation.<br>For example<br>sed -e 's/banana/blueberry/' -e '/fig/d' example.txt	
+gUkV`j4;qC	Basic	Data management - 1st year	If you want to delete the entire line, which cmd should you use ?<br>sed 's/abc//g' example.txt<br>sed '/abc/d' example.txt	sed '/abc/d' example.txt	
+A!^Fser)*5	Basic	Data management - 1st year	Is Emacs faster than other text editor in Linux, macOS, and Windows operating systems?	Yes	
+uPVU@?J{-h	Basic	Data management - 1st year	Human-readable vs Machine readable ?	"<img src=""paste-c4acf602a71fe971e1893533d9c4926560bfe5d2.jpg"">"	
+j=%!1@nfuu	Basic	Data management - 1st year	Types of Relationship Modelling ?	Hierachical - single parent<br>Network - multiple parent<br>Object-oriented - pointer<br>Object-relational - objects as tables<br>Entity-relational - conceptual entities as tables	
+yAzX9JVTs,	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 133926.png""><br>Which type of relationship is it ? "" Hierarchical Network Object-oriented Object-relational Entity-relational """	Hierarchical	
+zCQ$oJ}(;$	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 134108.png""><br>Which type of relationship is it ? "" Hierarchical Network Object-oriented Object-relational Entity-relational """	Network	
+wdt9GqQ`9e	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 134222.png""><br>Which type of relationship is it ? "" Hierarchical Network Object-oriented Object-relational Entity-relational """	Objects	
+zd59+p[.)j	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 134324.png""><br>Which type of relationship is it ? "" Hierarchical Network Object-oriented Object-relational Entity-relational """	Entities	
+Q0bC3Okz`/	Basic	Data management - 1st year	Example of markup languages ?	Tex HTML XML	
+v2}C};>w`}	Basic	Data management - 1st year	What is the relationship between Jekyll and Liquid ?	Jekyll is a tool for creating websites from simple text files&nbsp;<br>Liquid is the code you use within Jekyll to dynamically display content in your website templates<br>	
+u<v.=Z&BOG	Basic	Data management - 1st year	What does ink (Markup) do ?	Web-based interactive fiction&nbsp;	
+Q[/dM0MT<u	Basic	Data management - 1st year	What is metadata ?	Data that is useful for the machine, but not for the human	
+mF!^DgTFEM	Basic	Data management - 1st year	What did automatic annotation do ?	Train with known data<br>Predict with unknown<br>	
+JLvbA^Ip!K	Basic	Data management - 1st year	Is OED (The Oxford English Dictionary) common subset of SGML ?	Yes	
+pZ`jy]cKd1	Basic	Data management - 1st year	What is the advantage of SGML ?	Very flexible	
+c1TaLbZ`?&	Basic	Data management - 1st year	What is the disadvantages of SGML ?	Very complex<br>No strict structure<br>A lot of things had to be inferred<br>Requires a definition of the structure as well as the SGML itself	
+eVDaP|!{k2	Basic	Data management - 1st year	Does SGML require a definition of the structure ?	Yes	
+ow1]gw3L3F	Basic	Data management - 1st year	Is XML flexible or not ?&nbsp;	It is less flexible compare to SGML	
+dsV(W-&sVy	Basic	Data management - 1st year	What is the advantages of XML ?	Easier and more efficient to parse<br>Simplifies SGML, while keeping the bits that were needed	
+m^9CIO@0qM	Basic	Data management - 1st year	Can XML deliver data without a definition of structure ?	Yes. Data can be delivered without a definition of structure .	
+G6CM[-w$cc	Basic	Data management - 1st year	What relation model is XML ?	Hierarchical	
+"ep|;M81yY#"	Basic	Data management - 1st year	What does XML design for, carry data or display data ?&nbsp;	Carry data	
+kU`qddU-`x	Basic	Data management - 1st year	Do you need to define your own tags in XML ?	Yes, XML doesn't have defined tags, you have to define your own XML tags	
+oCpbjt~l4C	Basic	Data management - 1st year	What are the meta-tools to define purpose of specific tags ?	DTD: Document Type Definition<br>Schema	
+K~A.&y/F(X	Basic	Data management - 1st year	"<img src=""paste-84f0d33a0e7d47fa849c38208e5b38d230166898.jpg""><br>Have a look at it"		
+g{gEXNtnZ$	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 211954.png"">"	d, XML tags can be in namespaces to allow working with multiple similarly named tags but they are not required	
+ghJ$DNRS4|	Basic	Data management - 1st year	What is XSLT ?	Language to transform XML documents&nbsp;<br>For example stylesheets (much more powerful than CSS)	
+p059IR+QYX	Basic	Data management - 1st year	What is XPATH ?	Individual items in XML documents (Locate data)	
+KLyi:|>=9L	Basic	Data management - 1st year	What does XQUERY do ?	Generalised query language for XML -based databases (query it)	
+C<~h_y|4:B	Basic	Data management - 1st year	Do XML need to have closing tag ?	Yes	
+"qT#soK]J#R"	Basic	Data management - 1st year	Are XML tags case sensitive ?	Yes	
+g9gkHk.LEz	Basic	Data management - 1st year	Is it true that XML elements have to be nested ?	Yes	
+fyQMX)Zs*;	Basic	Data management - 1st year	Do XML Documents have root element ?	Yes and it a must !	
+iKe7}.m_;k	Basic	Data management - 1st year	How XML attributes should be quoted ?	"&lt;tag attr=""...""&gt;"	
+eo<ywCtHD7	Basic	Data management - 1st year	"<img src=""paste-6dca4268c46cf2cea4e27a0af2ff14fd53a23b1c.jpg""><br>Which one is a tag and attribute ?"	"&lt;BorderPane is a tag<br>fx:id =""button"" is an attribute"	
+J|eNV4Wek_	Basic	Data management - 1st year	Why would we want to use a Schema ?	"It can ensure a valid file<br>It can be used to identify any errors<br>It can be used as template<br><div>Eases
+parsing</div><div>Greater efficiency</div>"	
+Oo?9>+OaQ2	Basic	Data management - 1st year	What does DTD (Document Type Definition) do?	It defines a basic structure of an XML document (what elements, what attributes).	
+okKM?tAuwp	Basic	Data management - 1st year	"Meaning of these special syntax ?<br><div>•&lt;!ELEMENT
+<span style=""font-style: italic;"">element-name</span> (<span style=""font-style: italic;"">subelement,subelement,subelement</span><span style=""font-style: italic;"">…</span>)&gt;</div><div><div>•&lt;!ELEMENT
+<span style=""font-style: italic;"">element-name</span>
+(#PCDATA)&gt;</div></div><div><div>•&lt;!ATTLIST
+<span style=""font-style: italic;"">element-name
+attribute-name attribute-type attribute-value</span>&gt;</div></div>"	"<img src=""Screenshot 2024-05-26 220700.png"">"	
+L-wxg/5d[@	Basic	Data management - 1st year	When do we need namespaces ?	When we want to bring in 'other' XML elements and attributes that we can use into our own XML, we need to avoid conflicts and make it clear what refers to what	
+n?`2U>bEpR	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-26 221138.png""><br>Which one is namespace?"	"The one inside "" "" is the namespace url"	
+MHjy^kJkf;	Basic	Data management - 1st year	For schema, what is a simpleType ?&nbsp;	It contains text only<br>Cannot further elements<br>Cannot have attrubtutes<br>Cannot be empty<br>Elements are of SimpleType by default<br>	
+ms^Hm~O4=%	Basic	Data management - 1st year	For schema, what is a ComplexType ?	Can have attributes<br>Can contain children&nbsp;<br>Can be empty<br>Can contain other elements, text<br>Can do a combination of text and others elements	
+ll+O9PvXq!	Basic	Data management - 1st year	Is this a simpleType or complexType ?<br>&lt;Base&gt;Pan&lt;/Base&gt;	SimpleType	
+mlQ95awX}F	Basic	Data management - 1st year	"Is this a SimpleType or ComplexType ?<br><img src=""paste-c972a27b55041d6e9d5050f731d470e0f6fdbca4.jpg"">"	ComplexType	
+hTnW/4tY?3	Basic	Data management - 1st year	"<img alt=""Basic XML Terms"" src=""basicx1.gif""><br><img alt=""Working with XML Trees - Aurora Vision"" src=""paste-9645061cddd3803a22fb2de97cfa0ba363b9239a.png""><br>Have a look at it"		
+s<xspw*Vf^	Basic	Data management - 1st year	What is the difference between HTML and XML ?	HTML tells you how to display tags, whereas XML tells you what the data means.	
+b.*sEBSOxD	Basic	Data management - 1st year	Is HTML5 SGML ?	Modern HTML5 while based on the ideas in SGML is not SGML	
+L/67?C.AVF	Basic	Data management - 1st year	Why isn't HTML5 SGML ?	Not all tags need closing tags<br>Automatic escaping&nbsp;<br>Attributes without values	
+GuZiUshtFn	Basic	Data management - 1st year	How many serialisations HTML5 have ?	"2<br>html parser/serializer<br>XML parser/serializer<br><img src=""paste-75d37236ae0a9ee106e270b42564a11379ac6de6.jpg"">"	
+Jr>=Wm~:]}	Basic	Data management - 1st year	"<div>You define your own tags for your things
+(e.g. person, building), but other people may also define tags with the same
+name, which are different to yours. What
+would happen if you have a Person and they have a Person, but with different
+properties!?</div>"	"There will be conflicts, what you should do is to use namespace<br><img src=""paste-2bd5d66ad3d4f5f6335fa6dcde2a5d0de6bc9dc5.jpg"">"	
+t3ot`&kq+5	Basic	Data management - 1st year	What type of relational model XPath is ?	Hierarchic addressing	
+l06!/Kgkp	Basic	Data management - 1st year	For XPath, what is the meaning of these command ?<br>//&nbsp;<br>*<br>//*<br>//Node<br>//Node1/Node2	"<img src=""paste-bb71695f90c703d9f9ea1319769fb7b423b4cdb7.jpg"">"	
+w:bFq,:+fK	Basic	Data management - 1st year	What does text() return in XPath ?	It returns any text directly inside the element, but not children	
+"c#vbH`AvRm"	Basic	Data management - 1st year	What is the meaning of //@* in XPath ?	All attributes	
+f9i*RjW/Z:	Basic	Data management - 1st year	Relation between Database and DBMS ?	Database is a collection of data organised in a particular way and managed by a DBMS	
+sol)2(pB,$	Basic	Data management - 1st year	Example of relation database ? (can be proprietary or open-source)	Proprietary: DB2, Oracle, HP<br>Open-Source: MySQL, Postgresql, SQLite	
+zZD)*zA.^a	Basic	Data management - 1st year	Example of non-relational database ?	NoSQL, MongoDB	
+mLV)}C.vyS	Basic	Data management - 1st year	Example of parallel/distributed frameworks ?	Hadoop/HiveQL	
+JLl/:SIh5^	Basic	Data management - 1st year	Is DBMS same as file systems ?	No	
+U$e/W/?La	Basic	Data management - 1st year	What do DBMS support ?	"<img src=""paste-d756fd8cec03e10366617c4253ec825624256a5a.jpg"">"	
+L6.lJ$4&,6	Basic	Data management - 1st year	Which two parts (sublanguages) a data language has ?	"Data definition language (DDL)<br>- syntax for describing ""database templates"" in terms of the underlying data model<br>Data manipulation language<br>- for changing the data inside a database instance (insertion, deletion, update)"	
+nV]sHZAN45	Basic	Data management - 1st year	Data Definition Language for XML ?	XML Schema	
+"L#*:Y9M>qd"	Basic	Data management - 1st year	Data Manipulation Language for XML ?	XPath / XQuery	
+"nI:0i2oV#("	Basic	Data management - 1st year	What is a relation ?	Formalism for describing and representing data	
+D+)*8:P!0E	Basic	Data management - 1st year	"Is&nbsp;a relation is a subset of a cartesian
+product of sets ?"	"Yes. Informally, a relation can be seen as a table<br><img src=""Screenshot 2024-05-27 000857.png"">"	
+ry*2$Gu_B6	Basic	Data management - 1st year	Is the ordering of rows important of a relation ?	No, it is immaterial (relations are just sets)	
+b%7[o_cb|d	Basic	Data management - 1st year	Is the ordering of the attributes important of a relation ?	No, the ordering of the attributes is not significant	
+C.hH*q&zgZ	Basic	Data management - 1st year	What is the significance of each column conveyed by ?	The name we give it	
+Nf+?p|qUm_	Basic	Data management - 1st year	"What is the meaning of ""key"" in relational database ?"	"A set of attributes that uniquely identifies each tuple in a relation<br>Example (<code>StudentID</code> in <code>Students</code> table):<br><img src=""Screenshot 2024-05-27 095004.png"">"	
+"A[f,R$0##z"	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 095400.png"">"	Yes, we don't have two different tuples with the same values in these attributes	
+BOs)dC:f$%	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 095400.png""><br>Is {year, studioName} a key?"	No, because we have several movies from a studio in the same year	
+J|=T8$Qj@p	Basic	Data management - 1st year	"<img src=""paste-824bc508d021ec5c073a82e4ad517012445249c0.jpg""><br>Explain it"	If you know the values of A1,...,An, you can uniquely determine the values of B1,B2...,Bm<br>No other tuples can have the same values of A1,...,An but different values for B1,B2,...,Bm&nbsp;	
+"L,!#/p1G$A"	Basic	Data management - 1st year	"A1,A2,…An’ is the determinant and B1,B2,…Bm’ is the
+dependent set, is it true ?"	"Yes if&nbsp;A1,A2,…An’ functionally (or uniquely)
+determines B1,B2,…Bm"	
+hb=tORfA)d	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 102747.png""><br>Why?"	It satisfies because the determinant (title,year) have the same dependent set.<br>For Cool World it doesnt better if it has the same genre and studioName as Wayne's World as long as it follows the rules of functional dependency	
+Pw)P</%|*r	Basic	Data management - 1st year	"<img src=""paste-6503acf4d65038c321bb9d3cba16d22d9820d61b.jpg"">"	Not satisfy, dependent set isn't the same	
+"us5q=o#Gci"	Basic	Data management - 1st year	"<img src=""paste-38f335425586a96a8b5b3c5a2f082d4d1af09d76.jpg"">"	Satisfy	
+zX5k[kz1vq	Basic	Data management - 1st year	Can a superkey have extra attributes that are not needed for uniqueness ?	Yes	
+wlp+L8~Rrd	Basic	Data management - 1st year	How many superkey in a relation ?	At least one	
+G@F4U}X*g2	Basic	Data management - 1st year	"<img src=""paste-98fc4824d17783c6d8c65e835c45065c55a10a3e.jpg""><br>Which one is a superkey ?"	EmployeeID<br>EmployeeID, Name<br>EmployeeID, Email<br>EmployeeID, Name, Email, Department<br>As long as it can show the uniqueness	
+QbB6}c6myU	Basic	Data management - 1st year	What is a candidate key (minimal superkey) ?	A superkey that has no unnecessary attributes, meaning it is the smallest set of attributes that can still uniquely identify each row in the table.	
+ORaN(uO7d$	Basic	Data management - 1st year	"<img src=""paste-34579a9537c7b39fd2f819886378125af52fc562.jpg""><br>What is the minimal superkeys (candidate key) ?"	StudentID<br>Email	
+RjX`:-rlT6	Basic	Data management - 1st year	"<img src=""paste-fd07831382338eab5631e71e19aa1ea36459633d.jpg""><br>What is the candidate key ?"	EmployeeID<br>SSN<br>Email	
+Lgkvp|N&B/	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 131739.png"">"	"<img src=""paste-a322627281cfcf3367764e0c835d0b5f82e647c3.jpg""><br><img src=""paste-2ef8baf013d788376aad8cfdd7def07a3e45833b.jpg"">"	
+j4&LSO{OQm	Basic	Data management - 1st year	What is normalisation ?	A process to avoid anomalies	
+l!<(t5]>&!	Basic	Data management - 1st year	How can we do normalisation ?	Divide database into multiple tables<br>Define relationships between them	
+CKRVR}dcG>	Basic	Data management - 1st year	What is decomposition ?	"<img src=""Screenshot 2024-05-27 142318.png"">"	
+Pg|Jt9QOg3	Basic	Data management - 1st year	What does 1NF do ?	Ensure that each column contain only indivisible values (or say no column should contain multiple values or sets of values	
+G|U0Z*&yR`	Basic	Data management - 1st year	Can 1NF have duplicate rows ?	No	
+"pHeY&G/}#)"	Basic	Data management - 1st year	What does 2NF do ?	Remove partial dependencies&nbsp;<br>No non-key attributes depend on another non-key attribute	
+mc3Xl<7XzS	Basic	Data management - 1st year	What is consider a good decomposition ?	Minimise redundancy&nbsp;<br>Lossless-join : Avoid information loss&nbsp;<br>Preserve the functional dependencies&nbsp;<br>Ensure good query performance	
+QN*@8zg(aj	Basic	Data management - 1st year	Composite keys ?	"<img src=""Screenshot 2024-05-27 151445.png"">"	
+"!ju#7Wa,Q"	Basic	Data management - 1st year	What is conceptual modelling ?	Identification of key ideas and concepts&nbsp;<br>Identifies entity names and relationships	
+"sJbP#p8g1z"	Basic	Data management - 1st year	What is logical modelling ?	High level design<br>Introduces attributes and keys	
+iD/^7.}Q6M	Basic	Data management - 1st year	What is physical modelling ?<br>	Low level design for implementation<br>Introduces table names, column names, data types	
+rN9W=<_ZF$	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 152453.png"">"		
+EVNlGHN/$h	Basic	Data management - 1st year	How to rename a table in SQL ?	ALTER TABLE OldName<br>RENAME TO NewName	
+K0kg?@Dc?F	Basic	Data management - 1st year	What's the meaning of SELECT * FROM Table ?	Select all columns from table	
+B|0W=xRXfr	Basic	Data management - 1st year	Meaning of&nbsp;SELECT Columns FROM Table LIMIT Number ?	Limit the number of results	
+h%%Y>K@^CZ	Basic	Data management - 1st year	Can you inspect the database with SQL directly ?	Yes, for example SELECT * FROM sqlite_master	
+ETB7e7Oi(Q	Basic	Data management - 1st year	In SQL, how can you select data from more than one table ?	Use JOINS	
+gF3beUVHMd	Basic	Data management - 1st year	What is the difference between JOIN and LEFT JOIN ?	JOIN (or inner join) returns just rows with matching keys<br>LEFT JOIN returns all rows from left (first) table, whether they match a row in the second table or not	
+"szA}h#-$!`"	Basic	Data management - 1st year	Which JOIN types can let you return all rows from both tables, whether they match or not ?	FULL OUTER JOIN	
+qeJZ!Rs,~]	Basic	Data management - 1st year	How many JOIN can you have in SQL ?&nbsp;	You can have multiple tables and multiple joins	
+h{6hKEJ~Tw	Basic	Data management - 1st year	"<img src=""paste-dfdafc4bf0b06543eb3815b338ab4098252c05e1.jpg""><br>Explain this sql"	Insert / Add a new student to the student table	
+c(_{D<{.>u	Basic	Data management - 1st year	What is VIEW in database ?	Views are like virtual tables, they don't store any data themselves, it just view the table you have selected	
+CsRQw>sm~C	Basic	Data management - 1st year	Does VIEW have a name or run a query ?	Yes	
+fA?b`o8/::	Basic	Data management - 1st year	What is a primary key ?	A primary key ensures every row is unique	
+EoSKJZ+t@w	Basic	Data management - 1st year	If you don't provide a primary key, what will SQLite do ?	It uses an automatically generated rowid	
+JDPaUd!Q|J	Basic	Data management - 1st year	Can you add/remove a primary key after creation in SQLite ?	No, you will need to create a new table, copy the data, remove the old table and rename&nbsp;	
+iN6B(1p8MS	Basic	Data management - 1st year	What is a foreign key ?	"It can help ensure referential integrity between tables<br>If a column in Table1 references a column in Table2, we can’t
+have a value in Table1 that isn’t in Table2"	
+"HX`^=N#%)K"	Basic	Data management - 1st year	Meaning of NoSQL ?	Not only SQL, it is possible to use SQL or SQL-like languages with NoSQL databases	
+pk;T$3<dWv	Basic	Data management - 1st year	What is the meaning of ACID in relational databases ?	Atomicity, Consistency, Isolation, Durabiilty properties to ensure data integrity	
+8Eku+8>XP	Basic	Data management - 1st year	How relational databases can scale vertically ?	Upgrade hardware resources	
+pdi/EtPaP5	Basic	Data management - 1st year	What is the limitation of relational databases in scalability ?	They may face limitations in horizontal scalability, especially for distributed architectures or massively parallel processing.	
+x/~}FJ.+Cz	Basic	Data management - 1st year	What is the storage efficiency of relational databases ?	Storing large binary data such as imaging data can be inefficient	
+qmr5=wsT&v	Basic	Data management - 1st year	What is the downside of NoSQL compare to relational databases ?	Consistency not as good as relational databases	
+yY`^g@_igG	Basic	Data management - 1st year	Compare to SQL, what is the advantage of NoSQL to ACID ?<br>	It is less strict adherence to ACID and schemas	
+BvVcT?W9_]	Basic	Data management - 1st year	Which type of format is NoSQL modelled in ?	Non-tabular format	
+HL3LJE`T9Q	Basic	Data management - 1st year	Which type of data can NoSQL handle ?&nbsp;	Structured, semi-structured and unstructured data	
+hqTa]xlrSw	Basic	Data management - 1st year	Which database is better to handle large volumes of data, relational or NoSQL ?	NoSQL	
+wV*sUv!XhQ	Basic	Data management - 1st year	What is the meaning of scalability ?	The ability of a system to handle increasing amounts of workload or data by adding resources to the system	
+xORaA;BBR)	Basic	Data management - 1st year	What type of scalability relational databases are ? Vertical or Horizontal ?	Vertical	
+C7+Uxj_&7H	Basic	Data management - 1st year	What type of scalability NoSQL is ?	Horizontal	
+o0?{iC[)xB	Basic	Data management - 1st year	What is the meaning of horizontal scalability ?	Distributing data and workload across multiple nodes in a cluster	
+E}2v1)Nj{{	Basic	Data management - 1st year	What is sharding ?	Partitioning data across multiple nodes in a distributed system	
+qo0&N]~}F_	Basic	Data management - 1st year	What is replication ?	It involves maintaining multiple copies of data across different nodes in a cluster	
+K]Uf*X=co9	Basic	Data management - 1st year	What does replication provide ?	It provides fault tolerance and high availability	
+Ff|Ky;78F,	Basic	Data management - 1st year	Can you access a data if some nodes fail in NoSQL ?	Yes, since the replication	
+FBJ0<p(=r2	Basic	Data management - 1st year	What is Brewer's theorem (CAP theorem) ?	"The CAP theorem states that it is impossible for a distributed data system to simultaneously guarantee all consistency, availability and partition tolerance.<br>The theorem asserts that, in the event of a network partition (P), a distributed system must choose
+between maintaining consistency (C) or ensuring availability (A)."	
+H)N<Jjl]gD	Basic	Data management - 1st year	What type of system is a relational databases according to CAP Theorem ?	CP (consistency and partition tolerance), meaning that the system sacrifices availability to ensure that all nodes have consistent and up-to-data data	
+O[FxBXbtIr	Basic	Data management - 1st year	What type of sytem NoSQL is in CAP Theorem ?	AP (Availability and Partition Tolerance), systems that prioritise availability and partition tolerance aim to remain operational and responsive to client requests, even in the presence of network partitions	
+BJC[MY/bk<	Basic	Data management - 1st year	Instead of ACID, what properties did NoSQL databases often use ?	BASE (Basically Available, soft state, eventually consistent)	
+"dzn1K#g:FP"	Basic	Data management - 1st year	What is a key-value database ?	A type of NoSQL database that stores data as a collection of key-value pairs.	
+X8rm)`{YI	Basic	Data management - 1st year	What is the characteristics of key-value databases ?	Simple data model where each data item is stored with a unique key. There is typically no schema or structure enforced on the data, allowing for flexibility in storing different types of data<br>High performance<br>Scalability -&gt; horizontal<br>Flexible data types	
+cP,O^ZGU/U	Basic	Data management - 1st year	Use case of key-value database ?	Used in applications that require fast efficient data access&nbsp;	
+eQhHMDJ*WR	Basic	Data management - 1st year	What type of format a document database stores in ?	Semi-structured&nbsp;	
+v4%FR0a_].	Basic	Data management - 1st year	Do you need a schema for document databases ?	No, and it is a type of NoSQL database	
+DxjepoeFah	Basic	Data management - 1st year	What format document databases are stored in ?	JSON / BSON	
+q4x3N=u7CD	Basic	Data management - 1st year	What are column databases (a type of NoSQL) designed to ?	Handle large volumes of data and support distributed architectures for scalability and fault tolerance	
+so(?B1a;bF	Basic	Data management - 1st year	What are the use cases of graph database ?	Social networks, recommendation engines, fraud detection, network and IT operations management, and knowledge graphs	
+F:5XOF!jU7	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 232726.png"">"	"<img src=""Screenshot 2024-05-27 232800.png"">"	
+b1Hrb@7x>D	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 232845.png"">"	5	
+Lmt|xjpRjr	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 232934.png"">"	1	
+sH08PN>oY0	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 233009.png"">"	260	
+vv$^G;,t/~	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 233154.png"">"	3	
+K0mJW|+~+.	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 233459.png"">"	//actor/@id	
+MC7ErF*+7)	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 233602.png"">"	//singers/singer[3]/text()<br>Get the singers element, then get the third singer, then get the texrt	
+"c(WoI?*6#U"	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 234102.png""><br>Is this in 2NF ? Why ?"	Not 2NF, non-prime attributes do not depend on entire key	
+Khnq*f[_.e	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 234329.png"">"	2	
+P>Fcz;h_EW	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 234950.png"">"	c	
+i?/saf?-eN	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 235011.png"">"	B	
+lE0)/DNfa:	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 235031.png"">"	C	
+cW}?@O8&2;	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 235045.png"">"	D	
+lfr);pH/(x	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 235109.png"">"	Neo4j	
+Axn9[;g{9=	Basic	Data management - 1st year	"<img src=""Screenshot 2024-05-27 235240.png"">"	b	
+P~l-j%_cT)	Basic	Data management - 1st year	Example of key-value databases ?	Redis / DynamoDB	
+"e;Jg#3G.qX"	Basic	Data management - 1st year	Example of document database ?	mongoDB / CouchDB	
+ECxaFDJ)=X	Basic	Data management - 1st year	Column-family database example ?	Apache Cassandra / Apache HBase	
+JKaQ,d-0,A	Basic	Data management - 1st year	Graph database example ?	Neo4j / Amazon Neptube	
+Gz_AeT3<.e	Basic	Computer System - 1st year	"<img src=""Screenshot 2024-05-30 002455.png"">"		
+zj!B/u?-^T	Basic	Computer System - 1st year	What is the first programmer ?	Ada Lovelace	
+yN_[-<_]=D	Basic	Computer System - 1st year	What is an Analytical engine and who was the first described it ?	The analytical engine was a proposed digital mechanical general-purpose computer described by Charles Babbage in 1837.	
+NX8aQ?8JmB	Basic	Computer System - 1st year	World's first functioning programmable computer ?	Z1 by Konrad Zuse	
+mjfa{J3n3E	Basic	Computer System - 1st year	First electronic computer ?	Colossus in 1943	
+ymAVBOtdJ,	Basic	Computer System - 1st year	"Who wrote ""Computable numbers"" in 1937 ?"	Alan Turing&nbsp;	
+dOx9G;@rEn	Basic	Computer System - 1st year	Who developed the ACE computer at the National Physical Lab in 1950s ?	Alan Turing	
+O4~uw,7P(F	Basic	Computer System - 1st year	What is Moore's law ?	Mircroprocessor chip complexity measured in the number of transistors will double every two years	
+B@=Ca;D14F	Basic	Computer System - 1st year	Latest transistor size ? (2024)&nbsp;	2nm wide	
+ONjbLz3_:Q	Basic	Computer System - 1st year	What is the meaning of MOS in transistor ?	Metal-Oxide-Semiconductor	
+B,jhcCWt;P	Basic	Computer System - 1st year	How wafers are made ?	Wafers are made which contain replica chips	
+E%oecCGcBS	Basic	Computer System - 1st year	Can computer be made with just one type of logic gate ?	Yes, NAND / NOT-AND	
+J(Sp+wJ9TK	Basic	Computer System - 1st year	Write A OR B in logic notation&nbsp;	A + B	
+N,(sN<*X}k	Basic	Computer System - 1st year	Write A AND B in logic notation	A . B	
+DEZ1LRRRlw	Basic	Computer System - 1st year	Write NOT B in logic notation	"<img src=""paste-f83f2eacb9861aa3140e9d8f8c61f0866c859ae2.jpg""><br>"	
+"y<9A2#EGK["	Basic	Computer System - 1st year	For 0 and 1 volts, what is the cross-over point dependent to ?	It's dependent on the technology	
+"pv.#trlry0"	Basic	Computer System - 1st year	For 5 volt logic, what is the logic level of 0~ 1.5 and 3.5 ~ 5 volt ?	Hight voltage is a 1<br>Low voltage is a 0	
+GPzMqLOus*	Basic	Computer System - 1st year	"<img src=""paste-8e859b1d9058aefcb514829f59ab66b1f7fc57e9.jpg""><br>Meaning ?"	NOT	
+B!:u:3{hm4	Basic	Computer System - 1st year	"What is this two gate ?<br><img src=""paste-3fa24b943303e359caf15bd0e031d74ee5e5b820.jpg"">"	Top one is AND&nbsp;<br>Bottom one is OR	
+NPuR{tBqk1	Basic	Computer System - 1st year	"Finish the table&nbsp;<br><img src=""paste-98328366ee13a2e3b54688cdf75e5b385cd12cff.jpg"">"	1<br>1<br>1<br>0	
+z|JSh0CUsh	Basic	Computer System - 1st year	"Finish this table&nbsp;<br><img src=""paste-0b9635bdce9ed88836de61598f9f289dab9027d1.jpg"">"	1<br>0<br>0<br>0	
+jjnm!awXh9	Basic	Computer System - 1st year	"FInish this table<br><img src=""paste-37411745a9afcb5fc46e41ed706d4a17bded8b62.jpg""><br>"	0<br>1<br>1<br>0	
+lsfuo,&M1r	Basic	Computer System - 1st year	"<img src=""paste-497f22f2b7eb2bddff5544def82320b6216eb933.jpg"">&nbsp;<br>Finish this with basi logic"	"<img src=""paste-af39ca8b1e60f2ef5b145bae554a54eed439bd28.jpg"">"	
+b,:b$6~31A	Basic	Computer System - 1st year	"<img src=""paste-6b9451540721bf63359ae567a9f2857ef971e469.jpg""><br>Finish this table&nbsp;"	0 - A<br>1 - 1<br>A - A<br>0 - 1	
+KIE;dU-`?K	Basic	Computer System - 1st year	What is the meaning of associative ? Give an example.	"<img src=""paste-c5e06de8628e8e147d15132d70dae187a1826848.jpg"">"	
+Ew(feiGnbx	Basic	Computer System - 1st year	What is the meaning of distributive ? Give an example&nbsp;	"<img src=""paste-5820ec627cd84b69656ac5d35917a9d34512d133.jpg"">"	
+Hh*MNu?7{K	Basic	Computer System - 1st year	What is the meaning of commutative ?	A + B = B + A	
+muqQU3}FJ)	Basic	Computer System - 1st year	What is DeMorgan's Theorems ?	"It can be used to convert AND to OR and vica-versa<br>-<br>Example :<br><img src=""paste-ac9bf58270d351a65fbd3adfe311fe2f7cc0c723.jpg"">"	
+QR==wA~uM)	Basic	Computer System - 1st year	Can you share a waire from lost of gates ? Why ?	No, it will cause short circuits	
+Pb5wuayfU&	Basic	Computer System - 1st year	What is tri-state gates ?	"<img src=""paste-faa2f070c54a977fb76884e805b1a38dc04adbc6.jpg"">"	
+Ad{U^rpqjD	Basic	Computer System - 1st year	What is RS Flip-Flop use for ?	Store binary information	
+v19aaJ{1vL	Basic	Computer System - 1st year	"For RS flip, why do you have to avoid the following ?<br><img src=""paste-661ae68241fc1728e7f66bd55ba9db82f96766e5.jpg"">"	"<img src=""paste-5ec21433ea7b43510198fcbf525b2dc69a55f763.jpg"">"	
+F8A+|6r/LN	Basic	Computer System - 1st year	What is a D-type Flip Flop ?	No set/reset - just a data input<br>Acts like a delay or 1 bit store&nbsp;<br>State changes only when the clock is High.	
+h>-`sKRCIX	Basic	Computer System - 1st year	What is a clocked RS bistable ?	"State changes on clock edge<br><img src=""paste-cf8c09fadd8896138db6765ba25445a40342a213.jpg"">"	
+w/Ptnkw=_c	Basic	Computer System - 1st year	Are Flip-flops limited ? Why ?	Yes, because they can store only one bit&nbsp;	
+boteko_-wG	Basic	Computer System - 1st year	What is a register ?	A register is an group of flip-flops that can store multiple bits.	
+s*zH~sAa2S	Basic	Computer System - 1st year	How registers are commonly used ?	Registers are commonly used as temporary storage in a processor.&nbsp;	
+h(+%yq8EEH	Basic	Computer System - 1st year	What is the advantage of register compare to main memory ?	They are faster and more convenient than main memory, more registers can help speed up complex calculations<br><br>	
+xj3]Z(w_ea	Basic	Algor code test	"<img src=""paste-fc743d61f2510304f920858d2341f63d7f0b227b.jpg"">"	"<img src=""paste-1650257f588a032d4553f97d4d5f1c0a086eb879.jpg"">"	
+Yhl|2a?d1	Basic	Interaction Design - 2nd year	What is an Interaction Design ?	Creating user experiences that enhance and augment the way people work, communicate, and interact.	
+pH<srf3X!t	Basic	Interaction Design - 2nd year	What does 'evidence-based design' incorporate?	Design incorporates research, evaluation, critical though.	
+jc_m0]4yxf	Basic	Interaction Design - 2nd year	What is a creative design ?	There's space for art. Centers on creativity and innovation, aiming to develop unique and original designs that solve problems or meet needs in novel ways.	
+KGWLHhT8f6	Basic	Interaction Design - 2nd year	What is synthetic design ?	Design creating and producing things, such as products, services, concepts, and ideas.	
+dlpRp=jH`O	Basic	Interaction Design - 2nd year	What is the must have for interaction design ?	Humans, what's the point of a system that doesn't somehow involve humans ?	
+v@~!ou)^h8	Basic	Interaction Design - 2nd year	"<img src=""paste-14ddfa569f3edc1d82ecf16c089a841c31f571e1.jpg"">"		
+jwRFSo8|QY	Basic	Interaction Design - 2nd year	What is a process in Interaction Design ?	Process influences the designed outcome. Also influences acceptance, politics, user happiness	
+g=.*oV/}A?	Basic	Interaction Design - 2nd year	What is an User Centred Design ?	Focus on understanding the user: needs, wants, hopes	
+Bguaxqg%yA	Basic	Interaction Design - 2nd year	What is an Activity Centred Design ?	Focus on understanding the activity: target behaviour and outcomes	
+L4.1_E+5W%	Basic	Interaction Design - 2nd year	What is Systems Design ?	Holistic view of actors within a system (people, computers, tools, information). Users set goals.	
+J?)t,C(~Ok	Basic	Interaction Design - 2nd year	What is a Genius / 'Rapid Expert Design' ?	Ideas generated by an expert, then validated with users.	
+DTj=&+haQF	Basic	Interaction Design - 2nd year	What is HCI Theory ?	Human-Computer Interaction Theory	
+MsPBxhOpSk	Basic	Interaction Design - 2nd year	What is consider as low-fidelity prototype ?	Paper, cardboard ...	
+"mVV#DZ~9^o"	Basic	Interaction Design - 2nd year	What is consider as High-fidelity prototype ?	Code	
+zA;|mfJh(z	Basic	Interaction Design - 2nd year	What is design thinking ?	Empathize, define, ideate, prototype, test	
+MkY-+5TcZ@	Basic	Interaction Design - 2nd year	What is Double Diamond ?	"A generalised model of design, highly influential.<br><img src=""paste-59f2f12538656bcbbaedb0d18c26e28d9a351d31.jpg"">"	
+"C_#;kAo=ek"	Basic	Interaction Design - 2nd year	Which of these are stages in Design Thinking ?<br>Empathize, Define, Ideate, Prototype, Test	All of the above	
+"uz#o;2/H0G"	Basic	Interaction Design - 2nd year	For LoaD, what are the inputs of flip-flop when LD = 0 ?	The flip-flop inputs are Q3 - Q0, so each flip-flop just keeps its current value.	
+y%AgZ.0nfF	Basic	Interaction Design - 2nd year	What will happen when LD = 1 ?	"The flip-flop inputs are D3 - D0, and this new value is ""loaded"" into the register"	
+o[zd}sezln	Basic	Interaction Design - 2nd year	What is a shift register ?	"A shift register ""shifts"" its output once every clock cycle."	
+"FZ2,/#cPL="	Basic	Interaction Design - 2nd year	What is one application of shift registers ?	"Converting between ""serial data"" and ""parallel data"""	
+e_%Z)s$aO*	Basic	Interaction Design - 2nd year	How many bits are ASCII ?	8 bits	
+n:kT^^SLE?	Basic	Interaction Design - 2nd year	Example of send or receive data serially, or one bit at a time ?	Input devices such as keyboards and mice&nbsp;<br>Any serial port, USB, SATA or PCIe lanes transfers data serially&nbsp;<br>Some sensors&nbsp;<br>	
+ql/FP)j,^S	Basic	Interaction Design - 2nd year	Which register's input is the serial device connected to ? CLK, LD or SI ?	SI	
+OQv!~hQm{E	Basic	Interaction Design - 2nd year	How many data the serial device transmit per clock cycle ?	One bit	
+F%5Cigq.Vk	Basic	Interaction Design - 2nd year	Registers store data in ?	CPU	
+JrUbfuov;x	Basic	Interaction Design - 2nd year	What resister store ?	Used to supply values to the execution units<br>Used to store the results	
+CnvR-d/(/C	Basic	Interaction Design - 2nd year	Which control register is visible in assembly code ?	Program Counter - points to where we are in the code&nbsp;	
+z:Wd;qN;a	Basic	Programming 3 - 2nd year	What is an Imperative program ?	Imperative programs are instructions saying how to manipulate memory.	
+srbnk6T)!-	Basic	Programming 3 - 2nd year	What is the difference between functional content and implementational content ?	Functional content simply focus on the output while implementational content focus how this should be achieved.	
+dHgTW6eDxZ	Basic	Intelligent System - 2nd year	"<img src=""Screenshot 2024-06-01 182839.png"">"	"<img src=""paste-76de73199aa438b121fbeeff6a6b3a7a9f82e752.jpg"">"	
+HTNyDno1i?	Basic	Intelligent System - 2nd year	"<img src=""paste-39f1fd3a0cbbfec30a740c0c8ea6eef58fb972d9.jpg"">"	"<img src=""paste-dff96b35f68155364576a10d39708362d3bc172d.jpg"">"	
+OV7F&5{AGp	Basic	Intelligent System - 2nd year	"<img src=""paste-57184b6bd4c7d7efd3beaa74885e34839425cca8.jpg"">"	"<img src=""paste-e19ef6fa687f2d53919887191ee691860e98742f.jpg"">"	
+KC67FUNPsm	Basic	Intelligent System - 2nd year	"<img src=""paste-86389c12a0bf6e6b160fdfca6327d1491f806f38.jpg"">"	"<img src=""paste-e814476e0398bf6d340db16c9cdf32c8b5c47be6.jpg"">"	
+"mvi~;#$r#v"	Basic	Intelligent System - 2nd year	"<img src=""paste-9fbbf0d56bad3d7c5c2dfc74f71c3e94a2c55189.jpg"">"	"<img src=""paste-42bb2514fdf2eb43f18eefac41eab93ea9b2a854.jpg"">"	
