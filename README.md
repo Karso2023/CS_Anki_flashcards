@@ -1,3 +1,4 @@
+<b>I found out that these flashcards are quite messy and are not a smart way to study CS. I will update all the flashcards when I am free (probably 2 months later) and add more practical stuff, including DSA and Dynamic programming.</b>
 Current topics include:
 
 First Year: 
